@@ -22,6 +22,7 @@ export const metadata: Metadata = {
   title: { default: `${SITE_NAME} 2026–2027`, template: `%s — ${SITE_NAME}` },
   description: DESCRIPTION,
   applicationName: SITE_NAME,
+  robots: { index: false, follow: false },
   icons: { apple: asset("/brand/apple-touch-icon.png") },
   openGraph: {
     title: `${SITE_NAME} 2026–2027`,

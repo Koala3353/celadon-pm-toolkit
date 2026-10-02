@@ -21,6 +21,28 @@ content/*.md  ──next build──▶  out/  ──pagefind──▶  out/page
 - The design is ateneoceladon.com's: tokens, header, motion, and brand assets
   are copied from `Koala3353/celadon-website`. See [DESIGN.md](DESIGN.md).
 
+## Access
+
+The site is **members-only**. It uses the same Google sign-in and member
+roster as `ateneoceladon.com/internal`: the `celadon-internal-gate`
+Cloudflare Worker in `Koala3353/celadon-website` (`worker/`) also runs on
+`pm.ateneoceladon.com/*`.
+
+- Who gets in: any `@ateneo-celadon.org` account, the org inbox, and
+  `@student.ateneo.edu` accounts on the member roster (the content Sheet's
+  `members` tab, synced to Workers KV). Removing someone from the roster
+  locks them out on their next page load.
+- One sign-in covers both sites. Sign-in runs through the main domain's
+  existing `/internal/__auth/*` endpoints, so the Google OAuth client needs
+  no new redirect URI.
+- `pm.ateneoceladon.com` must be a **proxied** (orange-cloud) CNAME to
+  `koala3353.github.io`, or Cloudflare never runs the Worker and the site is
+  public.
+- **This repo is public**, so the Markdown in `content/` can be read on
+  GitHub without signing in. Keep anything truly private (phone numbers,
+  passcodes, tax IDs) out of it. Making the repo private would need GitHub
+  Pro for Pages, or hosting the build on Cloudflare instead.
+
 ## Contacts
 
 - **Website issues** (broken links, layout bugs, deploys): Keene Brigado,
@@ -52,10 +74,10 @@ One-time setup:
 2. **Settings → Pages → Custom domain:** `pm.ateneoceladon.com`.
    `public/CNAME` already ships in every build.
 3. In Cloudflare DNS for `ateneoceladon.com`, add
-   `CNAME pm → koala3353.github.io`. Leave it **DNS only** (grey cloud) until
-   GitHub has issued the HTTPS certificate, then proxy it like the main site
-   if you want.
-4. Once the certificate is issued, tick **Enforce HTTPS**.
+   `CNAME pm → koala3353.github.io`, **Proxied** (orange cloud), like the
+   main site. The members-only gate only runs on proxied traffic.
+4. Deploy the gate from `celadon-website/worker` with `npx wrangler deploy`
+   (see Access).
 
 ## What changed from the Google Site
 
