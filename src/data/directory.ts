@@ -9,6 +9,8 @@ export interface Officer {
   role: string;
   email: string;
   facebook: string;
+  /** Extra responsibility shown on the card, e.g. "Website point person". */
+  note?: string;
 }
 
 export interface DirectoryGroup {
@@ -80,7 +82,7 @@ export const DIRECTORY: DirectoryGroup[] = [
       { name: "Kyle Co", role: "VP for Organization Strategies and Research", email: "kyle.dominic.co@student.ateneo.edu", facebook: "https://fb.com/Kyledominic.co" },
       { name: "Sofia Diño", role: "AVP for Organization Strategies and Research", email: "sofia.giulia.dino@student.ateneo.edu", facebook: "https://fb.com/sofiag.dino" },
       { name: "Lyss Orquina", role: "AVP for Organization Strategies and Research", email: "alyssa.andrea.orquina@student.ateneo.edu", facebook: "https://fb.com/alyssa.orquina" },
-      { name: "Keene Brigado", role: "AVP for Organization Strategies and Research", email: "keene.xander.brigado@student.ateneo.edu", facebook: "https://fb.com/kbrigado" },
+      { name: "Keene Brigado", role: "AVP for Organization Strategies and Research", email: "keene.xander.brigado@student.ateneo.edu", facebook: "https://fb.com/kbrigado", note: "Point person for website issues" },
     ],
   },
 ];

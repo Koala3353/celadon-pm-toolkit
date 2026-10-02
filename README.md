@@ -21,6 +21,13 @@ content/*.md  ──next build──▶  out/  ──pagefind──▶  out/page
 - The design is ateneoceladon.com's: tokens, header, motion, and brand assets
   are copied from `Koala3353/celadon-website`. See [DESIGN.md](DESIGN.md).
 
+## Contacts
+
+- **Website issues** (broken links, layout bugs, deploys): Keene Brigado,
+  AVP for Organization Strategies and Research,
+  keene.xander.brigado@student.ateneo.edu.
+- **Content** (what a page says): the department that owns the guide.
+
 ## Local development
 
 ```bash

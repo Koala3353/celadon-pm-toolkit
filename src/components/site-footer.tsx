@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { asset } from "@/lib/asset";
-import { NAV, MAIN_SITE_URL, REPO_URL } from "@/lib/site";
+import { NAV, MAIN_SITE_URL, REPO_URL, WEBSITE_CONTACT } from "@/lib/site";
 import { Container } from "@/components/ui/container";
 
 const SOCIALS = [
@@ -29,6 +29,12 @@ export function SiteFooter() {
               EBCB 2026–2027
             </Link>
             . For anything about a specific process, start with that department.
+          </p>
+          <p className="prose-body max-w-sm text-sm">
+            Website issues: {WEBSITE_CONTACT.name},{" "}
+            <a href={`mailto:${WEBSITE_CONTACT.email}`} className="break-all font-semibold text-white underline underline-offset-4 hover:no-underline">
+              {WEBSITE_CONTACT.email}
+            </a>
           </p>
         </div>
 

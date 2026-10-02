@@ -71,6 +71,11 @@ export default function DirectoryPage() {
                     <div className="flex min-w-0 flex-1 flex-col gap-1">
                       <span className="font-extrabold text-ink">{o.name}</span>
                       <span className="text-xs leading-snug text-muted-foreground">{o.role}</span>
+                      {o.note && (
+                        <span className="w-fit rounded-full bg-navy-tint px-2 py-0.5 text-[0.65rem] font-extrabold uppercase tracking-wider text-navy">
+                          {o.note}
+                        </span>
+                      )}
                       <CopyEmail email={o.email} />
                       <a
                         href={o.facebook}

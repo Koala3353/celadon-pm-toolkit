@@ -3,7 +3,7 @@ import { PageHero } from "@/components/page-hero";
 import { Container } from "@/components/ui/container";
 import { Toc } from "@/components/toc";
 import { formatReviewed, type Page } from "@/lib/content";
-import { DEPTS } from "@/lib/site";
+import { DEPTS, WEBSITE_CONTACT } from "@/lib/site";
 import { officersFor } from "@/data/directory";
 
 /**
@@ -71,13 +71,26 @@ export function DocPage({
                 )}
               </nav>
             )}
-            <p className="text-sm text-muted-foreground">
-              Something wrong or out of date?{" "}
-              <a href={page.editUrl} className="font-semibold text-link underline underline-offset-2">
-                Edit this page on GitHub
-              </a>{" "}
-              or tell the {dept ? `${dept.short} EBCB` : "OSR EBCB"}.
-            </p>
+            <div className="flex flex-col gap-1.5 text-sm text-muted-foreground">
+              <p>
+                Information out of date? Tell the {dept ? `${dept.short} EBCB` : "department that owns the process"}, or{" "}
+                <a href={page.editUrl} className="font-semibold text-link underline underline-offset-2">
+                  edit this page on GitHub
+                </a>
+                .
+              </p>
+              <p>
+                Broken link or something not working on the site? Message {WEBSITE_CONTACT.name} at{" "}
+                <a href={`mailto:${WEBSITE_CONTACT.email}`} className="font-semibold text-link underline underline-offset-2">
+                  {WEBSITE_CONTACT.email}
+                </a>{" "}
+                or on{" "}
+                <a href={WEBSITE_CONTACT.facebook} className="font-semibold text-link underline underline-offset-2">
+                  Facebook
+                </a>
+                .
+              </p>
+            </div>
           </footer>
         </article>
 
