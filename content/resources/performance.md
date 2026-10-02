@@ -1,32 +1,40 @@
 ---
 title: Performance Management
-summary: How to plan, monitor, review, and reward your team's work so the project delivers and your people grow.
-kicker: Leading your team
 order: 2
-lastReviewed: 2026-10-01
 ---
 
-## What performance management is
+## What is Performance Management?
 
-Performance management is the continuous process of improving performance by:
+Performance management is continuous process of improving performance by:
 
 :::stages
-1. **Setting goals** for individuals and the team.
-2. **Planning** the work needed to reach those goals.
-3. **Reviewing** and assessing progress.
-4. **Developing** people's knowledge, skills, and abilities.
+1. Setting individual and team goals
+2. Planning performance to achieve goals
+3. Reviewing and assessing progress
+4. Developing the knowledge, skills, and abilities of people
 :::
 
-## Why it matters
+## Why is this important?
 
-- As a manager, you make sure your team delivers while also learning and growing.
-- Done well, it keeps the work at a high standard and the team fulfilled and happy.
+1. As managers, you make sure your team delivers while also ensuring their learning and growth.
+2. Effective performance management keeps both the work in quality and the team fulfilled and happy.
 
-## The four stages
+## 4 Stages of Managing Performance
 
 :::steps
-1. **Planning.** Set team goals that line up with what the project is working toward. Build each member's personal development into those goals. Delegate well, so everyone has a role and can grow from it.
-2. **Monitoring.** Check in on your team's progress and ask whether they need help. Guide them through difficulties, but don't do the work for them. Encourage them and recognize their effort.
-3. **Reviewing.** Evaluate your team's work and give feedback that is specific, constructive, and clearly communicated. Thank them for their hard work.
-4. **Rewarding.** Congratulate your team on a job well done, and show your gratitude. [Reward practices](/resources/rewards/) has ideas.
+1. **Planning**
+   - Set goals for the team which is in line with the strategic goals of what you are working towards.
+   - Integrate their personal development in your goals.
+   - Delegate tasks well and ensure everyone has a role to play and can grow from it.
+2. **Monitoring**
+   - Check-up with your team on their progress. Ask if they need any help or assistance.
+   - Guide your team when they are in difficulty. But, do not be the one to do the work.
+   - Encourage your team and recognize their hard work.
+3. **Reviewing**
+   - Evaluate the work of your teams and give them feedback.
+   - When giving feedback, be specific about it and be constructive. Communicate it to your team clearly.
+   - Do not forget to recognize and thank them for their hard work.
+4. **Rewarding**
+   - Congratulate your team for a good well done.
+   - Show your gratitude to them.
 :::

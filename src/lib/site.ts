@@ -6,7 +6,7 @@
  */
 
 export const SITE_URL = "https://pm.ateneoceladon.com";
-export const SITE_NAME = "CLDN PM Toolkit";
+export const SITE_NAME = "CLDN Project Manager ToolKit 2026-2027";
 export const SITE_YEAR = "2026–2027";
 export const REPO_URL = "https://github.com/Koala3353/celadon-pm-toolkit";
 export const MAIN_SITE_URL = "https://ateneoceladon.com";
@@ -89,54 +89,74 @@ export type GuideSlug = (typeof GUIDE_SLUGS)[number];
 export const RESOURCE_SLUGS = ["meeting-guide", "performance", "rewards", "conflict"] as const;
 export type ResourceSlug = (typeof RESOURCE_SLUGS)[number];
 
+/** Top navigation, labelled as on the Google Site. */
 export const NAV = [
-  { href: "/procedures/", label: "Procedures" },
+  { href: "/", label: "Home" },
   { href: "/guides/", label: "Guides" },
-  { href: "/resources/", label: "Resources" },
-  { href: "/directory/", label: "Directory" },
-  { href: "/about/", label: "About" },
+  { href: "/resources/", label: "Others" },
+  { href: "/directory/", label: "EBCB Directory" },
+  { href: "/about/", label: "About Celadon" },
 ] as const;
 
-/** External tools from the old "Others" page. */
-export const TOOLS = [
+export interface NavCard {
+  label: string;
+  href: string;
+  /** Department whose Ayi and colour the card wears. */
+  dept?: DeptSlug;
+  external?: boolean;
+}
+
+/** Guides page cards, as on the Google Site. */
+export const GUIDE_CARDS: NavCard[] = [
+  { label: "📝Project Procedures", href: "/procedures/", dept: "op" },
+  { label: "🎨 COMMPUB Guide", href: "/guides/commpub/", dept: "commpub" },
+  { label: "💌 EXREL Guide", href: "/guides/exrel/", dept: "exrel" },
+  { label: "💸 FIN Guide", href: "/guides/fin/", dept: "fin" },
+  { label: "🀄 HR Guide", href: "/guides/hr/", dept: "hr" },
+  { label: "📊 OSR Guide", href: "/guides/osr/", dept: "osr" },
+  { label: "🎓OP Guide", href: "/guides/op/", dept: "op" },
+];
+
+/** Home page cards: the guides plus the rest of the site, as on the Google Site. */
+export const HOME_CARDS: NavCard[] = [
+  ...GUIDE_CARDS,
+  { label: "➕ Others", href: "/resources/" },
+  { label: "📞EBCB Directory", href: "/directory/" },
+  { label: "💙 About Celadon", href: "/about/" },
+];
+
+/** Others page cards, as on the Google Site. */
+export const OTHERS_CARDS: NavCard[] = [
+  { label: "🌐Ateneo Celadon Website", href: "https://ateneoceladon.com/", external: true },
+  { label: "📢 A-yi's Corner (Recruitment Portal)", href: "https://ateneoceladon.com/internal/", external: true },
+  { label: "🔗 CLDN Custom URL Generator", href: "https://url.ateneoceladon.com/", external: true },
   {
-    title: "Ateneo Celadon website",
-    href: "https://ateneoceladon.com/",
-    note: "The org's public site.",
-  },
-  {
-    title: "A-yi's Corner",
-    href: "https://ateneoceladon.com/internal/",
-    note: "Recruitment portal for members. Sign in with your Ateneo account.",
-  },
-  {
-    title: "CLDN custom URL generator",
-    href: "https://url.ateneoceladon.com/",
-    note: "Make short ateneoceladon.com links for forms and pubs.",
-  },
-  {
-    title: "EBCB and Managers Directory 2627",
+    label: "✉︎ EBCB & Managers Directory",
     href: "https://docs.google.com/spreadsheets/d/1ZLK8s4bg4D9TIuSifEbTQPBQsR8AA-ZZuCMkuFVIXhc/edit",
-    note: "Every EBCB member and manager, by department.",
+    external: true,
   },
   {
-    title: "CLDN 2627 Deployment Tracker",
+    label: "🚀 Department Deployment Tracker",
     href: "https://docs.google.com/spreadsheets/d/1mGyQSVGlQlsjd3pYNvjW7AVTIenH6OErSBXN1A3nauM/edit",
-    note: "Which department staff are deployed to which project.",
+    external: true,
   },
   {
-    title: "Core Team Committee Roles Guide 2627",
+    label: "👥 Core Team Committee Roles & Guide",
     href: "https://docs.google.com/document/d/1R8kzMhiiAjBp3W9wqUsi_l1z87PcpjkObgdiD_49LkM/edit",
-    note: "What each core team committee does.",
+    external: true,
   },
   {
-    title: "Project Presentation Guidelines",
+    label: "💻 Project Presentation Guidelines",
     href: "https://docs.google.com/document/d/1dwh915AQJgqkzhG6XT0_kihYr2LOtP9JKBa3UdPvVGw/edit",
-    note: "What the EBCB expects in your project presentation.",
+    external: true,
   },
   {
-    title: "Manager FormSem materials",
+    label: "👨🏻‍🏫 Manager FormSem Presentations",
     href: "https://drive.google.com/drive/folders/1GRnECuN1XS4P6M9yxz3dGAnuhgxDilUN",
-    note: "Slides from this year's Manager FormSem.",
+    external: true,
   },
-] as const;
+  { label: "📑 Meeting Guide", href: "/resources/meeting-guide/" },
+  { label: "💼 Performance Management", href: "/resources/performance/" },
+  { label: "⭐ Reward Practices", href: "/resources/rewards/" },
+  { label: "🫂 Conflict Resolution", href: "/resources/conflict/" },
+];

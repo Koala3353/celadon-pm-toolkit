@@ -1,98 +1,273 @@
 ---
 title: Meeting Guide
-summary: How to run a good work meeting, and the purpose, attendees, and agenda of every standard Celadon project meeting.
-kicker: Leading your team
 order: 1
-lastReviewed: 2026-10-01
 ---
 
-## Running a work meeting
+## Conducting Work Meetings
 
-:::stages
-1. **Before** — prepare an agenda and send it to your team so they know what to expect. Have ready any Google Docs, Slides, Sheets, Miro boards, or other files you'll need.
-2. **During** — start with kamustahan: ask how everyone has been. Get updates on which deliverables are done, then facilitate the work session.
-3. **After** — assign any new deliverables with deadlines, and review the task tracker so you stay on schedule.
+### How to Conduct Work Meetings
+
+:::steps
+1. **Be prepared**
+   - Have an agenda on hand and send it to your team if possible so that they will know what to expect.
+   - Prepare any Gdocs, GSlides, GSheets, Miroboard or any other resources that may be needed during the work meeting.
+2. **During the session**
+   - Ask your team how they have been doing or kamustahan.
+   - Ask updates from your team as to what deliverables they were able to accomplish.
+   - Facilitate the work session.
+3. **Moving forward**
+   - Assign new deliverables (if applicable) to your team and set deadlines for accountability.
+   - Review the deliverables/task tracker to stay on track with your timeline.
 :::
 
-### Tips for better meetings
+### Tips for Holding Meetings
 
-1. **Decide whether you need the meeting at all.** An announcement in the group chat might be enough.
-2. **Plan and structure it.** Share the objective and agenda up front, and keep the meeting clear in purpose and concise.
-3. **Keep it engaging.** Encourage people to think and speak freely, and ask the group for ideas and opinions. Remember that not everyone is comfortable sharing in a group.
-4. **Sum up.** Close by restating what was agreed and achieved, so everyone leaves with the same understanding.
-5. **Finish on time.** A meeting that runs late affects everything scheduled after it. If you didn't get what you needed, schedule another one, or ask the team whether they can stay for a short extension.
+1. **Decide if you really need the meeting.**
+   - Before setting up a meeting, ask yourself if it is really needed. It might be enough to just send an announcement to the GC.
+2. **Plan and structure meetings.**
+   - All meetings need some structure, so publish the objective and an agenda up front.
+   - Try to make meetings as clear (in purpose) and concise as possible.
+3. **Have engaging meetings.**
+   - Encourage free thinking and free speaking.
+   - Ask the group for ideas and opinions.
+   - Bear in mind that not everyone is comfortable airing ideas or opinions in a group setting.
+4. **Sum Up.**
+   - Close your meeting by re-stating what has been agreed to and achieved so everyone leaves with the same understanding.
+5. **Finish on time.**
+   - A late-running meeting can impact all kinds of other scheduled activities. If the meeting hasn't produced the desired results, schedule another.
+   - Alternatively, you may ask the Core if they are still available for a short extension.
 
-## Baseline meetings
+## Baseline Meetings
 
-Every manager runs these standard meetings during a project.
+These are standardized meetings that all you will go through and be involved in, as a manager.
 
-::::meetings
-:::meeting{title="General Assembly" who="Department EBCB · Managers · Core team"}
-**Why:** introduce the project's direction and goals, set out everyone's roles and responsibilities, and agree on expectations and house rules.
+::::details{title="General Assembly"}
+**Objectives**
 
-The GA is where you onboard your core team. They hear the project's vision, goals, and theme, learn their roles, and agree on expectations and house rules.
+- To introduce direction, goals of the project
+- To establish the roles and responsibilities of people involved.
+- To set expectations and house rules.
 
-- **Prepare:** icebreakers; the vision, goals, and theme; core team roles and responsibilities; expectations and house rules.
-- **Agenda:** welcome and icebreaker → vision, goals, and theme → roles and responsibilities → expectations and house rules → committees meet each other → final reminders.
-- **After:** recap the reminders and start leveling off with each committee on its deliverables.
-:::
+**Participants**
 
-:::meeting{title="Core heads leveling off" who="Department EBCB · Managers · Core heads"}
-**Why:** set expectations, open communication lines between committees, and build unity across them.
+- Department EBCB
+- Managers
+- Core Team
 
-You meet your core heads to set expectations of each other. The heads also meet one another and spot where their committees will need to work together.
+**About GA**
 
-- **Prepare:** icebreakers and an expectation-setting activity.
-- **Agenda:** welcome and icebreaker → expectation-setting activity → heads discuss what they need from each other's committees → final reminders.
-- **After:** recap the reminders.
-:::
+- GA is where managers on-board with their core team on the project and their responsibilities. The core team is briefed on the vision, goals, and theme of the project or initiative. They are also briefed on their roles and responsibilities as core team members. Expectations and house rules are also set during the meeting.
 
-:::meeting{title="Mid-project check-up" who="Department EBCB · Managers · Core team"}
-**Why:** get updates on deliverables, realign with the project's direction and goals, and gather feedback to improve.
+**Pre-Work**
 
-Check how your team is doing and how their deliverables are going, by direct or group message, ICs, or a meeting. It's also the moment to ask, based on the team's feedback, whether the project is still headed the right way.
+- Prepare ice breakers and necessary information: project vision, goals, and themes; core team roles and responsibilities; expectations and house rules.
 
-- **Prepare:** nothing.
-- **Agenda:** ask how the team is doing → progress on deliverables and feedback on their experience → your feedback and points for improvement → ask how you can help, and encourage them → thank them.
-- **After:** reflect on the progress and feedback, and work on what needs improving.
-:::
+**Agenda**
 
-:::meeting{title="Post-project evaluation (PPE) meeting" who="Department EBCB · Managers · Core team"}
-**Why:** evaluate the project and the core team, and thank everyone for their work.
+- Welcome the team and have an icebreaker.
+- Discuss the following: project vision, goals, and themes; core team roles and responsibilities; expectations and house rules.
+- Have the committees meet amongst themselves and get to know each other.
+- Give the core team final reminders.
 
-You and your core team assess your own performance and the project's, to learn what worked and what didn't. It also closes the project for the team.
+**Post-Work**
 
-- **Prepare:** icebreakers and a feedback activity.
-- **Agenda:** welcome and icebreaker → collect and note feedback on individual and project performance → congratulate and thank the team.
-:::
+- Recap final reminders from the meeting.
+- Start leveling-off with each committee on their deliverables.
 ::::
 
-## Common meetings
+::::details{title="Core Team Heads Leveling Off"}
+**Objectives**
 
-Schedule these as needed, depending on who's involved and what's on the agenda.
+- To set expectations
+- To introduce communication lines among all committees.
+- To foster unity among the committees.
 
-::::meetings
-:::meeting{title="Committee meeting" who="Managers · One core team committee"}
-**Why:** delegate and discuss a committee's deliverables, get progress updates, and decide next steps. It's also where you hear the committee's feedback.
-:::
+**Participants**
 
-:::meeting{title="Alignment meeting" who="Managers · Core team committees"}
-**Why:** let committees discuss what they need from each other and divide up tasks on shared deliverables.
-:::
+- Department EBCB
+- Managers
+- Core Team Heads
 
-:::meeting{title="Dry run" who="Department EBCB · Managers · Core team"}
-**Why:** test-run the event's programs and logistics, find what needs improving, and fix it before the event.
-:::
+**About Core Heads Leveling Off**
 
-:::meeting{title="Event preparation" who="Department EBCB · Managers · Core team"}
-**Why:** set up the equipment, materials, decorations, and logistics the event needs.
-:::
+- Core Heads Leveling Off is where managers meet with their core heads to set expectations for each other and level-off. This is also where the core heads meet each other and foresee future collaborations between their committees.
 
-:::meeting{title="Brainstorming session" who="Managers · Core team committee"}
-**Why:** generate new ideas with more people's input. Building on each other's ideas leads to fresh ones.
-:::
+**Pre-Work**
 
-:::meeting{title="Work session" who="Managers · Core team committee"}
-**Why:** get work done together. Working side by side and keeping each other accountable builds support and closer bonds.
-:::
+- Prepare ice breakers and an activity for expectation setting.
+
+**Agenda**
+
+- Welcome the team and have an icebreaker.
+- Set expectations for each other through the activity.
+- Have the core heads talk amongst themselves on what they need from each other's committee.
+- Give the core heads final reminders.
+
+**Post-Work**
+
+- Recap final reminders from the meeting.
+::::
+
+::::details{title="Mid-Project Check Up"}
+**Objectives**
+
+- To provide updates on progress of deliverables.
+- To realign with the direction and goals of the project.
+- To receive feedback and gain insights to further improve.
+
+**Participants**
+
+- Department EBCB
+- Managers
+- Core Team
+
+**About Mid-Project Check Up**
+
+- Mid-Project Check Up is where managers check up on their team on how they are doing and the progress of their deliverables. These check-ups may come in the form of direct or group chat messages, ICs, or meetings. This is also when to reflect and work on whether the project is still in the right direction based on feedback from the team.
+
+**Pre-Work**
+
+- None.
+
+**Agenda**
+
+- Ask how the team is doing in general and on their deliverables.
+- Ask for their progress on their deliverables and feedback on their experiences in the project.
+- Give feedback on their deliverables and their points for improvement.
+- Ask what you could do to help them and encourage them.
+- Thank them for their hard work.
+
+**Post-Work**
+
+- Reflect on the progress of deliverables and feedback given.
+- Work on what needs to be improved on.
+::::
+
+::::details{title="Post-Project Evaluation Meeting"}
+**Objectives**
+
+- To evaluate performance of the project and core team.
+- To congratulate and thank core team members for their hard work.
+
+**Participants**
+
+- Department EBCB
+- Managers
+- Core Team
+
+**About PPE Meeting**
+
+- The PPE Meeting is where managers and their core team discuss and evaluate their own performance as a team member, and the performance of the project. This is to gain insight on what worked and did not. This also serves as a closure for the project and the core team.
+
+**Pre-Work**
+
+- Prepare ice breakers and an activity for receiving feedback from the core team.
+
+**Agenda**
+
+- Welcome the team and have an icebreaker.
+- Ask and take down notes of feedback from the core team on their own performance and performance of the project.
+- Congratulate and thank core team members for their hard work.
+::::
+
+## Common Meetings
+
+These are common meetings that you will encounter as a manager when working on a project or initiative. These are scheduled based on who is involved and what kind of agenda you have.
+
+::::details{title="Committee Meeting"}
+**Objectives**
+
+- To delegate and discuss deliverables of a specific committee.
+- To provide updates on progress and deliverables.
+- To decide on the next course of action and deliverables.
+
+**Participants**
+
+- Managers
+- Core Team Committee
+
+**About Committee Meeting**
+
+- The Committee Meeting is where managers meet with a core team committee to delegate and discuss particular deliverables. This is also for the managers to receive updates and feedback from the committee.
+::::
+
+::::details{title="Alignment Meeting"}
+**Objectives**
+
+- To discuss the needs of each committee from each other.
+- To discuss and delegate tasks.
+
+**Participants**
+
+- Managers
+- Core Team Committees
+
+**About Alignment Meeting**
+
+- The alignment meeting is where committees meet with each other to discuss and delegate tasks regarding deliverables involving their committees and collaboration.
+::::
+
+::::details{title="Dry Run"}
+**Objectives**
+
+- To test-run the programs and logistics of the event.
+- To identify points of improvement and work on them.
+
+**Participants**
+
+- Department EBCB
+- Managers
+- Core Team
+
+**About Dry Run**
+
+- The Dry Run is where the managers and core team test-run the event's programs and logistics to identify points of improvement and ensure successful execution of the event.
+::::
+
+::::details{title="Event Preparation"}
+**Objectives**
+
+- To set-up the needed equipment, materials and logistics for the event.
+
+**Participants**
+
+- Department EBCB
+- Managers
+- Core Team
+
+**About Event Preparation**
+
+- The Event Preparation is where the managers and core team set-up the equipment, materials, decorations, and logistics needed for the event.
+::::
+
+::::details{title="Brainstorming Session"}
+**Objectives**
+
+- To generate new ideas
+- To encourage input from more people and bounce of ideas
+
+**Participants**
+
+- Managers
+- Core Team Committee
+
+**About Brainstorming Session**
+
+- The Brainstorming Session is where the team ideates and bounces off each other's ideas. Building up on each other's ideas helps in coming up with fresh and new ones.
+::::
+
+::::details{title="Work Session"}
+**Objectives**
+
+- To get work done
+- To collaborate and bond
+
+**Participants**
+
+- Managers
+- Core Team Committee
+
+**About Work Session**
+
+- The Work Session is where the team works on their deliverables at the same time and may collaborate with each other on the task at hand. Working together and being each other's accountability fosters support and closer bonds.
 ::::

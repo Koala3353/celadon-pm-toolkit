@@ -1,340 +1,404 @@
 ---
 title: FIN Guide
-summary: Budget proposals, the FIN tracker, deposits, DCB transfers, reimbursements, fundraising, and the logistics forms that touch money.
-kicker: Financial Affairs
 dept: fin
 order: 4
-lastReviewed: 2026-10-01
 ---
 
 ## Budgeting
 
-### Budget proposal
+### Budget Proposal
 
-One of a project's main tasks with FIN is the organization's budget proposal. It is made and submitted to OSA as early as the first month of the first semester.
+One of the major tasks Projects have with Finance is to craft the budget proposal for the organization. These have to be made and submitted to OSA as early as the first month of the first semester.
 
-:::note
-**Second-semester project without firm numbers yet?** During CTA waves you may ask FIN to change your earlier budget allocation; message us in your group chat or directly. OSA also asks for the budget proposal every semester, so work with FIN to adjust it by then.
-:::
+### What if our project is happening in the second sem and we do not have sure numbers yet?
 
-### How the budget is set
+- During CTA waves, YOU MAY APPEAL to the FIN department if you wish to change your budget allocation made previously, just message in our respective GCs or pm.
+- OSA will ask for the budget proposal every semester as well. Work with FIN to make adjustments by then!
+
+### Budget Proposal Process
 
 :::steps
-1. **Initial budget proposal.** The FIN EBCB and the Department EBCB agree on a budget for the department's projects and initiatives. **No proposal, no budget.**
-2. **Final budget proposal.** Project Managers discuss their plans and financial needs with their Department EBCB, who adjusts the proposal and passes it to the FIN EBCB. During Manager FormSem you'll fill out a budget sheet with your projections, and the FIN EBCB will go over it with you in the synchronous budget workshop.
-3. **Budget cap.** FIN sets your cap. You can appeal for a higher budget in an IC with the FIN EBCB and your Department EBCB.
+1. **INITIAL BUDGET PROPOSAL**
+   - FIN EBCB and the Department EBCB discuss to set a budget for the department's projects and initiatives
+   - NO PROPOSAL = NO BUDGET
+2. **FINAL BUDGET PROPOSAL**
+   - Project Managers - discuss your plans and financial needs with your department EBCB
+   - Department EBCB - adjust the budget proposal accordingly and communicate to FIN EBCB
+   - Project managers will be given a budget sheet that they must fill out with projections during Manager FormSem. FIN EBCB will consult with them on this during the synchronous budget workshop.
+3. **BUDGET CAP**
+   - FIN sets your budget cap though you are free to appeal for a higher budget via an IC with the FIN EBCB and your department EBCB.
+   - It is up to you to allocate your budget within your core team but IF YOU GO OVER YOUR BUDGET, your core team has to fundraise the loss.
+   - If the project is unable to fundraise to cover the loss, the overbudget amount will be covered by the project managers as per Article VII Section 2 of Ateneo Celadon's official code of financial procedures
 :::
 
-You decide how to allocate the budget within your core team. **If you go over budget, your core team has to fundraise the difference.** If the project can't raise it, the Project Managers cover the overage, under Article VII, Section 2 of Ateneo Celadon's Code of Financial Procedures.
+### Over-Budget
 
-### Going over budget
+***What happens if we go over budget?***
 
-The budget proposal tells OSA how much we will spend and where. That allocation can't be changed after the project, so any overspending is a loss.
+- The budget proposal happens so that OSA will know how much money we will spend and where it will be allocated. We cannot back out of that allocation once your project is finished, so if you go over budget, you will be at a loss.
 
-:::quote{source="Article VII, Section 2 — Over Budget"}
-2.1. If a project manager spends more than the allocated budget, they are subject to these penalties:
+### Article VII. Section 2. Over Budget
 
-- 2.1.1. Exceeding by less than ₱1,000: the project manager may still claim reimbursement for the core team.
-- 2.1.2. Exceeding by more than ₱1,000 but less than ₱5,000: reimbursement may still be allowed, depending on extra cash inflow from other projects and subject to approval.
-- 2.1.3. Exceeding by more than ₱5,000: reimbursement is disapproved and the project manager shoulders all costs above the budget.
-:::
+2.1. In the case that a project manager spends more than the allocated budget, they are subject to the certain penalties:
 
-:::confirm{title="Exactly ₱1,000 or ₱5,000"}
-As written, the tiers don't say what happens at exactly ₱1,000 or exactly ₱5,000. FIN should confirm the boundaries against the Code of Financial Procedures.
-:::
+2.1.1. Exceed by less than Php 1,000. The project manager may still claim reimbursement for the core team.
 
-### The FIN tracker
+2.1.2. Exceed by more than Php 1,000 but less than Php 5,000. The project manager may still be allowed reimbursement depending on extra inflow of cash from other projects and subject to approval.
 
-FIN uses the tracker to follow your finances through the semester and to build the budget proposal it submits to OSA. Template: [[FIN 26'–27] (TEMPLATE) FIN TRACKER](https://docs.google.com/spreadsheets/d/1pd1zq5OcPRxUN3EQbeoeo9lZdsE66ApQ446w6l5RVfI/edit).
+2.1.3. Exceed by more than Php 5,000. The project manager is subject to reimbursement disapproval and must shoulder all costs above the budget.
 
-**[1] Projected fundraising and [3] budget projections**
+### Budget Proposal Tracker
 
-1. Make a copy of the tracker for your project.
-2. Rename it after your project and put it in the project Google Drive that OSR made.
-3. Enter your planned expenses and revenues in the **Projections Tracker** tab. Use what you know, hold ICs with the people involved, or ask FIN for help.
-4. If the project has a fundraiser, enter its expected expenses and revenues in the separate **Fundraising Projections** tab.
-5. Do this during the FormSem budgeting workshop for non-FIN managers, and consult the FIN EBCB.
-6. This is your project's official finance tracker. When you start spending and collecting for real, copy the Projections Tracker into a new tab called **Official Tracker**.
-7. If you have a fundraiser, copy Fundraising Projections into a new **Fundraising Tracker** tab the same way.
+This is how FIN will track your finances throughout the semester, along with checking your plans for the year for them to craft a budget proposal to submit to OSA. Find the template here: [[FIN 26'-27] (TEMPLATE) FIN TRACKER](https://docs.google.com/spreadsheets/d/1pd1zq5OcPRxUN3EQbeoeo9lZdsE66ApQ446w6l5RVfI/edit)
 
-**[2] Actual fundraising and [4] actual budget**
+**[1] PROJECTED FUNDRAISING & [3] BUDGET PROJECTIONS TRACKER**
 
-1. Record every revenue and expense throughout the project.
-2. **Finalize the tracker within one week after your project ends.**
-3. Tell the FIN VP (Jillian Lee) the tracker is done, and send the final copy in your project's group chat with the FIN EBCB.
-4. Make any revisions FIN asks for. The faster you finish them, the sooner you're reimbursed.
-5. Wait for reimbursement from OSA, estimated at 3 weeks.
+1. Make a copy of the tracker which you will use for the organization.
+2. Rename it to your project and upload it to your google drive made by OSR.
+3. Begin by placing estimates of expenses and revenues planned in "Projections Tracker" (may use current knowledge, conduct ICs with necessary parties, or ask FIN for assistance)
+4. If the project also needs a fundraiser, include expected expenses and revenues for it in the separate tab "Fundraising Projections"
+5. Accomplish this during the non-FIN managers FormSem Budgeting Workshop and consult with FIN EBCB.
+6. Let this be your official Finance tracker for the project. When disbursing actual expenses and collecting revenues for real, please create a new tab copied from "Projections Tracker" called "Official Tracker"
+7. If your project has a fundraising, do the same and make a copy from "Fundraising Projections" to "Fundraising Tracker"
 
-:::links
-- [Project Budgets 25'–26'](https://drive.google.com/drive/folders/1y7q-S3na22_-p-qj41OObYEjZplAOsE6) — last year's budget for your project.
-- [Past LOG Masterfiles](https://drive.google.com/drive/folders/1tpZEsnKXogk_2i87M7hu8Fcel0mY5De8) — last year's logistics and expense trackers.
-:::
+**[2] ACTUAL FUNDRAISING & [4] ACTUAL BUDGET TRACKER**
 
-## Deposits and disbursements
+1. Account for all revenues and expenses used throughout the project
+2. Finalize accounts in the tracker WITHIN ONE WEEK AFTER YOUR PROJECT ENDS
+3. Inform the FIN VP (Jillian Lee) of the accomplishment of the FIN tracker and send the final copy of your FIN Tracker to your respective project's group chat with the FIN EBCB
+4. Make revisions alongside on your expense tracker (Note: the faster these are accomplished, the sooner you can get reimbursed)
+5. Wait for reimbursement from OSA (note this process has been estimated to take 3 weeks)
+
+- You may check this drive to have a reference to your project's budget last year: [Project Budgets 25'-26'](https://drive.google.com/drive/folders/1y7q-S3na22_-p-qj41OObYEjZplAOsE6)
+- You may also check this drive for the logistics and expense tracker of your project last year: [PAST LOG MASTERFILES](https://drive.google.com/drive/folders/1tpZEsnKXogk_2i87M7hu8Fcel0mY5De8)
+
+## Deposits and Disbursements
 
 ### Deposit and Credit Balance (DCB)
 
-The DCB is Ateneo Celadon's allocation in Ateneo's bank account for organizations. It's used for deposits and disbursements.
+The DCB is Ateneo Celadon's allocation in Ateneo's bank account for organizations.
 
-:::compare
-**Pros of paying through the DCB** (instead of cash on hand or abono)
+***What is DCB used for?***
 
-- OSA processes DCB transfers faster than reimbursements.
-- The DCB is a larger pool to draw from.
-
-**Cons**
-
-- When you need supplies right away, the DCB can be slower than paying first yourself.
-:::
-
-**Use the DCB for payments that can be arranged about a month ahead and for amounts of ₱20,000 or more.**
-
-The Office of Student Activities (OSA) and the Central Accounting Office (CAO) have strict rules on how money moves. Everything you need to know about paying for items and services is below.
+- The DCB is typically used for deposits and disbursement needs
+- Here are the pros and cons of using DCB payments over our cash on hand/abono:
+- Pros:
+  - OSA facilitates payments faster through DCB transfers in and out than in taking reimbursements
+  - Larger pool to take from in DCB
+- Cons:
+  - When needing supplies immediately, the DCB may take longer than just paying for it ourselves first
+- As such: Use DCB for paying stuff that generally can be done as early as a month from the project just so that it is easier, and if the amount needed is higher than at least 20k.
 
 ### Deposits
 
-Deposits are anything that goes into Celadon's DCB: project and initiative earnings, subsidies, donations, cash sponsorships, and returned deposit fees.
+The Office of Student Activities (OSA) and Central Accounting Office (CAO) have stringent rules on methods of sending out money, FIN has listed here everything you would need to know about paying for items/services.
 
-::::details{title="Cash sponsorships and donations"}
-:::steps
-1. **Tell the FIN VP or any FIN EBCB about the sponsorship deal right away.**
-2. **Write the MOA with ExRel** and have FIN review it to make sure it follows OSA procedures.
-3. **Have your ExRel team submit the MOA** and wait for approval from the offices concerned. Cash MOAs take 2–3 weeks to approve, so start early.
-4. **Once it's returned, have the sponsor sign the MOA.** FIN will give you the details of Ateneo's BPI account for the transfer.
-5. **Ask the sponsor for proof of payment** once they've paid.
-:::
+***What are deposits?***
 
-**What if the sponsor needs an ADMU invoice before releasing the money?** File a request with the FIN EBCB, who will forward it to the right offices. It takes about 2–3 days to come back.
+These are anything that are put into the DCB of Celadon! These include:
 
-When asking how the sponsor or donor will pay, ask whether they can use one of these, which are easiest for FIN and OSA to handle:
+- Earnings from projects/initiatives
+- Subsidies
+- Donations
+- Cash Sponsorships
+- Return of Deposit Fees
 
-- BPI online bills payment
-- BPI over-the-counter bills payment
-- Metrobank over-the-counter bills payment
-- [Ateneo Webpay](https://webpay.ateneo.edu/peso)
-- Paybiz
+### How to make a deposit?
+
+::::details{title="CASH SPONSORSHIPS AND DONATIONS"}
+1. Inform your FIN VP or any FIN EBCB immediately about the sponsorship deal.
+2. Accomplish MOA alongside ExRel and have FIN go over it for approval (just to check it follows procedures of OSA)
+3. Have MOA submitted by your ExRel team; wait for approval from the necessitated offices (NOTE: Cash MOAs take long to be approved, 2-3 weeks approval so do it asap)
+4. Once returned, have MOA signed by sponsor and FIN will provide details of the BPI account of Ateneo to transfer the cash.
+5. Request for a proof of payment from the sponsors after they have accomplished the payment.
+
+***What if the sponsor/partner needs an ADMU INVOICE before releasing the sponsorship money?***
+
+- File a request with the FIN EBCB! We will forward it to the necessary parties. Note that this process will take an estimated 2-3 days for the offices to return it back to us.
+
+Note: When asking for payment methods, please ask the sponsor/donor if they can do any of the following:
+
+- Online Bills Payment - BPI
+- Over-the-counter Bills Payment - BPI
+- Over-the-counter Bills Payment - Metrobank
+- Ateneo's Webpay Site: [https://webpay.ateneo.edu/peso](https://webpay.ateneo.edu/peso)
+- Via Paybiz
+
+This is because the use of these methods of deposits are much more convenient and easier for us in FIN + OSA to handle.
 ::::
 
-::::details{title="Depositing earnings"}
-1. Within one week of the project ending, update the FIN tracker so the deposit matches what's tracked.
-2. If you have earnings you declared in the budget proposal, tell your FIN MIT or any FIN EBCB.
+::::details{title="DEPOSITING EARNINGS"}
+1. At the end of your project, revise the FIN tracker within ONE WEEK. This tracker will ensure that the deposit about to be made matches what is being tracked.
+2. At the end of your project, if you have any earnings that you declared during the budget proposal phase, inform your designated FIN MIT or any FIN EBCB.
 ::::
 
-::::details{title="Payments within Ateneo"}
-This covers payments inside the University:
-
-- Org to org (for example, Celadon to MEA)
-- Org to office or department (for example, Celadon to CFMO)
-- Office to office (for example, OSA to the LS Bookstore)
-
-1. Get the DCB or budget account of the receiving org or office.
-2. Send the complete details to your FIN MIT or FIN EBCB.
-3. FIN handles the rest. The offices record the payment within 2–3 days of receiving the request.
+::::details{title="MAKING PAYMENTS WITHIN ATENEO"}
+1. This is for payments made within the University
+   1. Org to Org (ex: Celadon to MEA)
+   2. Org to Office / Department (ex: Celadon to CFMO)
+   3. Office / Department to Office / Department (OSA to LS Bookstore)
+2. First, collect the DCB or Budget Account of the org / office
+3. Send the complete details to your FIN MIT or FIN EBCB
+4. Let the FIN representative handle the rest. The offices will record the payment within 2-3 days from when they receive the request.
 ::::
 
 ### Disbursements
 
-Disbursements are any money going out of Celadon to someone else: venue or caterer reservation fees, supplies and equipment, and products for the project or a fundraiser. There are two ways to pay: a **DCB transfer** or a **reimbursement**.
+The Office of Student Activities (OSA) and Central Accounting Office (CAO) have stringent rules on methods of sending out money, FIN has listed here everything you would need to know about paying for items/services
 
-#### Option 1: DCB transfer
+***What are disbursements?***
 
-FIN pays the supplier directly from Celadon's share of Ateneo's bank account.
+These are anything that involve the outflow of money from our organization (Celadon) to an outside source:
+
+- Reservation Fees for venues or caterers
+- Purchase of supplies and equipment
+- Purchase of products for project or fundraising
+
+It is worth noting that there are TWO approaches towards disbursements:
+
+1. DCB Transfer
+2. Via Reimbursement
+
+### Disbursements: DCB Transfer
+
+The DCB transfer is when we use the amount located in Ateneo's Bank Account that is reserved for Celadon to pay for transactions.
+
+- Steps on going about the DCB transfer:
 
 :::steps
-1. **Tell the FIN EBCB you want to pay for an expense.** It must already be in your FIN tracker and within your budget.
-2. **Collect the receipts and documents** and send them to FIN.
-3. **FIN handles the procedure** and updates you on the payment.
+1. Inform FIN EBCB of your desire to pay for an expense in your project (note that these must have been declared in your FIN tracker/allocated by your budget for FIN to aid in facilitating this)
+2. Collect the necessary receipts + documents and send them to FIN for us to conduct the DCB Transfer.
+3. Let FIN handle the necessary procedures and they will update you on the progress of the payment.
 :::
 
-:::note
-Don't use personal funds for payments subject to expanded withholding tax, such as talent fees, venues, catering, and printing or photocopying. OSA won't reimburse the full amount.
-:::
+Note: It is highly recommended for you or your core to NOT use personal funds for payments that are subjected to Expanded Withholding Tax (ex: Talent fees, venues, catering, printing/photocopy) otherwise, you will not be reimbursed for the full amount by OSA.
 
-#### Option 2: Reimbursement
+***What constitutes a valid receipt?***
 
-Use reimbursement for small purchases or immediate down payments. Second-semester and LDP project managers get a deployed FIN MIT to help; if you don't have one, follow these steps yourself.
+OSA has changed their rules and regulations on the type of receipts needed. From JULY 10, 2024 onwards. INVOICES are the primary receipts that will be accepted for payment processing in a DCB transfer to suppliers. Below are the specific types of expenses linked to the accepted receipts:
+
+***What if we have receipts that are still labeled "Official Receipt"?***
+
+The sellers do technically have the right to still use the Official Receipt (OR) provided that they convert it to Invoice by striking through the term "Official Receipt" and stamping the word "INVOICE" on the document!
+
+### Disbursements: Via Reimbursement
+
+The reimbursement method is option 2, which we recommend should be used for small-scale purchases or immediate down payments.
+
+- If you are a second semester project + LDP project manager, you will have a deployed FIN MIT to assist you in conducting these tasks, if you do not have one, refer to these instructions.
+- Steps on going about the reimbursement method:
 
 :::steps
-1. **Before paying, confirm the supplier will give you the invoice** you need for reimbursement.
-2. **Keep the invoice digitally and the physical receipt,** stored safely while the project runs.
-3. **Within one week of the project ending, update the FIN tracker** so the receipts match what's tracked.
-4. **Digital receipts:** work with your FIN MIT to make a Google Drive folder in your project drive and upload them all there.
-5. **Physical receipts:** give them all to your FIN MIT at the end of the project so they can submit them to OSA.
-6. **Tell the FIN VP (Jillian Lee)** that all receipts are accounted for, digitally and physically.
-7. **FIN collates the receipts for OSA approval.** If everything on your end is correct, expect reimbursement about 3 weeks after you submit receipts.
+1. Maintain contact with the supplier before sending payment; ensure that the supplier is willing to supply you with the necessary invoice for your reimbursement.
+2. Collect the invoice in a digital format as well as a physical receipt. Store safely while the project is ongoing.
+3. At the end of your project, revise the FIN tracker within ONE WEEK. This tracker will ensure that the collected receipts match what is being tracked.
+4. For digital receipts, maintain contact with your deployed FIN MIT to create a google drive folder within your project drive where you need to upload all digital receipts.
+5. For physical receipts, at the end of the project provide your FIN MIT with all the physical copies so that they may submit to OSA.
+6. Inform FIN VP (Jillian Lee) that all receipts are accounted for both digitally and physically.
+7. On the end of FIN, we will collate all the receipts in their respective documents for OSA approval. Leave it up to FIN to accomplish this and if all procedures are correct on your end, expect reimbursement 3 weeks from submission of receipts.
 :::
 
-### Receipts
+Note: A lot of you may consider getting Shopee as a supplier, if so, be sure to avail of their E-INVOICE as these are recognized by OSA as reimbursable.
 
-**Every receipt must be addressed to "Ateneo de Manila University."** Celadon has no account of its own, so OSA only recognizes receipts addressed to the University. Scan receipts clearly; OSA rejects faded ones.
+- Select Business E-Invoice Option
+- **Address to Ateneo de Manila University**
+- **Input TIN Number: 000-707-229-00000**
 
-**Buying from Shopee?** Use their e-invoice, which OSA accepts for reimbursement. Choose the Business E-Invoice option, address it to Ateneo de Manila University, and enter the University's TIN (ask your FIN MIT or the FIN EBCB for it).
+*What details should be included in the Invoice receipt?*
 
-**Receipts still labelled "Official Receipt."** Sellers may still issue an Official Receipt (OR) if they strike out "Official Receipt" and stamp "INVOICE" on it.
+The most important detail is to ALWAYS ENSURE receipts are addressed to: "Ateneo de Manila University." This is because we do not have an account for Ateneo Celadon, and so receipts will only be recognized by OSA if they fulfill this. Other important necessities are:
 
-:::confirm{title="Which receipt does OSA accept?"}
-The original page gives two versions of the rule, both effective July 10, 2024. The DCB section says **invoices are the primary receipt** for supplier payments. The reimbursement section says **invoices are required only for supplies, and everything else needs an Official Receipt**. The table of expense types and accepted receipts was an image that could not be carried over. FIN should confirm the current OSA rule and provide that table as text.
-:::
+1. **Addressed to: Ateneo de Manila University**
+2. Ensure all receipts are scanned properly + readable (OSA does not accept faded receipts)
+
+***What constitutes a valid receipt?***
+
+OSA has changed their rules and regulations on the type of receipts needed. From JULY 10, 2024 onwards. INVOICES will be the requirement for reimbursement if they are supplies, anything else will require an Official Receipt. Below are the specific types of expenses linked to the accepted receipts:
 
 ## Fundraising
 
-### Finance deputies (FIN MITs)
+### Finance Deputies (FIN MITs)
 
-As part of the Financial Affairs initiative, a finance deputy (manager-in-training, MIT) is deployed to your project, as a head or core member depending on whether you have a fundraising committee.
+As a part of the Financial Affairs initiative, a Finance Deputy (Manager-In-Training/MIT) will be deployed to your fundraising committee as a head or core; dependent on whether you decide to have a fundraising committee or not.
 
-:::compare
-**Without fundraising**, your MIT is your main finance point person:
+***WITHOUT FUNDRAISING***
 
-- Handles your general reimbursements, including collecting receipts from your team
-- Joins your project as a core team head (Logistics, Operations, or Fundraising if applicable)
-- Speaks for the project in the FIN × PM group chat
+- Your deployed MIT will be your main finance point-person:
+  - Assigned to do your general reimbursements
+    - Collecting receipts from your team for reimbursement
+  - Deployment as a core team head to your project (Log, Ops or FR if applicable)
+  - Assigned to be the main spokesperson in the FIN x PM group chat
 
-**With fundraising**, your MIT also:
+### Receipt Collection
 
-- Helps the fundraising committee come up with and run initiatives
-- Oversees your fundraising efforts
-:::
+- Reimbursement processes can be lengthy, MITs will act as your point person for concerns regarding these processes.
+- They will be tasked with collecting receipts from you and your core members who make purchases using your own money. They will then ensure that these are properly submitted to OSA and FIN so that you can get your money back.
 
-**Receipt collection.** Reimbursement can take a while, and your MIT is your point person for it. They collect receipts from you and any core member who paid with their own money, then make sure the receipts reach OSA and FIN so you get your money back.
+Note: As MITs are tasked to handle very systems heavy documents and processes, please do allow your MIT to be involved and support them in their job! Treat them as another one of your core members, they are deployed to your project in particular because they wanted to be there!
 
-:::note
-MITs handle heavy, systems-based documents and processes. Involve and support them, and treat them like any other core member. They chose to be deployed to your project.
-:::
+***WITH FUNDRAISING***
 
-**Fundraising support.** Your MIT works as a core member of the fundraising committee: ideating initiatives, procuring materials, and running the fundraiser with the team. Before deployment, FIN trains them in at least one workshop on running effective fundraisers, so think of them as assistants to the core heads with insight straight from FIN.
+- Your deployed MIT will be in charge of two main tasks, on top of the aforementioned:
+  - Assist in ideation and execution of initiatives with the fundraising committee
+  - Oversee your fundraising efforts
 
-### Fundraising core team
+### Fundraising Support
 
-The fundraising core is the subgroup of your project responsible for raising funds.
+- They will act as a core member for the committee, assisting with ideating fundraising initiatives, procuring the materials, and executing the fundraiser alongside the others.
+- Prior to their deployment, FIN will provide at least one workshop that will train them on how to create effective fundraisers, think of them as assistants to the core heads providing insight directly from FIN.
 
-**Why have one?** Celadon runs more projects than most organizations, so its resources get stretched, and budget and sponsors alone may not keep the organization financially sustainable. A fundraising committee carries part of that load and can raise extra funds to expand the project.
+### Fundraising Core Team (FR)
 
-**How to get one.** Tell the FIN EBCB before core team applications open each wave, so FIN knows how many deputies to deploy through the year.
+The Fundraising Core acts as a subgroup within your project that has the primary responsibility of raising funds for the project!
 
-### Running a successful fundraiser
+### Why do I need a fundraising committee?
 
-:::steps
-1. **Recruit core members who will work hard and have connections.** Some of the most successful past fundraisers sold consigned products: items given to the team at no upfront cost, paying only for what sells. Those deals usually come through the core team's connections.
-2. **Hold a first brainstorming session** with the fundraising team.
-3. **Schedule an IC with the FIN EBCB at least 2 weeks before the fundraiser.** This is required for projects with fundraisers, so FIN can make sure your plans follow what OSA allows. Present a deck covering the products or services, costs, expected selling price, expected expenses, revenues, and profit, promotional strategies, and a proposed selling timeline.
-4. **Get the go signal.** If you're well prepared, the FIN EBCB will approve the procurement phase.
-:::
+As one of the largest organizations, handling more projects than most, the resources of Celadon get constrained, and we may not be able to sustain the financial sustainability of the organization even with budget and sponsors. The fundraising committee helps carry that load and even add potential funds to expand the project if desired.
 
-For reference, see last year's fundraising trackers (MAF, BAR, Celaball, CNY, and others) in [Project Budgets 25'–26'](https://drive.google.com/drive/folders/1y7q-S3na22_-p-qj41OObYEjZplAOsE6).
+### How do I get a fundraising committee?
 
-**Do we still need receipts for fundraisers?** Technically no. A fundraiser doesn't move money in or out of the DCB, so FIN doesn't need receipts, assuming the fundraiser makes a profit. Use part of the earnings to pay yourselves back. Still, asking suppliers for a sales invoice or e-invoice is easy, and if the fundraiser loses money, the invoice lets the fundraising core be reimbursed from your project's budget.
+Just inform the Finance EBCB before the core team applications each wave. This is so we will also know how many deputies we can deploy throughout the school year.
 
-## General reminders
-
-### Requesting a check
+### Steps in conducting a successful fundraising:
 
 :::steps
-1. **Prepare these documents:**
-   - Sales invoice, statement of account, or billing statement (from the supplier)
-   - Supporting documents such as the program flow, attendee list, or itinerary
-   - The approved PPF
-   - ADC form, filled out by the supplier (ask the FIN VP, Jillian Lee, for the template)
-   - Bank proof (from the supplier)
-   - A copy of the bank account owner's ID (from the supplier)
-2. **Send everything to the FIN VP,** who submits it to OSA.
+1. Secure core members who are willing to work hard, but also have connections
+   1. In previous fundraisers, the success surprisingly can come from products that were consigned to the team (meaning products that are given to core with 0 cost, only paying for the cost of items that are sold
+   2. These consignment deals typically only happen if your core has good connections, so consider that also in getting your team.
+2. Have an initial brainstorming session with the fundraising team
+3. Schedule an IC with the Finance EBCB at least 2 weeks before the fundraiser
+   1. This is a REQUIREMENT for projects with fundraisers. By scheduling the IC, you are letting the FIN department know your plans so that we may ensure all processes are aligned with what OSA will allow us to do.
+   2. Have your fundraising team present via a PPT showcasing the ff:
+      1. products/services
+      2. Costs
+      3. expected selling price
+      4. expected expenses + revenues + profits
+      5. Any promotional strategies
+      6. a proposed selling timeline.
+   3. If prepared well, FIN EBCB will give the go signal to begin the procurement phase.
 :::
 
-:::note
-If the supplier is accredited, you can receive the items before the check is fully approved. Ask OSA for the list of accredited suppliers.
-:::
+You may check this drive to have a reference to some projects fundraising tracker last year: [Project Budgets 25'-26'](https://drive.google.com/drive/folders/1y7q-S3na22_-p-qj41OObYEjZplAOsE6) (MAF, BAR, Celaball, CNY, etc.)
 
-### Key reminders
+### Should we still collect receipts for fundraising initiatives?
 
-- No receipts, no reimbursement.
-- Address receipts to "Ateneo de Manila University."
-- Update the FIN tracker regularly.
-- When giving out prizes, have recipients acknowledge receipt using the format FIN provides.
-- Late or incomplete FIN trackers are followed up every week until they're complete.
+- Technically no, as you are not putting any money in and out of the organization's DCB, receipts won't be necessary on our end. Note that this is with the assumption that your fundraiser will guarantee a profit.
+- Given that your fundraiser is supposed to profit, whatever earnings you make, use a part of that to pay yourselves back for expenses.
+- Still, it is not too difficult to ask for a Sales Invoice/E-Invoice. If you can, request these from your suppliers so in the off-chance you lose money, the invoice can allow your fundraising core to be reimbursed using the budget allocated to your project.
 
-:::confirm{title="Late-tracker penalty"}
-The original page said "for every week of tardiness/incomplete FIN trackers = 1 sacrificial lamb from the project core team." FIN should state the actual consequence, if there is one.
-:::
+## General Reminders
 
-## Logistics and forms
+### Requesting for a Check
 
-### Project Proposal Form (PPF)
+1. Prepare the following documents:
+   1. Sales Invoice or Statement of Account or Billing Statement (%supplier)
+   2. Supporting documents such as program flow, list of attendees, itinerary, etc.
+   3. Approved PPF for projects
+   4. ADC Form (from supplier)
+      1. Send template to supplier then have them fill it up and send back to you (request template from FIN VP: Jillian Lee)
+   5. Bank Proof (from supplier)
+   6. Copy of ID of the bank account owner (%supplier)
+2. Send all these documents and inform the FIN VP
+   1. Once completed, FIN VP will send these to OSA
+   2. *If the supplier is accredited, it's alright to receive the items even if the OC is not yet fully approved. For a list of accredited suppliers, inquire with OSA.
 
-The PPF is the foundational document for any project. It declares to OSA that we intend to run the project, and it covers dates, timeline, expenses, location, point person, post-event evaluations, and more. It goes through the President (Josh Lee), the Moderator (Sir Erwin Guile Dizon), and the Formator (Sir Aeron Syliongtay).
+### Key Reminders
 
-- Fill it out as early as possible, even with rough estimates, as long as you **stay conservative**. It also declares our expected spending to OSA.
-- You may submit it well before the one-month minimum. Early is better, because most other forms and procedures need an approved PPF.
-- Use the PPF template in your project drive. The full approval steps are in [Project Procedures](/procedures/#project-proposal-form-ppf).
+- No receipts = no reimbursements
+- Receipts should be addressed to "Ateneo de Manila University"
+- Update the FIN Tracker regularly
+- Follow the format given by FIN for the acknowledgement from recipient (i.e. when you give out prizes to people, they should reply with the format given by FIN)
+- For every week of tardiness/incomplete FIN trackers = 1 sacrificial lamb from the project core team
 
-:::confirm{title="PPF template link"}
-The FIN page's "[FIN Projects] PPF-Project Proposal Form Template.docx" link returns "You need access" for student accounts, so it isn't linked here. FIN should share it or confirm the project-drive copy is the one to use.
-:::
+Note: For those getting shopee as a supplier, if so, be sure to avail of their E-INVOICE as these are recognized by OSA as reimbursable.
+
+- Select Business E-Invoice Option
+- **Address to Ateneo de Manila University**
+- **Input TIN Number: 000-707-229-00000**
+
+## Logistics and Forms
+
+### Project Proposal Form
+
+- [[FIN Projects] PPF-Project Proposal Form Template.docx](https://docs.google.com/document/d/1k-2PLl6WTvJE0KgN2v9NBrsW_A9jCL-4/edit)
+- The most important foundational document. In it includes general information about the project in its entirety:
+  - Dates, timeline, expenses, location, point person, post-event evaluations, etc.
+  - Recommendation: Fill it up as early as possible, even if you use rough ballpark estimates, so long as you BE CONSERVATIVE! This is a declaration to OSA of our monetary expectations too.
+- The PPF is our way of declaring to OSA our intent to create a project, as such it passes through the President (Josh Lee), our Moderator, and our Formator.
+- People to note:
+  - Formator: Sir Aeron Syliongtay
+  - Moderator: Sir Erwin Guile Dizon
+- The PPF may be submitted way before 1 month of the project, as such, **filling it up early is highly recommended**, as majority of the other forms and procedures to conduct an event require this PPF to be approved.
 
 ### Memorandum of Agreement (MOA)
 
-- Made case by case, for agreements with third parties inside Ateneo (for example, booking performers from the Ateneo Musicians' Pool) or with outside organizations.
-- Be most careful with this one: it binds both parties to what's written, so the details must be right and you must stick to them.
-- Timelines vary case by case. Know when you'll need it.
+- The MOA is generally made on a case-to-case basis.
+- Used when you need to make agreements or contracts with third parties within Ateneo de Manila (ex: renting performers from Ateneo Musician's Pool) or outside organizations
+- Probably the most careful you have to be with, given that you will be needing to adjust and write the information that binds both parties together, and must stick to it.
+- Timeline for this is on a case-to-case basis too, just be aware of when you will need it
 
-### CFMO
+### Central Facilities Management Office (CFMO)
 
-- CFMO is the main office for reserving venues and some equipment. See the [CFMO website](https://sites.google.com/ateneo.edu/lsreservations/home), and open the current forms from its [forms page](https://sites.google.com/ateneo.edu/lsreservations/he-venues/forms).
-- Popular venues: Zen Garden for events, and the SEC-C Foyer.
-- Reserve a month ahead so you don't lose the venue. See the note on booking windows in [Project Procedures](/procedures/#cfmo-venue-reservations).
-- **Form 1** (no setup needed) is usually for meetings and general assemblies. **Form 2** is usually for events and initiatives. Both go in with the PPF, so finish the PPF first.
+- CFMO is the main logistic office to talk to when reserving venues and also some equipment.
+- [CFMO Website](https://sites.google.com/ateneo.edu/lsreservations/home)
+- Best Venues:
+  - Zen Garden for events
+  - SEC-C Foyer
+- Always reserve 1 MONTH beforehand to avoid losing venues
+- The form needed will depend on the nature of the reservation:
+  - [Form Type 1 (no setup needed)](https://sites.google.com/ateneo.edu/lsreservations/he-venues/forms)
+    - Typically for meetings or general assemblies
+    - Typically for events or initiatives
+    - When submitting this, it is accompanied by the PPF, so finish that before the CFMO reservation form.
 
-### DSWS lamp post tarps
+### DSWS (For Reservation of Lamp Post Tarps)
 
-- [DSWS PMD Client's Manual](https://drive.google.com/file/d/10U3E52t_I7AbChA6nWsEnGRIo0a_W4Nj/view) (SY 2024–2025 edition)
-- [DSWS PMD Facility Request Form](https://docs.google.com/forms/d/e/1FAIpQLSc23Fs9WZ5bZgxB4Xihq8ObMgMp5l__4S8evhqvP0bfYq1TEw/viewform)
+- DSWS PMD Client's Manual: [[DSWS 2425] PMD Client's Manual.pdf](https://drive.google.com/file/d/10U3E52t_I7AbChA6nWsEnGRIo0a_W4Nj/view)
+- DSWS PMD Facility Request Form: [https://bit.ly/DSWSPMD2425FacilityRequestForm](https://docs.google.com/forms/d/e/1FAIpQLSc23Fs9WZ5bZgxB4Xihq8ObMgMp5l__4S8evhqvP0bfYq1TEw/viewform)
+- Best Locations
+  - SEC Field: 29A, 29B, 32A, 32B, 34A, 35A
+  - Zen Garden: 26B, 27B
+  - Red Brick Road: 17B, 20A, 20B, 24A
+- Lamp Post Tarp Size: 7 x 3 ft
+- Aim to reserve at least 2-3 weeks before the intended tarp dates.
+- Tarps are usually printed in Intermatrix (the one outside ADMU)
+- Use cable ties to hang the tarps.
+- Please remember to remove the tarps on the morning of the last reservation day to avoid incurring fines.
 
-:::compare
-**Best locations**
+### Rizal Library (For Reservation of Matteo Tarp or Computer Wallpapers)
 
-- SEC Field: 29A, 29B, 32A, 32B, 34A, 35A
-- Zen Garden: 26B, 27B
-- Red Brick Road: 17B, 20A, 20B, 24A
-
-**Specs and tips**
-
-- Tarp size: 7 × 3 ft
-- Reserve at least 2–3 weeks before the tarp dates.
-- Tarps are usually printed at Intermatrix, just outside ADMU.
-- Hang them with cable ties.
-- Take them down on the morning of the last reservation day to avoid fines.
-:::
-
-### Rizal Library: Matteo tarps and computer wallpapers
-
-**Reserving the Matteo steps.** Email a request in paragraph form, addressed to Vernon R. Totanes, PhD, that includes:
-
-- The name of the organization
-- Ingress and egress dates
-- How the tarpaulin will be attached. They are strict about tape, so assure them you'll use only masking tape and leave no residue.
-- Contact details
-- The layout, as an attachment
-
-Send it to director.rl.ls@ateneo.edu and administration.rl@ateneo.edu, and CC do.rl.ls@ateneo.edu, jamaza@ateneo.edu, and ecardinal@ateneo.edu.
-
-**Matteo and Rizal Library computer wallpapers.** Email jamaza@ateneo.edu with the start and end dates of the promotion and attach the poster: 15 × 10 inches at 100 resolution.
-
-:::confirm{title="Last confirmed SY 2023–2024"}
-These Rizal Library steps date from SY 2023–2024. Check with the Matteo Ricci Hall front desk and the Director's Office (Rizal Library Room 209) for the current process and contact person.
-:::
+- Guidelines for reservation of Matteo Steps
+  - Email the ff. In paragraph form:
+    - Address letter to: Vernon R, Totanes, PhD
+    - Name of the Organization
+    - Date of Ingress and Egress
+    - Information regarding the material used for attaching the tarpaulin on to the steps.
+      - NOTE: They are strict regarding the kind of tape used for attaching the tarpaulin. It would be better to assure them that only masking tapes would be used and that no residue would be left on the steps upon removal of tarpaulins.
+    - Contact Details
+    - Attachment of the Layout
+  - Send email to:
+    - director.rl.ls@ateneo.edu
+    - administration.rl@ateneo.edu
+  - Carbon copy the email to:
+    - do.rl.ls@ateneo.edu
+    - jamaza@ateneo.edu
+    - ecardinal@ateneo.edu
+- Guidelines for reservation of Matteo and Rizal Library Computer Wallpapers
+  - Address an email to jamaza@ateneo.edu, indicating the start and end date of the promotion, as well as an attachment of the poster/image.
+    - Dimension requirement of the poster/image: 15x10 (in inches)
+    - Resolution requirement of the poster/image: 100
+- NOTE: These are the requirements and procedures as of SY 2324. Hence, make sure to also consult with the front desks in Matteo Ricci Hall and the Director's Office located at Rizal Library Room 209 for the updated process and contact person.
 
 ## FAQs
 
-::::details{title="Why can't I be reimbursed right after my project?"}
-Reimbursing without a completed FIN tracker would leave FIN open to errors and abuse, such as reimbursements that were never finished for the rest of your core. Without the tracker, the organization would lose its revolving funds and couldn't keep operating.
+::::details{title="Why can't I be reimbursed immediately after my project?"}
+- If you are reimbursed without accomplishing the FIN tracker, the FIN department will be susceptible to fraudulent schemes such as unfinished reimbursements for the rest of your core. Without the FIN tracker, the organization will lose revolving funds and will not be able to operate further.
 ::::
 
-::::details{title="Why can't I just be reimbursed from the revolving funds if that's faster?"}
-Think of the revolving funds as Celadon's pocket money. If FIN reached for them every time, Celadon would run out of money for departmental initiatives and emergencies. Because it's a small cash-on-hand source, only people about to be reimbursed can draw from it, since it's guaranteed to be replenished from Celadon's bank account, which Ateneo manages, not FIN.
+::::details{title="Why can't I just be reimbursed with the revolving funds if it is that fast?"}
+- Think of revolving funds as CLDN's pocket money. If FIN immediately resorts to the revolving funds, CLDN would run out of money to use for its departmental initiatives & emergency situations. Since it is a very limited cash-on-hand source, only those who are on the brink of getting reimbursed can tap into the revolving fund as it is ensured to be replenished through the CLDN Bank Account (which is handled by Ateneo, not FIN).
 ::::
 
 ::::details{title="How long will reimbursement take?"}
-Reimbursement itself should take no more than 2 months. If OSA takes longer, FIN reimburses you from the revolving funds. The process is long mainly because it waits on the completed FIN tracker; once that's done, it should go smoothly.
-
-:::confirm{title="3 weeks or 2 months?"}
-Elsewhere this guide estimates reimbursement at about 3 weeks after receipts are submitted. FIN should confirm the expected range.
-:::
+- Reimbursement in itself should only take 2 months. If OSA takes longer than that, FIN will reimburse you with the organization's revolving funds. The reimbursement process is only long due to its prerequisite which is the fulfillment of the FIN Tracker. Once you accomplish this everything should be smooth sailing from there.
 ::::

@@ -65,7 +65,7 @@ export function SearchButton({ className }: { className?: string }) {
           "pressable flex h-10 items-center gap-2 rounded-full bg-navy-tint px-3 text-navy transition-colors hover:bg-navy/[0.12] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-navy sm:px-4",
           className
         )}
-        aria-label="Search the toolkit"
+        aria-label="Search"
       >
         <SearchIcon className="h-4 w-4" />
         <span className="hidden text-xs font-bold uppercase tracking-wider sm:inline">Search</span>
@@ -153,7 +153,7 @@ export function SearchDialog() {
   return (
     <dialog
       ref={dialogRef}
-      aria-label="Search the toolkit"
+      aria-label="Search"
       onClick={(e) => {
         if (e.target === dialogRef.current) close();
       }}
@@ -179,7 +179,7 @@ export function SearchDialog() {
               go(shown[active].url);
             }
           }}
-          placeholder="Search procedures, guides, people…"
+          placeholder="Search"
           aria-label="Search"
           autoComplete="off"
           className="h-16 w-full bg-transparent text-base font-medium outline-none placeholder:text-muted-foreground"
@@ -196,21 +196,12 @@ export function SearchDialog() {
       <div className="max-h-[60vh] overflow-y-auto p-2">
         {status === "unavailable" && (
           <p className="px-4 py-8 text-center text-sm text-muted-foreground">
-            Search isn&rsquo;t available in this preview. It works on the published site, where the index is built.
-          </p>
-        )}
-        {status !== "unavailable" && !query.trim() && (
-          <p className="px-4 py-8 text-center text-sm text-muted-foreground">
-            Try <em>reimbursement</em>, <em>CFMO</em>, <em>leave of absence</em>, or <em>DRF</em>.
+            Search only works on the published site.
           </p>
         )}
         {status === "ready" && query.trim() && shown.length === 0 && (
           <p className="px-4 py-8 text-center text-sm text-muted-foreground">
-            Nothing matches &ldquo;{query.trim()}&rdquo;. Try a shorter word, or check the{" "}
-            <a href={asset("/directory/")} className="font-semibold text-link underline underline-offset-2">
-              Directory
-            </a>{" "}
-            and ask the department.
+            No results for &ldquo;{query.trim()}&rdquo;.
           </p>
         )}
         <ul role="listbox" aria-label="Results" className="flex flex-col gap-1">

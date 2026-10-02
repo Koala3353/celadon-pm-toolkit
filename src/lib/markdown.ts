@@ -62,7 +62,12 @@ function remarkToolkitBlocks() {
       const attrs = n.attributes ?? {};
       const title = attrs.title ?? "";
 
-      if (n.name === "note" || n.name === "confirm") {
+      if (n.name === "note") {
+        n.data = { hName: "aside", hProperties: { className: ["callout", "callout-note"], role: "note" } };
+        return;
+      }
+
+      if (n.name === "confirm") {
         const head = {
           type: "paragraph",
           data: { hName: "p", hProperties: { className: ["callout-label"] } },
@@ -158,7 +163,7 @@ function isGroupLabel(n: ElementContent): boolean {
 
 const EMAIL_RE = /[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}/g;
 
-function linkKind(href: string): string | null {
+export function linkKind(href: string): string | null {
   try {
     const u = new URL(href);
     const h = u.hostname;
@@ -212,28 +217,6 @@ function rehypeToolkit(options: { toc: TocItem[] }) {
         cards[cards.length - 1].children.push(k);
       }
       el.children = cards;
-    });
-
-    // Link cards: annotate each link with what it opens.
-    visit(tree, "element", (el: Element) => {
-      if (!hasClass(el, "blk-links")) return;
-      const list = el.children.find((k): k is Element => isElement(k) && k.tagName === "ul");
-      for (const li of list?.children ?? []) {
-        if (!isElement(li) || li.tagName !== "li") continue;
-        // A list item's content may be wrapped in a <p> in loose lists; unwrap it.
-        if (li.children.length === 1 && isElement(li.children[0]) && li.children[0].tagName === "p") {
-          li.children = li.children[0].children;
-        }
-        const first = li.children.find((k): k is Element => isElement(k) && k.tagName === "a");
-        const kind = first ? linkKind(String(first.properties?.href ?? "")) : null;
-        if (!kind) continue;
-        li.children.unshift({
-          type: "element",
-          tagName: "span",
-          properties: { className: ["kind"], ariaHidden: "true", dataPagefindIgnore: "" },
-          children: [{ type: "text", value: kind }],
-        });
-      }
     });
 
     // Turn bare email addresses into mailto links (outside links and code).

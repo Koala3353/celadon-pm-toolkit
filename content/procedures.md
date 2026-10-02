@@ -1,290 +1,321 @@
 ---
 title: Project Procedures
-summary: The life of a Celadon project, from the PPF to venue booking, food, visitors, registration, cancellations, and who to contact on campus.
-kicker: Start here
 dept: op
 order: 1
-lastReviewed: 2026-10-01
 ---
 
-## Celadon project life cycle
-
-Every project moves through four stages. Use this as a checklist with your department EBCB.
+## Celadon Project Life Cycle
 
 :::stages
-1. **Initiation** — establish the vision, objectives, success indicators, and a high-level plan.
+1. **Initiation**
+
+   Establish vision, objectives, success indicators, and a high-level plan
+
    - IC with department EBCB
-   - Project proposal
+   - Project Proposal
    - TranSem with past managers
    - Manager FormSem
    - Project Proposal Form (PPF)
-   - Budget proposal
-   - Brandbook and DRF
-   - Initial project presentation
-   - Core team recruitment
-   - Regular meetings
-2. **Planning** — define specific courses of action to meet project objectives.
-   - Core team general assembly
-   - Committee heads meeting
-   - Preparing documents: core team directory, task tracker, Gantt chart, and so on
-   - Facilitator, volunteer, and participant recruitment
-   - Final project presentation
-   - Regular meetings with EBCB, core team, and others
-3. **Executing** — complete the deliverables the project plan requires.
-   - Pre-event briefing
-   - Dry run
-   - Event proper
-4. **Closure** — finalize activities across committees and assess outcomes.
-   - Fulfillment of partnership responsibilities
-   - Post-project evaluation from the core team
-   - Coordination with the assigned OSR Consultant for the sustainability report
+   - Budget Proposal
+   - Brandbook & DRF
+   - Initial Project Presentation
+   - Core Team Recruitment
+   - Regular Meetings
+2. **Planning**
+
+   Defining specific courses of action to meet project objectives
+
+   - Core Team General Assembly
+   - Committee Heads Meeting
+   - Preparing documents, i.e., Core Team Directory, Task Tracker, GANTT Chart, etc.
+   - Facilitator/Volunteer/Participant Recruitment
+   - Final Project Presentation
+   - Regular Meetings with EBCB, Core Team, etc.
+3. **Executing**
+
+   Completing specific deliverables that are required to meet the project's objectives according to the project plan
+
+   - Event Proper
+   - Dry Run
+   - Pre-Event Briefing
+4. **Closure**
+
+   Finalizing activities across committees and assessing outcomes
+
+   - Fulfillment of Partnership responsibilities
+   - Post-Project Evaluation from Core Team
+   - Coordination with the assigned OSR Consultant for the Sustainability Report
 :::
 
-## Project Proposal Form (PPF)
+## Project Proposal Form (PPF) Steps
 
-### How OSA processes a PPF
+::::details{title="Office of Student Affair (OSA)"}
+- **Internal Vetting:** PPF is filled out and endorsed by org head (training, alignment meetings, and filling out PPF)
+- **Moderator Endorsement:** PPF is sent by moderator via email
+- **Formator Approval:** PPF is uploaded to OSA submissions portal (feasibility and alignment to university values and thrusts and goals)
+- **Execution:** PPF is approved and other forms can now be processed
+  - Other forms are submitted whenever applicable:
+    - Venue Reservation
+    - Marketing Package / MOA
+    - FSQA Forms
+    - Off Campus Forms
+    - Finance Forms
+- **Monitoring and Evaluation**: Post-project evals, liquidation, and processing (reviewing success and significance)
 
-The Office of Student Activities (OSA) moves every PPF through five stages.
+*Follow up after 3 days not hearing from OSA, if its super urgent that we need to follow up OSA immediately, ask President to help follow up
+::::
 
-1. **Internal vetting:** the PPF is filled out and endorsed by the org head (training, alignment meetings, and filling out the PPF).
-2. **Moderator endorsement:** the moderator sends the PPF by email.
-3. **Formator approval:** the PPF is uploaded to the OSA submissions portal, where it is checked for feasibility and alignment with university values, thrusts, and goals.
-4. **Execution:** once the PPF is approved, other forms can be processed when applicable:
-   - Venue reservation
-   - Marketing package or MOA
-   - FSQA forms
-   - Off-campus forms
-   - Finance forms
-5. **Monitoring and evaluation:** post-project evaluations, liquidation, and processing (reviewing success and significance).
+::::details{title="Internal Process"}
+The Project Proposal Form (PPF) is a document that is submitted to the Office of Student Activities (OSA) at least *one month* before the start of every project. This is to be accomplished by the project managers.
 
-:::note
-Follow up if you haven't heard from OSA after 3 days. If it's urgent, ask the President to help follow up.
-:::
+***Project Approval Process***
 
-### Internal approval steps
+1. The template for the PPF can be found in your project drive
+   - Fill out the version you find here and avoid creating your own copy for Celadon's documentation processes
+2. Fill up the required fields in the template
+   - OSA Professional Assigned (OSA Formator): Aeron Syliongtay (asyliongtay@ateneo.edu)
+   - Estimated Project Budget: DCB
+   - Celadon President: Josh Anthony Lee (josh.anthony.lee@student.ateneo.edu)
+   - Celadon Moderator: Mr. Erwin Guile Dizon (egdizon@ateneo.edu)
+   - Send the completed PPF to your respective department EBCB for approval.
+3. Send the approved PPF to the Celadon President for endorsement.
+   - Josh Anthony Lee (josh.anthony.lee@student.ateneo.edu)
+   - Email subject: [For Endorsement] Ateneo Celadon - Project Name
+4. Send the PPF (endorsed by the CLDN PRES) to the Celadon Moderator for his endorsement.
+   - Mr. Erwin Guile Dizon (egdizon@ateneo.edu)
+   - Email subject: [For Endorsement] Ateneo Celadon - Project Name
+   - You may address him as Mr./Sir EG Dizon
+5. Screenshot endorsement from CLDN PRES and Moderator
+6. Follow procedures on the OSA Online Portal and upload your PPF there ([https://bit.ly/ateneolsosa](https://bit.ly/ateneolsosa))
+7. Track your submissions here: [https://bit.ly/osadoctracker](https://bit.ly/osadoctracker)
+::::
 
-Submit the PPF to OSA at least **one month** before the start of the project. Project managers accomplish it.
+## Central Facilities Management Office (CFMO) Venue Reservations
 
-:::steps
-1. **Open the PPF template in your project drive.** Fill out that copy rather than making your own, so Celadon's documentation stays in one place.
-2. **Fill out the required fields.**
-   - OSA Professional Assigned (OSA Formator): Aeron Syliongtay, asyliongtay@ateneo.edu
-   - Estimated project budget: DCB
-   - Celadon President: Josh Anthony Lee, josh.anthony.lee@student.ateneo.edu
-   - Celadon Moderator: Mr. Erwin Guile Dizon, egdizon@ateneo.edu
-3. **Send the completed PPF to your department EBCB for approval.**
-4. **Send the approved PPF to the Celadon President for endorsement.**
-   - Josh Anthony Lee, josh.anthony.lee@student.ateneo.edu
-   - Email subject: `[For Endorsement] Ateneo Celadon - Project Name`
-5. **Send the PPF endorsed by the President to the Celadon Moderator for his endorsement.**
-   - Mr. Erwin Guile Dizon, egdizon@ateneo.edu
-   - Email subject: `[For Endorsement] Ateneo Celadon - Project Name`
-   - You may address him as Mr. or Sir EG Dizon.
-6. **Screenshot both endorsements,** from the President and the Moderator.
-7. **Upload your PPF on the [OSA Online Portal](https://bit.ly/ateneolsosa)** and follow its procedures.
-8. **Track your submission** on the [OSA document tracker](https://bit.ly/osadoctracker).
-:::
+::::details{title="External Process"}
+1. [**CFMO Website**](https://sites.google.com/ateneo.edu/lsreservations/home)
+   1. The official CFMO website contains venue reservation guidelines, forms, and other facilities-related resources for coordinating campus spaces and logistical requests.
+2. [**CFMO Reservation Form 1**](https://sites.google.com/ateneo.edu/lsreservations/he-venues/forms)
+   1. The CFMO Reservation Form 1 is used to request the use of campus spaces for events that DO NOT require additional setup, equipment, or special venue arrangements.
+3. [**CFMO Reservation Form 2**](https://docs.google.com/document/d/1xLBJf3TV1gS_cwrzg1-EmsxKYlCv1K1A/edit)
+   1. The CFMO Reservation Form 2 is used for events that require additional setup, equipment, logistical support, or other special venue requirements beyond a standard reservation.
+4. [**CFMO ELAS Form**](https://docs.google.com/spreadsheets/d/1KKakBJs1nvUX5OyC6eXT1dTH5c0ygPA6Afl2QNIRAPU/edit)
+   1. The ELAS Form is used when an event may require additional logistical arrangements, especially when overtime pay, technicians, custodians, or extended venue use may be involved.
+5. [**CFMO Job Order Form**](https://sites.google.com/ateneo.edu/lsreservations/he-venues/forms)
+   1. The CFMO Job Order Form is used to request specific facilities-related services, such as electricity, construction, maintenance, repairs, setups, or logistical assistance.
+6. [**CFMO Zoom Room**](https://ateneo-edu.zoom.us/j/89263831447)
+   1. A consultation room for questions, clarifications, and coordination with CFMO, open every weekday, on regular school days, from ***9:00 AM to 11:00 AM***.
+7. **CFMO Website Navigation**
+   1. Click the link attached to this document to lead you to the homepage as shown with the image below.
+   2. On the top right corner of the tab, hover over '**HE Venues**' to be presented a list of forms for Higher Education organizations.
+   3. Here is each item on the list explained as follows:
+      1. [**Venue Availability**](https://sites.google.com/ateneo.edu/lsreservations/he-venues/venue-availability): This item redirects you to a page where you will find all the available venues around Ateneo that are under the CFMO. Each classroom is a hyperlink that would send you to a Google Calendar showing the venue's schedule and availability before booking them.
+      2. [**Venue Capacity**](https://sites.google.com/ateneo.edu/lsreservations/he-venues/venue-capacity): This item redirects you to a page where you can view the available utilities and maximum capacities of the venues listed in the 'Venue Availability' item.
+      3. [**Forms**](https://sites.google.com/ateneo.edu/lsreservations/he-venues/forms): This item redirects you to the page with the list of different form types, as mentioned in Page 1. We highly encourage you to use the shortcuts we previously gave.
+      4. [**Layout**](https://sites.google.com/ateneo.edu/lsreservations/he-venues/layout): This item redirects you to the list of larger scale venues and their layouts if you are unfamiliar with them or aid with project mapping.
+8. **CFMO Tips from Past Iterations**
+   1. You may only reserve as early as one month prior to the actual implementation of the project. As such, we include the Saturdays and Sundays before the week of the project and reserve earlier for preparation!
+      1. You may use these extra days for dry runs as well!
+   2. If your project is quite crammed on these forms, you can spam attend the Zoom meetings to continue following up the progress of the PPF since CFMO takes ages to file!
+::::
 
-## CFMO venue reservations
+## Relevant Procedures
 
-The Central Facilities Management Office (CFMO) handles campus spaces and logistics requests.
+::::details{title="Food During Onsite Events and Initiatives"}
+- **Venues**
+  - No eating in the classrooms
+  - If there is a lunch break included in the program flow, only eat at designated areas.
+  - Open areas such as Colayco Pavilion, Leong Roof Deck, MVP Roof Deck, and fields allow food and the distribution of food.
+- **Forms**
+  - Declare the format and description of the project and initiative
+  - Indicate the type of food and quantity of the food that will be distributed
+  - Indicate who the sponsors that will provide the meals will be
+  - Consult with your OSCLO Officers regarding the information above
+- **Visit the Office of Food Security and Quality Assurance Office, especially for capacities beyond 50 people**
+  - It's easier to approve if the food will be provided by known/accredited food suppliers (or Ateneo Campus suppliers like Kitchen City, AMPC, Blue and Gold, and TGS)
+  - For capacities of at least 50 participants, you need the approval of the OFSQA
+  - [List of accredited caterers (2026)](https://docs.google.com/file/d/1TAx2miUkG8qRasQHce0S8r6oSbcVfopW/edit)
+  - [List of registered food entities (2026)](https://docs.google.com/spreadsheets/d/1j81RmqFgvxYxxP9hhO_X6UPPWrteuvPlZNN57_KftKU/edit)
+- **Serving Food**
+  - Use paper plates and paper cups (not styrofoam or plastic)
+- We recommend the distribution of food vouchers to be given instead of actual food as it minimizes the processes one has to go through
+::::
 
-:::links
-- [CFMO website](https://sites.google.com/ateneo.edu/lsreservations/home) — venue reservation guidelines, forms, and other facilities resources.
-- [CFMO forms page](https://sites.google.com/ateneo.edu/lsreservations/he-venues/forms) — the current Reservation Form 1, Reservation Form 2, ELAS Form, and Job Order Form. Always open forms from here.
-- [Reservation Form 2](https://docs.google.com/document/d/1xLBJf3TV1gS_cwrzg1-EmsxKYlCv1K1A/edit) — for events that need setup, equipment, logistical support, or other special venue requirements.
-- [ELAS Form](https://docs.google.com/spreadsheets/d/1KKakBJs1nvUX5OyC6eXT1dTH5c0ygPA6Afl2QNIRAPU/edit) — for events that may need overtime pay, technicians, custodians, or extended venue use.
-:::
+::::details{title="Campus Access for Infrequent Visitors"}
+**Pedestrians**
 
-:::note
-**Which form do I need?** Reservation Form 1 is for campus spaces that need no setup, equipment, or special arrangements. The Job Order Form requests facilities services such as electricity, construction, maintenance, repairs, setups, or logistical help. Both forms were closed to responses when this page was last reviewed (Form 1 has a 60-per-day limit), so open them from the CFMO forms page above.
-:::
+Pedestrians wishing to enter the campus must present any of the following at our campus access point:
 
-### CFMO consultations
-
-CFMO runs a Zoom consultation room for questions, clarifications, and coordination every weekday on regular school days, **9:00 to 11:00 AM**. The meeting link is posted on the [CFMO website](https://sites.google.com/ateneo.edu/lsreservations/home).
-
-### Finding your way around the CFMO website
-
-From the CFMO homepage, hover over **HE Venues** in the top right to see the pages for higher education organizations:
-
-- **[Venue Availability](https://sites.google.com/ateneo.edu/lsreservations/he-venues/venue-availability)** lists every venue under CFMO. Each classroom links to a Google Calendar showing its schedule before you book.
-- **[Venue Capacity](https://sites.google.com/ateneo.edu/lsreservations/he-venues/venue-capacity)** shows the utilities and maximum capacity of each venue.
-- **[Forms](https://sites.google.com/ateneo.edu/lsreservations/he-venues/forms)** lists every form type.
-- **[Layout](https://sites.google.com/ateneo.edu/lsreservations/he-venues/layout)** shows the layouts of the larger venues, useful for project mapping.
-
-### Tips from past iterations
-
-- Reservations open one month before the project. Include the Saturday and Sunday before project week so you have time to prepare. You can use those days for dry runs too.
-- If your forms are piling up, attend the CFMO Zoom consultations as often as you need to follow up. CFMO processing is slow.
-
-:::confirm{title="When to reserve"}
-This page says reservations open **one month before** the project, so one month is the earliest you can book. The FIN guide says to "always reserve 1 month beforehand," which reads as a deadline. The EBCB should confirm which one applies.
-:::
-
-## Relevant procedures
-
-:::details{title="Food during onsite events and initiatives"}
-**Venues**
-
-- No eating in classrooms.
-- If the program includes a lunch break, eat only in designated areas.
-- Open areas such as Colayco Pavilion, Leong Roof Deck, MVP Roof Deck, and the fields allow food and food distribution.
-
-**Forms**
-
-- Declare the format and description of the project or initiative.
-- Indicate the type and quantity of food that will be distributed.
-- Indicate which sponsors will provide the meals.
-- Consult your OSCLO officers about all of the above.
-
-**Office of Food Safety and Quality Assurance (OFSQA)**
-
-- Approval is easier when food comes from known or accredited suppliers, or Ateneo campus suppliers such as Kitchen City, AMPC, Blue and Gold, and TGS.
-- Events with 50 or more participants need OFSQA approval.
-- [List of accredited caterers (SY 2026–2027)](https://docs.google.com/file/d/1TAx2miUkG8qRasQHce0S8r6oSbcVfopW/edit)
-- [List of registered food entities (SY 2026–2027)](https://docs.google.com/spreadsheets/d/1j81RmqFgvxYxxP9hhO_X6UPPWrteuvPlZNN57_KftKU/edit)
-
-**Serving food**
-
-- Use paper plates and paper cups, not styrofoam or plastic.
-- Consider giving out food vouchers instead of actual food. It cuts down the processes you have to go through.
-:::
-
-:::details{title="Campus access for infrequent visitors"}
-**Pedestrians** must present one of the following at the campus access point:
-
-1. Employees and students of the University, employees of auxiliary units and concessionaires, and other regular visitors: a valid ID issued by the Ateneo or one of its auxiliary units.
-2. Infrequent visitors: any valid photo ID, for verification and recording in the security logbook. They receive a visitor's pass in exchange.
+1. For employees and students of the University, employees of auxiliary units, employees of our concessionaires, and other regular visitors to the campus: a valid ID that has been issued by the Ateneo or by one of our auxiliary units.
+2. For infrequent visitors to the campus: any valid photo ID, for verification and recording in the security logbook. They will be issued visitor's passes in exchange for this ID.
 
 **Vehicles**
 
-1. Vehicles with a valid Ateneo gate pass sticker enter freely, regardless of the number of passengers.
-2. Vehicles without a sticker use the special lanes. If at least one occupant shows a valid Ateneo or auxiliary-unit ID, the vehicle may enter. Otherwise, one passenger surrenders a valid photo ID in exchange for a visitor's pass.
-3. Delivery drivers and couriers (Grab, Foodpanda, Lalamove, and others) show proof of booking and surrender a valid photo ID in exchange for a visitor's pass.
+1. All vehicles with valid Ateneo gate pass stickers will be allowed to freely enter the campus regardless of number of passengers.
+2. Special lanes will be set aside for vehicles without valid gate pass stickers. If at least one occupant can present a valid ID issued by the Ateneo or one of our auxiliary units, the vehicle can proceed to enter the campus. Otherwise, at least one passenger must surrender a valid photo ID in exchange for a visitor's pass, before being allowed to enter the campus.
+3. Delivery drivers and couriers (Grab, Food Panda, Lalamove, etc.) must show proof of booking and surrender a valid photo ID in exchange for a visitor's pass before they can gain campus entry.
 
-**Complex and building access** (GS, JHS, SHS, and HE complexes, and Central Administration offices)
+**Complex Access/Building Access**
 
-Anyone allowed onto campus may use public spaces such as the Gesu, football fields, and parking lots. To enter a complex or building:
+**(i.e. GS Complex, JHS Complex, SHS Complex, HE Complex, Central Administration offices)**
 
-1. Present a valid Ateneo or auxiliary-unit ID, the visitor's pass issued at the gate, or a valid photo ID to surrender for a visitor's pass.
-2. Wear the ID or visitor's pass at all times inside, so security can quickly spot anyone without authorization.
+- Individuals who have been allowed to enter our campus, whether on foot, or on a vehicle, are allowed to freely access all public spaces within the campus: e.g. the Gesu, football fields, parking lots. However, the following additional requirements are imposed for complex/building access:
 
-Contact details for the Campus Safety and Mobility Office (CSMO) are under [Contacts and offices](#contacts-and-offices).
-:::
+1. All individuals seeking access to any of our complexes and/or buildings will be asked to present one of the following:
+   1. a valid ID issued by the Ateneo or one of our auxiliary units
+   2. the visitor's pass that was issued at the campus access point
+   3. a valid photo ID which will be surrendered in exchange for a visitor's pass.
+2. All individuals inside the complex/building must wear their valid Ateneo ID, auxiliary unit ID or visitor's pass at all times. This is necessary in order for our security personnel to quickly identify any persons who might have gained complex access without proper authorization.
 
-:::details{title="Event reservation"}
-Reserve venues only after your PPF is approved.
-
-**CFMO venue reservation process**
-
-1. Check on the [CFMO website](https://sites.google.com/ateneo.edu/lsreservations/home) that the venue is free on your date and time.
-2. Fill out the forms you need:
-   - **Form 1:** ordinary classrooms with no extra setup.
-   - **Form 2:** formal events in large classrooms (for example SOM 111) and larger venues (for example Colayco Pavilion). Fill it out completely and write N/A in any blank.
-3. **Form 2 only:** send the form to the OSA Formator for approval.
-4. **Form 2 only:** send the form to CFMO.
-5. Consult CFMO over Zoom or onsite to pencil-book the venue.
-6. Follow up with CFMO as the event date nears.
-
-**Reminders**
-
-- Loyola Schools venues are free. You pay only for overtime or for venues outside Loyola Schools offices' jurisdiction, such as Arete.
-- Send online inquiries to Sir Vince, vcosmiano@ateneo.edu, and CC Sir Aeron Syliongtay (asyliongtay@ateneo.edu), your department EBCB, and your OSCLO officer-in-charge. You can also go to OADSA or CFMO in person.
-- **Selling goods during an event** makes it a revenue-generating event, which follows different processes.
-- **Multiple-venue events:** inform OSA and reserve every venue you need in one reservation, naming the main venue and sub-venues. List any corridors specifically in the letter of request.
-
-Contact details for OADSA and CFMO are under [Contacts and offices](#contacts-and-offices).
-:::
-
-::::details{title="Event registration and attendance"}
-- Pre-registration is required unless the Project Managers and Department EBCB allow walk-ins.
-- If there are **no classes** during the onsite event, close pre-registration at least **1 week** before the event.
-- If there are classes and all participants are currently enrolled, pre-registration may close at least **3 days** before the event.
-- Confirm the final number of attendees with OSA.
-- Keep a list of all final attendees on hand during the event.
-- Take attendance by checking each participant's arrival.
-- Attendees scan BluePass at building entrances. Tell the guards where your event will be held.
-
-:::confirm{title="Pandemic-era rules"}
-The original page asks for an attendee list "for contact-tracing" and for BluePass scans. The EBCB should confirm whether these are still OSA requirements.
-:::
+See the *[Important Links and Contact Information](#important-links-and-contact-information)* section for the contact details and locations of Campus Access and Mobility Office (CSMO)
 ::::
 
-::::details{title="Event cancellation and reimbursement"}
-- Cancelling an event, for example during a case surge, is up to the Manager and core team. Call an emergency meeting with your Department EBCB, OSCLO officer, Sir Aeron, and the OSR EBCB.
-- If an event is cancelled, refund any registration fees and reschedule the venue reservation for the new date and time.
-- **All Project Managers must prepare contingencies** for their events and initiatives.
+::::details{title="Event Reservation"}
+- Venue reservation is done after the approval of the PPF
+- Process (CFMO Venue Reservation)
 
-**Organization Safety and Compliance Liaison Officer (OSCLO)**
+1. Visit the [CFMO website](https://sites.google.com/ateneo.edu/lsreservations/home) to see if the desired venue is available on the desired date and time
+2. Fill out the necessary forms
+   - FORM 1: ordinary classrooms with no additional setups
+   - FORM 2: formal events (large classrooms e.g., SOM111) and larger venues (e.g., Colayco Pavilion)
+     - Fill out completely (blanks must be filled with N/A)
+3. [FORM 2] Send the form to the OSA formator to get their approval
+4. [FORM 2] Send the form to CFMO
+5. Consult with CFMO on their [zoom](https://sites.google.com/ateneo.edu/lsreservations/home) or onsite to pencil book the venue
+6. Follow-up with CFMO nearing the event date
 
-- A safety officer assigned to each on-campus activity of a student organization.
-- Must be a bona fide member of the organization.
-- The main point person for the organization's compliance with all pre-event requirements. They help the OSA Moderator and Formator monitor adherence to health protocols during the activity.
-
-:::confirm{title="Alert levels"}
-The original page refers to cancellations "due to Alert Level increases." The EBCB should confirm whether alert levels still apply.
-:::
+- Please be reminded that LS locations are free of charge; however, you must pay when the project observes overtime or when the location is not under the jurisdiction of LS Offices such as Arete.
+- Online Inquiries may be forwarded to Sir Vince: vcosmiano@ateneo.edu
+  - Please CC the following:
+    - Sir Aeron Syliongtay: asyliongtay@ateneo.edu
+    - Department EBCB
+    - OSCLO Officer-in-charge
+  - Go to the Office of the Associate Dean for Student Affairs (OADSA) or Central Facilities Management Office (CFMO)
+- **Selling of goods during an event** will be considered a revenue-generating event and will observe different processes.
+- For multiple-venue events
+  - Inform OSA and reserve ALL venues needed
+  - Indicate the main venue and the sub-venues in the same reservation
+  - Corridors must be included in the letter of request and be specific in doing so
+- See the *[Important Links and Contact Information](#important-links-and-contact-information)* section for the contact details and locations of OADSA and CFMO
 ::::
 
-## Contacts and offices
+::::details{title="Event Registration and Attendance"}
+- Pre-registration must be observed unless walk-ins are permitted by the Project Managers and Department EBCBs.
+- Pre-registration must be done at least 1 week before the project and initiative date if there are NO CLASSES during the onsite event.
+- However, if there are classes and all participants are currently enrolled, the pre-registration may be done at least 3 days before the said project date.
+  - Please be reminded that you must clarify with OSA the total final number of people attending the event.
+- Please keep a list of all final attendees on hand during the event for contact-tracing
+- Attendance is done by checking the participant's arrival
+- Attendees are required to scan blue passes at the entrances of buildings at the event
+  - Please inform the guards where your events will be held
+::::
+
+::::details{title="Event Cancellation and Reimbursement"}
+- It is up to the Manager and Core Team's discretion regarding the cancellation of their event especially during a case surge without any Alert Level increase.
+  - They must call for an emergency meeting with their Department EBCB, OSCLO Officer, Sir Aeron, and OSR EBCB.
+
+NOTE: ***Organization Safety and Compliance Liaison Officer (OSCLO)***
+
+- A safety officer assigned per on-campus activity of each student organization
+- An OSCLO officer must be a bonafide member of the organization
+- They will be the main point person to oversee, coordinate, and facilitate their organization's compliance with all pre-event requirements and assist their OSA Moderator and/or Formator in monitoring the organization's adherence to health protocols during the onsite activity
+
+- For Events cancelled due to Alert Level increases
+  - Projects with registration fees and refund of payments must be done accordingly.
+  - Location reservation must also be rescheduled again with the new date and time.
+- **ALL Project Managers must prepare contingencies** for their planned events and initiatives
+::::
+
+## Important Links and Contact Information
+
+### Important Links
 
 :::links
-- [List of accredited caterers (SY 2026–2027)](https://docs.google.com/file/d/1TAx2miUkG8qRasQHce0S8r6oSbcVfopW/edit)
-- [List of registered food entities (SY 2026–2027)](https://docs.google.com/spreadsheets/d/1j81RmqFgvxYxxP9hhO_X6UPPWrteuvPlZNN57_KftKU/edit)
+- [List of accredited caterers (2026)](https://docs.google.com/file/d/1TAx2miUkG8qRasQHce0S8r6oSbcVfopW/edit)
+- [List of registered food entities (2026)](https://docs.google.com/spreadsheets/d/1j81RmqFgvxYxxP9hhO_X6UPPWrteuvPlZNN57_KftKU/edit)
 - [BluePHR for BluePass](https://bluepass.ateneo.edu/)
-- [COAla's Kit Directory (COA-M 2627)](https://docs.google.com/spreadsheets/d/1RSFZHDzgsr4Rpk7nfkhklUaLZ6umQ9s-AobqX3N3EDU/edit) — documents, templates, and resources for project managers.
 :::
 
 :::offices
 ### Office of the Associate Dean for Student Affairs (OADSA)
 
-- Mr. Rene San Andres — Xavier Hall Room 101
-- Mr. Cholo Mallillin, Mr. Chris Castillo, and their teams — Xavier Hall 103 (formerly OSS)
-- (02) 8426 6001 local 5020 and 5021
-- LS One portal and Virtual Helpdesk: ls.one@ateneo.edu
-- OADSA helpline: 0920 914 2372
-- Office of Student Discipline: studentdiscipline.ls@ateneo.edu, (02) 8426 6001 local 5023 and 5024
-- *Last confirmed October 2022*
+(Information as of October 2022)
 
-### Campus Safety and Mobility Office (CSMO)
+**Location**
 
-- For campus access questions, contact Ms. Ma. Lenee V. De Asis, Administrative Supervisor
-- csmo@ateneo.edu
+- Mr. Rene San Andres - Xavier Hall Room 101
+- Mr. Cholo Mallillin and Mr. Chris Castillo and their teams - Xavier Hall 103 (previous OSS)
+
+**Contact Information**
+
+- OADSA: (02) 84266001 Ext 5020 and 5021
+- OADSA: LS One portal and Virtual Helpdesk (ls.one@ateneo.edu)
+- OADSA Helpline: 0920-914-2372
+- OSD: studentdiscipline.ls@ateneo.edu
+- OSD: (02) 84266001 Ext. 5023 and 5024
+
+### Campus Access and Mobility Office (CSMO)
+
+For any questions or concerns regarding campus access, please contact Ms Ma Lenee V De Asis, Administrative Supervisor at the Campus Safety and Mobility Office. You can contact her via email at csmo@ateneo.edu.
 
 ### Central Facilities Management Office (CFMO)
 
-- [CFMO website and processes](https://sites.google.com/ateneo.edu/lsreservations/home)
-- Monday to Friday, 9:00–11:00 AM: online consultations on Zoom
-- Monday to Friday, 2:00–4:00 PM: window transactions at Room 2, CFMO HQ (formerly the JHS Prefab Building), Fr. Masterson Drive
-- [CFMO emails for venue reservations and special-event logistics](https://www.ateneo.edu/document/2022/09/12/central-facilities-management-office-contact-details-cfmo-memo-2022-0001) (2022 memo)
+[CFMO website & processes](https://sites.google.com/ateneo.edu/lsreservations/home)
+
+Monday to Friday:
+
+- 9 am-11:00 am: ONLINE consultations via ZOOM
+- 2 pm-4:00 pm: WINDOW transactions at Room 2, CFMO HQ (formerly known as the JHS Prefab Building), Fr. Masterson Drive
+
+[Emails for venue reservation and logistical requirements for special events](https://www.ateneo.edu/document/2022/09/12/central-facilities-management-office-contact-details-cfmo-memo-2022-0001)
 
 ### Office of Student Activities (OSA)
 
-- MVP 313 is the Celadon org room. You can also use it for promotions.
+MVP 313 - Celadon Org Room (Can also be used for promotional purposes!)
 
 ### Office of Food Safety and Quality Assurance (OFSQA)
 
-- fsqa@ateneo.edu
-- Room 104, Ground Floor, Frank Lynch Hall, Social Development Complex (near ISO)
-- [OFSQA website](https://www.ateneo.edu/directory/office/ais-fsqa)
+fsqa@ateneo.edu
+
+Room 104, Ground Floor, Frank Lynch Hall, Social Development Complex (near ISO)
+
+[OFSQA website](https://www.ateneo.edu/directory/office/ais-fsqa)
 
 ### Leong Hall
 
-- Reserved through the Chinese Studies Department, LH 200, 2/F Ricardo and Dr. Rosita Leong Hall
-- +63 2 8426 6001 local 5208, 5280, 5284
+Reservations of Leong Hall are done through the Chinese Studies Department
+
+LH200, 2/F Ricardo and Dr Rosita Leong Hall
+
+- Telephone +63 2 8426 6001 local 5208, 5280, 5284
+- Telefax +63 2 8929 5397
+- Fax +63 2 8926 5118
 - chinesestudies.soss@ateneo.edu
 
 ### Rizal Library
 
-- For Matteo Ricci areas, the Matteo steps, New Rizal Library 5/F, and other library spaces
-- acdomingo@ateneo.edu
-- New Rizal Library 2/F Admin Office
-- Email before going.
+For reserving Matteo Ricci areas, Matteo steps, New Rizal Library 5/F, etc.
 
-### Lamp posts and grilles
+acdomingo@ateneo.edu
 
-- Campus tarpaulins are handled by the Department of Student Welfare and Services (DSWS), MVP 101
-- [DSWS reservation manual](https://drive.google.com/file/d/10U3E52t_I7AbChA6nWsEnGRIo0a_W4Nj/view)
-- [DSWS PMD Facility Request Form](https://docs.google.com/forms/d/e/1FAIpQLSc23Fs9WZ5bZgxB4Xihq8ObMgMp5l__4S8evhqvP0bfYq1TEw/viewform)
+New Rizal Library 2/F Admin Office
+
+Important Reminders:
+
+- Email first before going!
+
+### Lamp Post & Grilles
+
+Tarpaulins around campus are handled by the Department of Student Welfare and Services (DSWS)
+
+DSWS Office at MVP 101
+
+[Reservation Manual](https://drive.google.com/file/d/10U3E52t_I7AbChA6nWsEnGRIo0a_W4Nj/view)
+
+[Reservation Form](https://docs.google.com/forms/d/e/1FAIpQLSc23Fs9WZ5bZgxB4Xihq8ObMgMp5l__4S8evhqvP0bfYq1TEw/viewform)
+
+### COAla Kit Directory
+
+- [[COA-M 2627] COAla's Kit Directory](https://docs.google.com/spreadsheets/d/1RSFZHDzgsr4Rpk7nfkhklUaLZ6umQ9s-AobqX3N3EDU/edit)
+- This kit serves as a repository of essential documents, templates, and resources to guide project managers in accomplishing their project and system goals.
 :::

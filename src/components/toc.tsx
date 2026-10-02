@@ -17,7 +17,7 @@ function openTarget(hash: string) {
 }
 
 /**
- * "On this page": a sticky list on wide screens, a dropdown at the top of the
+ * The Google Site's "Navigation" list: sticky on wide screens, a dropdown at the top of the
  * article on narrow ones. Highlights the section currently in view.
  */
 export function Toc({ items }: { items: TocItem[] }) {
@@ -51,16 +51,16 @@ export function Toc({ items }: { items: TocItem[] }) {
     <>
       <details className="toc-mobile group rounded-2xl border border-border bg-white lg:hidden">
         <summary className="flex cursor-pointer list-none items-center justify-between px-4 py-3 text-xs font-extrabold uppercase tracking-[0.14em] text-navy [&::-webkit-details-marker]:hidden">
-          On this page
+          Navigation
           <span aria-hidden className="transition-transform duration-200 group-open:rotate-180">▾</span>
         </summary>
-        <nav aria-label="On this page" className="max-h-[50vh] overflow-y-auto border-t border-border px-2 py-2">
+        <nav aria-label="Navigation" className="max-h-[50vh] overflow-y-auto border-t border-border px-2 py-2">
           <TocList items={items} activeId={activeId} onPick={(e) => (e.currentTarget.closest("details") as HTMLDetailsElement | null)?.removeAttribute("open")} />
         </nav>
       </details>
 
-      <nav aria-label="On this page" className="sticky top-24 hidden max-h-[calc(100vh-7rem)] overflow-y-auto pb-8 lg:block">
-        <p className="eyebrow mb-3 px-3 text-muted-foreground">On this page</p>
+      <nav aria-label="Navigation" className="sticky top-24 hidden max-h-[calc(100vh-7rem)] overflow-y-auto pb-8 lg:block">
+        <p className="eyebrow mb-3 px-3 text-muted-foreground">Navigation</p>
         <TocList items={items} activeId={activeId} />
       </nav>
     </>

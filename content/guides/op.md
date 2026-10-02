@@ -1,131 +1,129 @@
 ---
 title: OP Guide
-summary: From the Office of the President — who Celadon's projects are for, project presentations, scheduling on Google Calendar, community channels, and leading a core team.
-kicker: Office of the President
 dept: op
 order: 7
-lastReviewed: 2026-10-01
 ---
 
-## Project ideation
+## Project Ideation
 
-### Celadon's three audiences
+- **The 3 Main Audiences of Ateneo Celadon**
 
-:::columns
-**The active Celadonean who wants to contribute**
+1. Active Celadonean who wants to contribute
+   1. *GOAL*: Make them feel rewarded for their contributions!
+2. Floating Celadonean that wants a home in the Ateneo
+   1. *GOAL*: Give them that home, a place that reminds them of home!
+3. The Atenean who doesn't care
+   1. show them Chinese-Filipino culture exists in the Ateneo
 
-Goal: make them feel rewarded for their contributions.
+- **Cultural Relevance of the Project**
+  - Ask yourself: How can I make this project culturally relevant?
+  - You can achieve this through:
+    - Production Design, more widespread, larger impact,
+    - Theme,
+    - Programs,
+    - Branding / Marketing,
+    - Feel / Vibe of the event (ex. Music), and
+    - Communicate this to your core team.
+- **Core Team Delegation and Responsibilities**
+- **Project Consultations**
+  - Never be afraid to reach out to your EBCB (including the OP) for any questions or clarifications with certain systems or tasks!
 
-**The floating Celadonean who wants a home in the Ateneo**
+## Project Presentation
 
-Goal: give them that home, a place that reminds them of home.
+- **Important Details**
+  - The Project Presentation will require PMs to fill out and answer the pertinent questions for the EBCB to assess the current state of the project.
+  - The Google Slides presentation can be found in **(\*) Manager Files** folder.
+  - Depending on the timeline of your project, presentation dates will vary. The presentation will typically happen around 3-5 weeks before the actual event itself.
+  - OP will coordinate the dates and meeting details for the presentation
 
-**The Atenean who doesn't care yet**
+## Google Calendar Guide
 
-Goal: show them that Chinese-Filipino culture exists in the Ateneo.
-:::
+Purpose: Google Calendar is Celadon's **primary scheduling tool**, even currently integrating the Google Booking Calendar. With this guide, Celadon's managers are expected to:
 
-### Making the project culturally relevant
+- *Schedule meetings with members*
+- *Plan project timelines and milestones*
+- *Coordinate team availability*
+- *Reserve time for important tasks*
+- *Ensure transparency across the team*
 
-Ask yourself: *how can I make this project culturally relevant?* You can do it through:
+**1. Basic Calendar Setup**
 
-- Production design, which reaches the most people and has the biggest impact
-- The theme
-- The programs
-- Branding and marketing
-- The feel of the event, such as the music
+A. All departments should have access to the current Celadon timeline. For reference, we will use Bern's calendar setup as shown from the image below.
 
-Then communicate it to your core team.
+B. By clicking on a **specific day-square,** a box will appear with details you need to fill up to properly schedule. The details are as follows:
 
-### Project consultations
+1. *Title,*
+2. *Date and time,*
+3. *Add guests,*
+4. *Add Google Meet video conferencing,*
+5. *Add rooms or location, and*
+6. *Add description.*
 
-Never be afraid to reach out to your EBCB, including the Office of the President, with questions or clarifications about any system or task.
+Moreover, a popup tab will appear on the day you wish to schedule an activity. The details are as shown on the side:
 
-:::confirm{title="Missing section"}
-The original page has a "Core Team Delegation and Responsibilities" heading with nothing under it. The Office of the President should add the content or confirm it can be dropped.
-:::
+C. After filling up these details, you should be all set! You can start sharing with your core members so they can view the project calendar. You may do this by clicking the three dots beside your calendar tab on the left and sharing!
 
-## Project presentation
+**2. Tips and Tricks**
 
-- In the project presentation, PMs answer the questions the EBCB needs to assess where the project stands.
-- The Google Slides template is in the **(*) Manager Files** folder.
-- Dates depend on your project's timeline, but the presentation usually happens **3 to 5 weeks before the event**.
-- The Office of the President schedules the presentation and sends the meeting details.
+1. An additional tip would be to select multiple days to give a rough bracket on what the possible days of the activity would be!
+2. You would most likely be invited/invite people who would see so make sure to only check/include what is necessary to avoid cluttering your Google Calendar!
 
-## Google Calendar
+## Community Channels (Optional but Highly Recommended)
 
-Google Calendar is Celadon's **main scheduling tool**, now including Google Calendar booking pages. Managers use it to:
+Purpose: Messenger Community Channels are a new system introduction to Celadon where usual GCs are going to be replaced. This should be the primary communication platform where managers can better sort and organize the different channels. This is the ideal setup so you can follow:
 
-- Schedule meetings with members
-- Plan project timelines and milestones
-- Coordinate team availability
-- Block time for important tasks
-- Keep the team informed
+## Leadership Skills for Managers
 
-### Setting up your project calendar
+**1. Keeping Your Core Team Engaged**
 
-:::steps
-1. **Subscribe to the Celadon timeline.** Every department should have access to the current Celadon timeline calendar. Ask the Executive Vice President to share it if you can't see it.
-2. **Create events from the day grid.** Click a day square to open the event form, then fill in the title, date and time, guests, Google Meet link, room or location, and description.
-3. **Share the calendar with your core team.** Click the three dots beside your calendar in the left sidebar, choose the sharing settings, and add your core members so they can see the project calendar.
-:::
+Part of your responsibility as a manager is to make every member of your core team be engaged and find a home in Celadon. As such, you must:
 
-**Tips**
+1. Create a welcoming environment
+   1. Be approachable and initiate conversations with your members, especially those who are quieter or new
+   2. Make an effort to step outside your comfort zone and get to know everyone personally
+   3. Learn each member's interests, strengths, and motivations to build trust over time
+2. Build relationships
+   1. Encourage participation beyond work by inviting to GAs, working sessions, dinners, tambays, hobby groups, and social events
+   2. Regular interactions outside formal meetings help strengthen friendships and improve teamwork
+   3. Check in with members regularly, not only when there are tasks to discuss
+3. Foster team connections
+   1. Encourage relationships among the members themselves
+4. Make the team feel like it's THEIR project too
+   1. Your achievements = their achievements
+   2. Share the project's milestones w the whole core, @ the people involved in social media posts/stories
+   3. Recognize the specific people
+   4. Inspire them
+5. Emphasize their well-being
+   1. Do this through ICs and checkups
+   2. Create an environment where members feel comfortable seeking help in accomplishing their tasks.
 
-- Select several days at once to block out a rough window for an activity.
-- You'll probably be inviting people or being invited, so include only what's needed to keep calendars uncluttered.
+**2. Organization**
 
-## Community channels
+1. Keep track and organize all project files
+   1. Make sure the documents are accessible to your core teams
+   2. Segregate but DON'T disregard past files so they may be used as references
+2. Keep track of deadlines meetings, and deliverables
+   1. Encourage your team to use Gcal as well to improve coordination
+   2. Set reminders to the core teams on important dates and meetings for your project timeline
 
-Messenger community channels are replacing ordinary group chats in Celadon. They're optional but strongly recommended as your main communication platform, because they let managers sort and organize channels by purpose. Set up one community for the project, with separate channels for announcements, each committee, and cross-committee work.
+**3. Diskarte**
 
-## Leadership for managers
+1. Make the most of available resources
+   1. Work with the given conditions over your ideal/expected conditions
+   2. Adapt to plans when challenges arise
+   3. Focus on the solutions to the problems
+2. Be proactive
+   1. Anticipate issues before they become problems
+   2. Have contingency plans for critical tasks
+   3. Take initiative instead of waiting to be instructed
 
-### Keep your core team engaged
-
-Part of your job is making sure every member of your core team is engaged and finds a home in Celadon.
-
-1. **Create a welcoming environment.**
-   - Be approachable and start conversations, especially with quieter or newer members.
-   - Step outside your comfort zone and get to know everyone personally.
-   - Learn each member's interests, strengths, and motivations, and build trust over time.
-2. **Build relationships.**
-   - Invite people beyond work: GAs, working sessions, dinners, tambays, hobby groups, and social events.
-   - Regular time together outside formal meetings strengthens friendships and teamwork.
-   - Check in regularly, not only when there's a task to discuss.
-3. **Foster connections within the team.** Encourage members to build relationships with each other.
-4. **Make it their project too.**
-   - Your achievements are their achievements.
-   - Share project milestones with the whole core, and tag the people involved in social media posts and stories.
-   - Recognize specific people.
-   - Inspire them.
-5. **Look after their well-being.**
-   - Check in through ICs.
-   - Make it comfortable to ask for help with tasks.
-
-### Stay organized
-
-- Keep all project files tracked and organized.
-  - Make sure your core teams can access the documents.
-  - Separate past files from current ones, but keep them as references.
-- Track deadlines, meetings, and deliverables.
-  - Encourage your team to use Google Calendar too.
-  - Remind core teams of important dates and meetings in the project timeline.
-
-### Diskarte
-
-- **Make the most of what you have.**
-  - Work with the conditions you have, not the ones you wished for.
-  - Adapt your plans when challenges come up.
-  - Focus on solutions.
-- **Be proactive.**
-  - Anticipate issues before they become problems.
-  - Have contingency plans for critical tasks.
-  - Take initiative instead of waiting to be told.
-
-## Contacts
+## Contact Information
 
 :::contacts
-- Josh Anthony Lee, President — josh.anthony.lee@student.ateneo.edu
-- Bernstein Joachim Chua, Executive Vice President — bernstein.joachim.chua@student.ateneo.edu
+- **Josh Anthony Lee**  
+  **President**  
+  josh.anthony.lee@student.ateneo.edu
+- **Bernstein Joachim Chua**  
+  **Executive Vice President**  
+  bernstein.joachim.chua@student.ateneo.edu
 :::

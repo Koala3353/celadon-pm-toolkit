@@ -1,37 +1,50 @@
 ---
 title: Conflict Resolution
-summary: Where conflict comes from, and a five-step way to work through it together.
-kicker: Leading your team
 order: 4
-lastReviewed: 2026-10-01
 ---
 
-## What conflict is
+## Conflict? What is that and where does it come from?
 
-- Conflict is a serious disagreement.
-- It happens because we all have different values, opinions, needs, and interests.
+- Conflict is essentially a serious disagreement.
+- It happens because all of us have different values, opinions, needs and interests.
 
 :::columns
-- **Conflict is normal.**
-- **There's no single right way to solve one.**
-- **Conflict wastes time and resources.**
-- **Opinions aren't right or wrong;** they're points of view.
-- **Seek to understand,** not to change the other person.
-- **Keep a solution mindset.**
+- Have a solution mindset
+- There is no right way to solve a conflict
+- Conflict wastes time and resources
+- Conflict is normal
+- Opinions are not right or wrong, they are points of view
+- Seek to understand rather than to change
 :::
 
-## How to resolve a conflict
+## So, how do we solve a conflict?
 
-Meet, express, listen, and compromise.
+Meet, Express, Listen and Compromise.
 
 :::steps
-1. **Meet in a neutral place and set a goal.** Make it a safe, open space where both of you can be honest. Agree on what you want to come out of the meeting; that keeps the conversation moving.
-2. **Express wants, concerns, and feelings.** Take turns: one person talks, then the other. Listen and genuinely hear them out, without interrupting. You're there to fix the problem, not to defend yourself. Talk constructively, use "I" language ("My concern is…", "I feel…", "It's important to me that…"), and avoid blaming, accusing, or demanding.
-3. **Find common ground and the gaps.** Keep sharing needs while listening. Ask: "What can we do so that you get this and I get that?"
-4. **Discuss possible solutions.** Look forward and stay solution-oriented. Build on each other's ideas.
-5. **Come to an agreement.** Make sure both sides have fully said their piece, and look for a win-win.
+1. **Meeting in a neutral place and setting a goal for the meeting**
+   - Set the tone for the meeting (a safe and open space where you can be honest to each other)
+   - What do we want to come out of this meeting?
+   - These could help drive the conversation forward!
+2. **Expressing wants, concerns, and feelings**
+   - Take turns talking! One can talk first then the other next.
+   - Listen and genuinely hear them out!
+   - Avoid interrupting as well. You are there not to defend but fix the problem!
+   - Tips:
+     1. Talk constructively
+     2. Use "I" language (e.g. My situation/concern is, I feel/think, It's important to me that)
+     3. Avoid blaming, accusing and demanding
+3. **Finding common ground and gaps**
+   - Continue expressing needs while listening
+   - "What can we do so that you get this and I get that?"
+4. **Discussing possible solutions**
+   - Try to look forward and be solution oriented!
+   - Build on each other's solutions.
+5. **Coming to an agreement**
+   - Make sure both parties have fully expressed their concerns
+   - Search for win-win solutions!
 :::
 
-:::note
-Deal with conflict as soon as possible. The longer it drags on, the harder it is to bring up and solve. Don't be afraid to talk about it and say how you feel.
-:::
+## Last Tip!
+
+Solve the conflict as soon as possible and avoid dragging it! Dragging it could make it harder to bring up and solve. Don't be afraid to talk about it and express what you feel.

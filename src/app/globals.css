@@ -469,15 +469,10 @@ html {
   font-size: 0.93em;
   line-height: 1.55;
 }
-.doc .blk-stages > ol > li::before {
-  content: "Stage " counter(stage);
-  display: block;
-  margin-bottom: 0.35rem;
-  font-size: 0.68rem;
-  font-weight: 800;
-  text-transform: uppercase;
-  letter-spacing: 0.14em;
+.doc .blk-stages > ol > li > p:first-child strong {
   color: var(--dept-ink);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
 }
 .doc .blk-stages li ul {
   margin-top: 0.6rem;
@@ -536,16 +531,6 @@ html {
 .doc .blk-links > ul > li > a:first-of-type::after {
   content: none;
 }
-.doc .kind {
-  display: block;
-  margin-bottom: 0.3rem;
-  font-size: 0.64rem;
-  font-weight: 800;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  color: var(--dept-ink);
-}
-
 /* ---- Columns and comparisons ----------------------------------------------- */
 .doc .blk-columns,
 .doc .blk-compare {

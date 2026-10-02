@@ -14,23 +14,13 @@ const montserrat = Montserrat({
   display: "swap",
 });
 
-const DESCRIPTION =
-  "Ateneo Celadon's Project Manager Toolkit for 2026–2027: procedures, department guides, and contacts for running a Celadon project.";
-
+// Page titles follow the Google Site's: "<site name> - <page>".
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: { default: `${SITE_NAME} 2026–2027`, template: `%s — ${SITE_NAME}` },
-  description: DESCRIPTION,
+  title: { default: SITE_NAME, template: `${SITE_NAME} - %s` },
   applicationName: SITE_NAME,
   robots: { index: false, follow: false },
   icons: { apple: asset("/brand/apple-touch-icon.png") },
-  openGraph: {
-    title: `${SITE_NAME} 2026–2027`,
-    description: DESCRIPTION,
-    siteName: SITE_NAME,
-    type: "website",
-    locale: "en_PH",
-  },
 };
 
 export const viewport = { themeColor: "#003078" };

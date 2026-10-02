@@ -8,11 +8,8 @@ const CONTENT_DIR = path.join(process.cwd(), "content");
 
 export interface PageMeta {
   title: string;
-  summary: string;
-  kicker?: string;
   dept?: DeptSlug;
   order: number;
-  lastReviewed: string;
 }
 
 export interface Page {
@@ -22,10 +19,9 @@ export interface Page {
   /** Path inside the repo, for the "Edit this page" link. */
   file: string;
   editUrl: string;
-  confirmCount: number;
 }
 
-const REQUIRED: (keyof PageMeta)[] = ["title", "summary", "order", "lastReviewed"];
+const REQUIRED: (keyof PageMeta)[] = ["title", "order"];
 
 function readMeta(file: string, data: Record<string, unknown>): PageMeta {
   for (const key of REQUIRED) {
@@ -33,16 +29,10 @@ function readMeta(file: string, data: Record<string, unknown>): PageMeta {
       throw new Error(`${file}: frontmatter is missing "${key}"`);
     }
   }
-  const reviewed = data.lastReviewed instanceof Date
-    ? data.lastReviewed.toISOString().slice(0, 10)
-    : String(data.lastReviewed);
   return {
     title: String(data.title),
-    summary: String(data.summary),
-    kicker: data.kicker ? String(data.kicker) : undefined,
     dept: data.dept ? (String(data.dept) as DeptSlug) : undefined,
     order: Number(data.order),
-    lastReviewed: reviewed,
   };
 }
 
@@ -58,7 +48,6 @@ export async function loadPage(relPath: string): Promise<Page> {
     toc,
     file,
     editUrl: `${REPO_URL}/edit/main/${file}`,
-    confirmCount: (content.match(/^:::+confirm/gm) ?? []).length,
   };
 }
 
@@ -77,9 +66,4 @@ export function allGuides() {
 
 export function allResources() {
   return RESOURCE_SLUGS.map((slug) => ({ slug, ...loadMeta(resourcePath(slug)) })).sort((a, b) => a.order - b.order);
-}
-
-export function formatReviewed(iso: string): string {
-  const d = new Date(`${iso}T00:00:00+08:00`);
-  return d.toLocaleDateString("en-PH", { year: "numeric", month: "long", day: "numeric", timeZone: "Asia/Manila" });
 }

@@ -7,7 +7,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { asset } from "@/lib/asset";
 import { cn } from "@/lib/cn";
-import { NAV, MAIN_SITE_URL } from "@/lib/site";
+import { NAV, SITE_NAME } from "@/lib/site";
 import { Container } from "@/components/ui/container";
 import { SearchButton } from "@/components/search";
 
@@ -29,7 +29,7 @@ export function SiteHeader() {
         <div className="flex min-w-0 items-center gap-2 lg:gap-6">
           <Link
             href="/"
-            aria-label="CLDN PM Toolkit — home"
+            aria-label={`${SITE_NAME} home`}
             className="flex shrink-0 items-center gap-3 rounded-lg focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-navy"
           >
             <Image
@@ -40,15 +40,12 @@ export function SiteHeader() {
               priority
               className="h-12 w-auto sm:h-14"
             />
-            <span className="flex flex-col leading-none">
-              <span className="text-[0.95rem] font-black uppercase tracking-tight text-navy">PM Toolkit</span>
-              <span className="mt-1 text-[0.62rem] font-bold uppercase tracking-[0.16em] text-muted-foreground">
-                CLDN 2026–2027
-              </span>
+            <span className="max-w-[11rem] text-[0.8rem] font-extrabold leading-tight text-navy sm:max-w-none sm:text-[0.9rem]">
+              {SITE_NAME}
             </span>
           </Link>
 
-          <nav aria-label="Main" className="hidden items-center gap-0.5 lg:flex">
+          <nav aria-label="Main" className="hidden items-center gap-0.5 xl:flex">
             {NAV.map((item) => (
               <NavLink key={item.href} item={item} pathname={pathname} />
             ))}
@@ -63,7 +60,7 @@ export function SiteHeader() {
             aria-label="Open menu"
             aria-haspopup="dialog"
             aria-expanded={menuOpen}
-            className="pressable flex h-10 w-10 items-center justify-center rounded-full text-navy transition-colors hover:bg-navy-tint focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-navy lg:hidden"
+            className="pressable flex h-10 w-10 items-center justify-center rounded-full text-navy transition-colors hover:bg-navy-tint focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-navy xl:hidden"
           >
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" className="h-5 w-5" aria-hidden>
               <path d="M4 6h16M4 12h16M4 18h16" />
@@ -78,6 +75,9 @@ export function SiteHeader() {
 }
 
 function isActive(pathname: string, href: string) {
+  if (href === "/") return pathname === "/";
+  // Project Procedures sits under Guides, as on the Google Site.
+  if (href === "/guides/" && pathname.startsWith("/procedures")) return true;
   const base = href.replace(/\/$/, "");
   return pathname === href || pathname === base || pathname.startsWith(`${base}/`);
 }
@@ -150,7 +150,7 @@ function MobileMenu({ pathname, onClose }: { pathname: string; onClose: () => vo
   }, []);
 
   return createPortal(
-    <div role="dialog" aria-modal="true" aria-label="Main menu" className="fixed inset-0 lg:hidden" style={{ zIndex: "var(--z-overlay)" }}>
+    <div role="dialog" aria-modal="true" aria-label="Main menu" className="fixed inset-0 xl:hidden" style={{ zIndex: "var(--z-overlay)" }}>
       <div
         aria-hidden
         onClick={handleClose}
@@ -165,8 +165,7 @@ function MobileMenu({ pathname, onClose }: { pathname: string; onClose: () => vo
           visible ? "translate-x-0" : "translate-x-full"
         )}
       >
-        <div className="flex items-center justify-between">
-          <span className="eyebrow text-accent-ink">Menu</span>
+        <div className="flex items-center justify-end">
           <button
             type="button"
             onClick={handleClose}
@@ -180,18 +179,11 @@ function MobileMenu({ pathname, onClose }: { pathname: string; onClose: () => vo
         </div>
 
         <nav aria-label="Main" className="mt-8 flex flex-col gap-1">
-          <NavLink item={{ href: "/", label: "Home" }} pathname={pathname === "/" ? "/" : "/__"} onClick={handleClose} variant="block" />
           {NAV.map((item) => (
             <NavLink key={item.href} item={item} pathname={pathname} onClick={handleClose} variant="block" />
           ))}
         </nav>
 
-        <a
-          href={MAIN_SITE_URL}
-          className="mt-auto flex items-center gap-1.5 rounded-2xl px-4 py-3 text-sm font-bold uppercase tracking-wider text-muted-foreground transition-colors hover:bg-navy-tint hover:text-navy"
-        >
-          ateneoceladon.com <span aria-hidden>&rarr;</span>
-        </a>
       </div>
     </div>,
     document.body

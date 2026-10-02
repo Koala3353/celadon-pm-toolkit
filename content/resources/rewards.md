@@ -1,46 +1,43 @@
 ---
 title: Reward Practices
-summary: Simple, everyday ways to show your team you see and appreciate their work.
-kicker: Leading your team
 order: 3
-lastReviewed: 2026-10-01
 ---
 
-## Appreciating your team
+## Appreciating Your Team
 
-A healthy, supportive environment keeps your team happy, productive, and together. Showing you care goes a long way toward keeping them motivated.
+- Creating and sustaining a healthy and supportive environment is crucial in keeping your team happy, productive and together.
+- Showing your care and appreciation for your team, motivates your team and can really go a long way!
 
-### Thank and recognize them
-
-Recognize your team's hard work and commitment, often and specifically.
+### Thank and recognize your team for their hard work and commitment.
 
 :::quotes
 - "Thank you so much for your hard work!"
-- "You're doing great!"
+- "You are doing great!"
 - "Proud of you!"
 :::
 
-### Remind them to rest
+### Remind your team to rest.
 
 :::quotes
 - "Rest well!"
 - "Don't forget to stay hydrated!"
 :::
 
-### Check in on how they are
+### Check-up on your team on how they are.
 
-Message or call people individually or as a group to ask how they've been. It doesn't always have to be about work.
+- You can message or call them either individually or in a group and ask how they have been doing.
+- This doesn't have to always be work related.
 
-### Make meetings fun
+### Integrate fun in work meetings or discussions.
 
-- Open and close with an icebreaker or a fun question.
-- Make jokes or references when it's appropriate.
-- Your team is here to enjoy themselves too.
+- Start off and end off with an ice breaker or fun question.
+- Make jokes or funny references during the meeting (when appropriate and applicable).
+- Your team is also here to have fun and enjoy!
 
-### Talk about life outside work
+### Talk about other things outside of work when you can!
 
-Not everything has to be about the project.
+- Not everything has to be all about work!
 
-:::note
-These are just a few ways to engage and appreciate your team. Get creative with how you show your team you care.
-:::
+## Last Tip!
+
+These are just some ways on how you can engage and appreciate your team! Get creative with how you want to show your love to your team! The world is your oyster.

@@ -5,25 +5,11 @@ import { Container } from "@/components/ui/container";
 import type { Dept } from "@/lib/site";
 
 /**
- * The navy band every interior page opens with, as on ateneoceladon.com.
- * Department guides add their Ayi mascot and a stripe of the department's
- * accent colour along the bottom edge.
+ * The navy band each page opens with, as on ateneoceladon.com. It carries the
+ * page title only, like the Google Site's banner. Department guides add their
+ * Ayi mascot and a stripe of the department's colour.
  */
-export function PageHero({
-  kicker,
-  title,
-  summary,
-  dept,
-  crumbs,
-  children,
-}: {
-  kicker?: string;
-  title: string;
-  summary?: string;
-  dept?: Dept;
-  crumbs?: { href: string; label: string }[];
-  children?: React.ReactNode;
-}) {
+export function PageHero({ title, dept, children }: { title: string; dept?: Dept; children?: React.ReactNode }) {
   return (
     <section className="navy-field relative overflow-hidden text-on-navy">
       <div className="navy-grid">
@@ -34,30 +20,14 @@ export function PageHero({
           )}
         >
           <div className="flex min-w-0 flex-col gap-5">
-            {crumbs && crumbs.length > 0 && (
-              <nav aria-label="Breadcrumb">
-                <ol className="flex flex-wrap items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-on-navy/80">
-                  {crumbs.map((c) => (
-                    <li key={c.href} className="flex items-center gap-1.5">
-                      <a href={asset(c.href)} className="hover:text-white">
-                        {c.label}
-                      </a>
-                      <span aria-hidden>/</span>
-                    </li>
-                  ))}
-                </ol>
-              </nav>
-            )}
-            {kicker && <p className="eyebrow text-link-navy">{kicker}</p>}
             <h1 className="display max-w-4xl text-4xl text-white sm:text-6xl lg:text-7xl">{title}</h1>
-            {summary && <p className="prose-body max-w-2xl text-lg text-on-navy">{summary}</p>}
             {children}
           </div>
 
           {dept && (
             <Image
               src={asset(dept.ayi)}
-              alt={`Ayi, Celadon's panda, dressed for ${dept.short}`}
+              alt=""
               width={600}
               height={600}
               priority

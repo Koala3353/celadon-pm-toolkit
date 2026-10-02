@@ -1,127 +1,152 @@
 ---
 title: HR Guide
-summary: Leaves of absence, resignations, complaints, and what to do about unexplained absences, all filed through the HR Services Form.
-kicker: Human Resources
 dept: hr
 order: 5
-lastReviewed: 2026-10-01
 ---
 
-:::links
-- [HR Services Form](https://forms.gle/fgB5DHB4thh3yX1i6) — for leaves of absence, resignations, and complaints. Open it while signed in to your Ateneo Google account.
-:::
+**HR Services Form:** [**https://forms.gle/fgB5DHB4thh3yX1i6**](https://forms.gle/fgB5DHB4thh3yX1i6)
 
-## Leave of absence
+## Leave of Absences
 
-A leave of absence (LOA) lets EBCB members, Managers, committee heads, and other active project or department members **temporarily** step away from their responsibilities for a valid reason. You must name a proxy to cover your responsibilities while you're away.
+- This service allows EBCB members, Managers, Committee Heads (Core Heads), and other active project or department members to **temporarily** step away from their responsibilities for valid reasons.
+- To avail of this service, the member must designate a proxy who shall perform their responsibilities during their absence.
 
-:::note
-- File an LOA if you'll be absent for **4 or more working days**. For fewer than 4, just tell your immediate superior.
-- You may take up to **30 academic days of LOA per school year**. Going over may lead to a review and possible removal from office.
-:::
+**NOTE**:
 
-### Valid reasons
+- Members shall file for a Leave of Absence if they will be absent for at least four (4) working days. Members absent for fewer than four (4) working days are not required to file for a Leave of Absence, provided that they inform their immediate superior.
+- Members may take a **maximum of thirty (30) academic days of Leave of Absence per school year**. Requests exceeding this limit may be subject to review and possible removal from office.
 
-:::columns
-**Academic and career**
+### Permissible Reasons
 
-- Career-growth opportunities such as training, workshops, and internships
-- Significant extracurriculars such as seminars, summits, and competitions
-- School-led retreats or conferences (these may or may not count toward the maximum)
+1. Academic and Career Pursuits
+   - Career-growth opportunities (e.g., training, workshops, internships)
+   - Participation in significant extracurricular activities (e.g., seminars, summits, competitions)
+   - School-led retreats or conferences (may or may not be deducted from the maximum number or absences)
+2. Health Concerns
+   - Mental health concerns (e.g., burnout)
+   - Physical illness or injury
+3. Personal and Familial Emergencies
+   - Bereavement
+   - Family affairs
+   - Travel excursions
 
-**Health**
+### Permissible Proxies per Position:
 
-- Mental health concerns, such as burnout
-- Physical illness or injury
+1. **Committee Members and Deputies**
 
-**Personal and family**
+   **Proxies**: Another committee member or deputy; or another active Celadon member approved by the Committee Head.
+2. **Committee Heads**
 
-- Bereavement
-- Family affairs
-- Travel
-:::
+   **Proxies**: One of their committee members.
+3. **Managers**
 
-### Who can be your proxy
+   **Proxies**: Another manager within the same pool or department; or one of their committee heads.
+4. **Associate Vice Presidents**
 
-| Your position | Possible proxies |
-| --- | --- |
-| Committee member or deputy | Another committee member or deputy, or another active Celadon member approved by the committee head |
-| Committee head | One of their committee members |
-| Manager | Another manager in the same pool or department, or one of their committee heads |
-| Associate Vice President | Another AVP in their department, or one of their managers |
-| Vice President | An AVP in their department. For the Executive Vice President: the President |
-| President | Any current Vice President |
+   **Proxies**: Another Associate Vice President within their department; or one of their managers.
+5. **Vice Presidents**
 
-### How to file
+   **Proxies**: AVPs within their department
+
+   **For the Executive Vice President**: the President
+6. **President**
+
+   **Proxies**: Any of the current Vice Presidents
+
+### Procedures
 
 :::steps
-1. **Tell your immediate superior and your HR representative** that you intend to take an LOA and who your proxy is. Who you notify depends on your position:
-   - Core members and deputies → core head or Manager
-   - Core heads → Project Manager
-   - Managers → one of the department's EBCB members
-   - Associate Vice Presidents → department Vice President
-   - Vice Presidents → Executive Board
-   - Executive Vice President → President
-   - President → Executive Board
-2. **Screenshot that conversation.** You'll submit it with your request.
-3. **Submit the HR Services Form at least 5 academic days before your first day of absence.** HR may decline requests filed with less notice.
-4. **Wait for a confirmation email** from an HR Systems Manager, within 3 academic days of submitting. It lists the steps you must complete before your LOA can start.
-5. **The Executive Board announces the LOA** in a memorandum. LOAs of EBCB members are posted externally.
-:::
-
-:::confirm{title="When does an LOA take effect?"}
-The original page says LOAs of committee members, deputies, and committee heads "will NOT be published" and take effect with the confirmation email. It also says all non-EBCB LOAs are "posted internally" in the private Facebook group, and that an LOA is "only effective upon announcement." It mentions steps in the confirmation email but doesn't list them. HR should confirm which rule applies.
+1. The member shall first inform their immediate superior and assigned Human Resources representative of their intent to file a Leave of Absence and who their designated proxy is.
+   - Members shall **notify** the following individuals based on their position:
+     1. Core Members and Deputies — Core Head or Manager
+     2. Core Heads — Project Manager
+     3. Managers — One of the department's EBCB members
+     4. Associate Vice Presidents — Department Vice President
+     5. Vice Presidents — Executive Board
+     6. Executive Vice President — President
+     7. President — Executive Board
+2. A screenshot of the conversation shall be submitted through the HR Services Form as part of the Leave of Absence request.
+3. The member must then fill in the HR Services Google Form and submit their request for a leave of absence **at least 5 academic days before the first date of absence.**
+   - The HR Department reserves the right to decline any requests submitted in less than five days.
+4. The member shall receive a confirmation email from an HR Systems Manager **no later than three (3) academic days after the submission of the request.** This email shall consist of the following steps that the member must complete before being permitted to take a LOA.
+5. The leave of absence shall be announced through a memorandum, to be composed by the Executive Board.
+   - LOAs taken by **committee members or deputies and committee heads** will NOT be published.
+     - The confirmation email will signify that their LOA has taken effect.
+   - Only LOAs taken by **EBCB members** shall be posted externally. Other LOA requests shall be posted internally within the organization's private Facebook group.
+     - The LOA shall only be effective upon announcement.
 :::
 
 ## Resignation
 
-Resignation lets EBCB members, Managers, committee heads, and other active project or department members permanently leave their position. **A resignation is irrevocable** and becomes final when you receive the Certificate of Resignation.
+- This service allows EBCB members, Managers, Committee Heads, and other active project or department members to permanently leave their positions within the organization.
+- A resignation is **IRREVOCABLE** and only becomes final upon receipt of the Certificate of Resignation.
+
+### Procedures
 
 :::steps
-1. **Tell your immediate superior and your HR representative** that you intend to resign:
-   - Committee members and deputies → committee head or Manager
-   - Committee heads → Manager
-   - Managers → one of the department's EBCB members
-   - Associate Vice Presidents → department Vice President
-   - Vice Presidents → Executive Board
-   - Executive Vice President → President
-   - President → Executive Board
-2. **Submit your formal intent to resign through the HR Services Form.** The form gives you a resignation letter template. Email the completed letter, stating your reasons, to the organization email, **celadon.college.org@student.ateneo.edu**, and CC the President, **josh.anthony.lee@student.ateneo.edu**.
-3. **Wait for a confirmation email** from an HR Systems Manager, endorsed by the VP for Human Resources, within 3 academic days. It lists the remaining requirements before your resignation can proceed.
-4. **Attend an exit interview** with an HR EBCB member or HR Systems Manager. If you belong to a committee or department, your supervisors attend too, unless that's inappropriate. The interview gathers feedback for the org, checks on your well-being (with support or referrals if needed), and helps HR understand your experience.
-5. **The Executive Board announces the resignation** in a memorandum. Resignations of EBCB members are posted externally.
-6. **HR issues your Certificate of Resignation** once the memorandum is out and the exit interview is done, and gives a copy to the President.
+1. The member shall first inform their immediate superior and assigned Human Resources representative of their intent to resign.
+   1. Committee Members and Deputies — Committee Head or Manager
+   2. Committee Heads — Manager
+   3. Managers — One of the department's EBCB members
+   4. Associate Vice Presidents — Department Vice President
+   5. Vice Presidents — Executive Board
+   6. Executive Vice President — President
+   7. President — Executive Board
+2. The member must then fill in the Google Form for HR services to submit their formal intent to resign.
+   1. The HR Services Form shall provide a resignation letter template.
+   2. The completed letter must be emailed to **the organization email (celadon.college.org@student.ateneo.edu), with a cc to the President (josh.anthony.lee@student.ateneo.edu).** The letter shall state the member's reason(s) for resigning.
+3. Within three (3) academic days of submission, the member shall receive a confirmation email from an HR Systems Manager, endorsed by the Vice President for Human Resources. **The email shall include the remaining requirements that must be completed before the resignation may proceed**.
+4. An exit interview will be conducted with any of the HR EBCB or HR Systems Managers. If the member belongs to a committee or a department, their supervisors will also be present, unless deemed inappropriate.
+   1. The exit interview will be conducted for the following reasons:
+      1. Gather feedback and recommendations for improving the organization;
+      2. Assess the member's well-being and provide support or referrals when necessary; and
+      3. Better understand the member's overall experience within the organization.
+
+   **NOTE**: All information shared during the exit interview shall **remain confidential**. Violations shall be subject to the sanctions provided under Article XVI of the Constitution.
+5. After the exit interview, the Executive Board shall release a memorandum announcing the resignation.
+   1. Resignations filed by Committee Members, Deputies, and Committee Heads need not be published.
+      1. Such resignations shall take effect on the academic day following the exit interview.
+   2. Only resignations involving EBCB members shall be posted externally. All other resignations shall be announced internally through the organization's private Facebook group.
+      1. The resignation shall become effective only upon official announcement.
+6. After the memorandum has been released and the exit interview has been completed, the Human Resources Department shall issue the member's Certificate of Resignation and furnish a copy to the President.
+   1. A resignation shall become final upon issuance of the Certificate of Resignation.
 :::
 
-:::note
-Everything shared in an exit interview is **confidential**. Violations are subject to the sanctions in Article XVI of the Constitution.
-:::
+## Complaint Filing
 
-:::confirm{title="When does a resignation take effect?"}
-The original page gives three answers: the academic day after the exit interview (for committee members, deputies, and committee heads), upon official announcement, and upon issuance of the Certificate of Resignation. It also says these resignations "need not be published" but are "announced internally." HR should confirm the effective date and the announcement rule.
-:::
+- This service allows any active member of the organization to file a complaint against another member, **including elected and appointed officers**, for violations of the Celadon Constitution.
+- Complaints may be submitted anonymously. However, members who **wish for the Human Resources Department to take action** on their complaint shall provide their contact information to allow the HR EBCB or HR Systems Managers to communicate with them.
+- The Executive Board reserves the right to raise complaints to the **appropriate university offices** if deemed necessary.
 
-## Filing a complaint
-
-Any active member may file a complaint against another member, **including elected and appointed officers**, for violating the Celadon Constitution.
-
-- You may complain anonymously, but HR can't act on an anonymous complaint. To have HR take action, include your contact details so the HR EBCB or HR Systems Managers can reach you.
-- The Executive Board may raise complaints with the **appropriate university offices** if needed.
+### General Procedures
 
 :::steps
-1. **Submit your concern through the HR Services Form.** Anonymous complaints are kept confidential, but HR can't take concrete action on them. Contact details are **required** if you want a resolution.
-2. **HR notifies the other party.** If you asked for action, the HR EBCB sends the accused a formal complaint within 3 academic days, with an invitation to a grievance meeting scheduled within 10 academic days.
-3. **Grievance meeting.** You, the accused, and the HR EBCB attend, and HR facilitates. If an HR EBCB member is unavailable, an HR Systems Manager stands in.
-4. **Escalation, if unresolved.** Within 2 academic days, the VP for Human Resources tells both parties' supervising members that the concern is going to the Executive Board, then meets with the Board. **The Executive Board's decision is final.**
-5. **Implementation.** The VP for Human Resources tells everyone involved the decision and makes sure it's carried out. Other officers or managers may be informed if they're needed to carry it out.
+1. The complainant shall submit their concern through the HR Services Form. Complainants have the right to remain anonymous.
+   1. Anonymous complaints: HR will not be able to take concrete actions, and all gathered information will be kept confidential.
+   2. Contact information is **REQUIRED** when the complainant wishes to pursue a resolution.
+2. If action is requested, the HR EBCB shall send the accused a formal complaint within three (3) academic days of receiving the report. The email shall also include an invitation to a grievance meeting, which shall be scheduled within ten (10) academic days.
+   1. The complainant, the accused, and the HR EBCB shall attend the grievance meeting. The Human Resources Department shall facilitate the discussion.
+   2. If an HR EBCB member is unavailable, an HR Systems Manager shall serve as their proxy.
+   3. If the grievance meeting does not resolve the concern, the Vice President for Human Resources shall inform the supervising Celadon members of both parties within two (2) academic days and notify them that the concern will be elevated to the Executive Board.
+   4. The Vice President for Human Resources shall then meet with the Executive Board. The Executive Board's decision shall be final.
+   5. The Vice President for Human Resources shall communicate the Executive Board's decision to all involved parties and ensure its implementation.
+      1. Other officers or managers may also be informed when necessary to carry out the Executive Board's decision.
 :::
 
-## Unexcused or unexplained absences
+### Procedures for Unexcused or Unexplained Absences
 
 :::steps
-1. **Try to reach the member at least 3 times** through the org's designated channels if they've built up unexcused or unexplained absences.
-2. **Tell your HR representative** before scheduling an IC, in case it becomes a formal complaint. They'll notify the HR Systems Managers.
-3. **Hold an IC** with the member to discuss the absences and find a way forward.
-4. **File a formal report through the HR Services Form** if, on HR's advice, the member didn't respond after 3 attempts, missed the IC without a valid reason, or kept accumulating absences after the IC.
-5. **Possible removal.** HR may recommend removal if the member doesn't respond within 7 academic days of the grievance meeting invitation, misses the meeting without a valid reason, or keeps accumulating absences after it. HR can only recommend removal; **the member's immediate superior makes the final decision.**
+1. If an elected or appointed member notices that one of their subordinates has accumulated unexcused or unexplained absences, they shall attempt to contact the member through the organization's designated communication channels **at least three (3) times**.
+   1. The supervising member shall schedule an Individual Consultation (IC) with the member to discuss the unexplained absences and identify possible resolutions.
+   2. The supervising member shall inform their assigned Human Resources representative before the Individual Consultation in case the matter escalates into a formal complaint.
+   3. The Human Resources representative shall notify the HR Systems Managers of the situation.
+2. If the member:
+   1. fails to respond after three (3) contact attempts;
+   2. fails to attend the Individual Consultation without a valid reason; or
+   3. continues to accumulate unexcused or unexplained absences after the Individual Consultation, the Human Resources representative shall advise the supervising member to submit a formal report through the HR Services Form.
+3. If the accused:
+   1. fails to respond within seven (7) academic days after receiving the grievance meeting invitation;
+   2. fails to attend the grievance meeting without a valid reason; or
+   3. continues to accumulate unexcused or unexplained absences after the grievance meeting, the Human Resources Department may endorse the member's removal from their position.
+   4. The Human Resources Department may only recommend the member's removal. The **final decision to remove the member from office shall remain with the member's immediate superior**.
 :::
