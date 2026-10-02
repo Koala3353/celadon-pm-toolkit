@@ -45,9 +45,7 @@ Cloudflare Worker in `Koala3353/celadon-website` (`worker/`) also runs on
 
 ## Contacts
 
-- **Website issues** (broken links, layout bugs, deploys): Keene Brigado,
-  AVP for Organization Strategies and Research,
-  keene.xander.brigado@student.ateneo.edu.
+- **Website issues** (broken links, layout bugs, deploys): the OSR EBCB.
 - **Content** (what a page says): the department that owns the guide.
 
 ## Local development

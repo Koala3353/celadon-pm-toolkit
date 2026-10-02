@@ -11,13 +11,8 @@ export const SITE_YEAR = "2026–2027";
 export const REPO_URL = "https://github.com/Koala3353/celadon-pm-toolkit";
 export const MAIN_SITE_URL = "https://ateneoceladon.com";
 
-/** Point person for anything wrong with the website itself. */
-export const WEBSITE_CONTACT = {
-  name: "Keene Brigado",
-  role: "AVP for Organization Strategies and Research",
-  email: "keene.xander.brigado@student.ateneo.edu",
-  facebook: "https://fb.com/kbrigado",
-};
+/** Who to message about anything wrong with the website itself. */
+export const WEBSITE_CONTACT = { label: "OSR EBCB", href: "/directory/#osr" };
 
 export type DeptSlug = "op" | "commpub" | "exrel" | "fin" | "hr" | "osr" | "cul";
 

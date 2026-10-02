@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { PageHero } from "@/components/page-hero";
 import { Container } from "@/components/ui/container";
 import { Toc } from "@/components/toc";
@@ -32,11 +33,11 @@ export function DocPage({ page }: { page: Page }) {
 
           <footer className="mt-16 flex flex-col gap-1.5 border-t border-border pt-6 text-sm text-muted-foreground" data-pagefind-ignore>
             <p>
-              Website issues: {WEBSITE_CONTACT.name} (
-              <a href={`mailto:${WEBSITE_CONTACT.email}`} className="font-semibold text-link underline underline-offset-2">
-                {WEBSITE_CONTACT.email}
-              </a>
-              )
+              Website issues: message the{" "}
+              <Link href={WEBSITE_CONTACT.href} className="font-semibold text-link underline underline-offset-2">
+                {WEBSITE_CONTACT.label}
+              </Link>
+              .
             </p>
             <p>
               <a href={page.editUrl} className="font-semibold text-link underline underline-offset-2">

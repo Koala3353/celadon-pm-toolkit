@@ -38,14 +38,11 @@ export function SiteFooter() {
             !
           </p>
           <p className="prose-body max-w-sm text-sm">
-            Website issues: {WEBSITE_CONTACT.name} (
-            <a
-              href={`mailto:${WEBSITE_CONTACT.email}`}
-              className="break-all font-semibold text-white underline underline-offset-4 hover:no-underline"
-            >
-              {WEBSITE_CONTACT.email}
-            </a>
-            )
+            Website issues: message the{" "}
+            <Link href={WEBSITE_CONTACT.href} className="font-semibold text-white underline underline-offset-4 hover:no-underline">
+              {WEBSITE_CONTACT.label}
+            </Link>
+            .
           </p>
         </div>
 

@@ -15,8 +15,7 @@ the browser: open the file and press the pencil icon, or use the
 | Tools list on Resources | `TOOLS` in `src/lib/site.ts` |
 
 Not comfortable editing on GitHub? Send the change to the department's EBCB,
-or to Keene Brigado (keene.xander.brigado@student.ateneo.edu), the point
-person for the website.
+or to the OSR EBCB for anything about the website itself.
 
 ## Frontmatter
 
