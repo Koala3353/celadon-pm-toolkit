@@ -1,0 +1,865 @@
+@import "tailwindcss";
+
+/**
+ * CLDN PM Toolkit — design tokens, inherited unchanged from
+ * ateneoceladon.com (celadon-website/src/app/globals.css).
+ * Palette and type come from the Celadon Website Brandbook.
+ *
+ * The brand is built on two grounds, not one: a navy field and a white field.
+ * Every colour below is declared as a pair so nothing is ever guessed at the
+ * call site — `text-on-navy` vs `text-ink`, `link-on-navy` vs `link`.
+ */
+:root {
+  color-scheme: light;
+
+  /* Primary */
+  --navy: #003078;
+  --ink: #18182a;
+  --white: #ffffff;
+
+  /* Secondary */
+  --on-navy: #c7d2e1;   /* body copy on a navy field */
+  --link-navy: #7ba4ff; /* link on a navy field — 5.07:1 */
+  --accent: #f09b43;    /* orange, sparingly */
+
+  /**
+   * Accessible derivations for the white field.
+   *
+   * The brand's link blue (#7BA4FF) and orange (#F09B43) are tuned for navy;
+   * on white they measure 2.44:1 and 2.22:1, well under the 4.5:1 needed for
+   * body text. These keep the exact hue and saturation and only drop
+   * lightness until they clear AA — 4.52:1 each.
+   */
+  --link: #296bff;
+  --accent-ink: #b2620e;
+
+  /* Structural neutrals, all tinted toward the navy so no stray warm grey
+     creeps in. */
+  --background: var(--white);
+  --foreground: var(--ink);
+  --muted: #f4f6fa;
+  --muted-foreground: #4a5468;
+  --border: #dde3ed;
+  --navy-tint: #eef2f8;
+
+  /* Navy-tinted elevation. Black shadows read as dirt against this palette. */
+  --shadow-sm: 0 1px 2px rgba(0, 48, 120, 0.06);
+  --shadow-md: 0 6px 24px -8px rgba(0, 48, 120, 0.18);
+  --shadow-lg: 0 24px 64px -24px rgba(0, 48, 120, 0.28);
+
+  /* Motion. Built-in easings are too weak to read as intentional. */
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
+
+  /* Systemic layers — never invent a z-index at the call site. */
+  --z-nav: 40;
+  --z-overlay: 60;
+  --z-grain: 70;
+
+  /* Per-department accent. Values are set inline per guide from DEPTS in
+     src/lib/site.ts; these are the navy defaults for every other page. */
+  --dept-accent: var(--navy);
+  --dept-tint: var(--navy-tint);
+  --dept-ink: var(--navy);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+
+  --color-navy: var(--navy);
+  --color-navy-tint: var(--navy-tint);
+  --color-ink: var(--ink);
+  --color-on-navy: var(--on-navy);
+  --color-link: var(--link);
+  --color-link-navy: var(--link-navy);
+  --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
+
+  --color-dept-accent: var(--dept-accent);
+  --color-dept-tint: var(--dept-tint);
+  --color-dept-ink: var(--dept-ink);
+
+  --font-sans: var(--font-body);
+  --font-display: var(--font-body);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Only one of html/body may set `overflow`, or the browser gives each its
+   own independent scroll container — the actual page scroll lands on one of
+   them while `position: sticky` headers (children of body) end up anchored
+   to the other, non-scrolling one, and silently stop sticking. */
+html {
+  overflow-x: hidden;
+  overscroll-behavior-x: none;
+}
+
+/* ---------------------------------------------------------------------
+   Type
+
+   Brandbook: titles are Gotham Black, all caps, big, with 1.0 line spacing.
+   Montserrat 900 stands in for Gotham Black — same geometric skeleton, same
+   wide caps, and it is web-licensed.
+
+   The 1.0 leading is applied to display type only. At paragraph lengths it
+   drops below the 1.5 WCAG asks for and gets genuinely hard to read, so body
+   copy keeps normal leading.
+   --------------------------------------------------------------------- */
+.display {
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-wrap: balance;
+}
+
+.eyebrow {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.75rem;
+}
+
+.prose-body {
+  line-height: 1.6;
+  text-wrap: pretty;
+}
+
+/* Data and counters shouldn't wobble as digits change. */
+.tnum {
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---------------------------------------------------------------------
+   Surfaces (from ateneoceladon.com)
+   --------------------------------------------------------------------- */
+.navy-grid {
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 4rem 4rem;
+}
+
+.navy-field {
+  background:
+    radial-gradient(80% 120% at 12% 0%, #0a44a0 0%, transparent 55%),
+    radial-gradient(70% 100% at 100% 100%, #002357 0%, transparent 60%),
+    var(--navy);
+}
+
+.grain::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: var(--z-grain);
+  pointer-events: none;
+  opacity: 0.028;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* ---------------------------------------------------------------------
+   Motion primitives (from ateneoceladon.com)
+   Reveals run on the home page only. Guide pages are reference reading and
+   render fully at rest.
+   --------------------------------------------------------------------- */
+[data-reveal] {
+  opacity: 0;
+  will-change: transform, opacity;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [data-reveal] {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
+
+.pressable {
+  transition: transform 160ms var(--ease-out);
+}
+.pressable:active {
+  transform: scale(0.97);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .lift {
+    transition:
+      transform 320ms var(--ease-out),
+      box-shadow 320ms var(--ease-out),
+      border-color 320ms var(--ease-out);
+  }
+  .lift:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+  }
+}
+
+.no-scrollbar {
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Anchored headings clear the sticky header. */
+:where(h2, h3, details)[id] {
+  scroll-margin-top: 6rem;
+}
+
+/* =====================================================================
+   Toolkit reading styles — the article column on every guide page.
+   One family (Montserrat), a 1.2 step scale, 68ch measure.
+   ===================================================================== */
+.doc {
+  --measure: 68ch;
+  color: var(--ink);
+  font-size: 1rem;
+  line-height: 1.7;
+}
+@media (min-width: 640px) {
+  .doc {
+    font-size: 1.0625rem;
+  }
+}
+
+.doc > * + * {
+  margin-top: 1.1em;
+}
+
+.doc :where(p, ul, ol, table) {
+  max-width: var(--measure);
+  text-wrap: pretty;
+}
+
+.doc h2 {
+  margin-top: 3.25rem;
+  padding-top: 2.25rem;
+  border-top: 1px solid var(--border);
+  font-size: clamp(1.6rem, 1.2rem + 1.4vw, 2.1rem);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: -0.015em;
+  line-height: 1.05;
+  color: var(--navy);
+  text-wrap: balance;
+}
+.doc > h2:first-child {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: 0;
+}
+
+.doc h3 {
+  margin-top: 2.25rem;
+  font-size: 1.2rem;
+  font-weight: 800;
+  line-height: 1.3;
+  color: var(--dept-ink);
+  text-wrap: balance;
+}
+.doc h2 + h3,
+.doc h2 + * {
+  margin-top: 1rem;
+}
+
+.doc h4 {
+  margin-top: 1.75rem;
+  font-size: 1rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.doc strong {
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.doc a {
+  color: var(--link);
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  text-decoration-color: color-mix(in srgb, var(--link) 40%, transparent);
+  transition: text-decoration-color 160ms var(--ease-out);
+  overflow-wrap: anywhere;
+}
+.doc a:hover {
+  text-decoration-color: currentColor;
+}
+.doc a:focus-visible {
+  outline: 2px solid var(--navy);
+  outline-offset: 2px;
+  border-radius: 3px;
+}
+.doc a[target="_blank"]::after {
+  content: "↗";
+  display: inline-block;
+  margin-left: 0.15em;
+  font-size: 0.8em;
+  text-decoration: none;
+}
+.doc a.email {
+  font-weight: 600;
+}
+
+.doc ul,
+.doc ol {
+  padding-left: 1.35rem;
+}
+.doc ul {
+  list-style: disc;
+}
+.doc ol {
+  list-style: decimal;
+}
+.doc li + li {
+  margin-top: 0.4em;
+}
+.doc li > ul,
+.doc li > ol {
+  margin-top: 0.4em;
+}
+.doc li::marker {
+  color: var(--dept-accent);
+  font-weight: 700;
+}
+
+.doc code {
+  font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  font-size: 0.86em;
+  padding: 0.1em 0.4em;
+  border-radius: 0.35rem;
+  background: var(--muted);
+  color: var(--navy);
+  overflow-wrap: anywhere;
+}
+
+.doc table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.94em;
+  display: block;
+  overflow-x: auto;
+}
+.doc th,
+.doc td {
+  text-align: left;
+  vertical-align: top;
+  padding: 0.7rem 0.9rem;
+  border-bottom: 1px solid var(--border);
+}
+.doc thead th {
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted-foreground);
+  border-bottom: 2px solid var(--navy);
+}
+
+/* ---- Callouts --------------------------------------------------------- */
+.doc .callout {
+  max-width: var(--measure);
+  padding: 1rem 1.15rem 1.05rem;
+  border-radius: 1rem;
+  background: var(--muted);
+  border: 1px solid var(--border);
+  font-size: 0.95em;
+}
+.doc .callout > * + * {
+  margin-top: 0.6em;
+}
+.doc .callout-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.7rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--muted-foreground);
+}
+.doc .callout-label::before {
+  content: "";
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 999px;
+  background: currentColor;
+}
+.doc .callout-confirm {
+  background: #fff6ec;
+  border-color: #f6d3ac;
+}
+.doc .callout-confirm .callout-label {
+  color: var(--accent-ink);
+}
+
+/* ---- Steps: numbered process with a rail -------------------------------- */
+.doc .blk-steps > ol {
+  list-style: none;
+  padding: 0;
+  counter-reset: step;
+  max-width: var(--measure);
+}
+.doc .blk-steps > ol > li {
+  counter-increment: step;
+  position: relative;
+  padding: 0 0 1.35rem 3rem;
+  margin: 0;
+}
+.doc .blk-steps > ol > li::before {
+  content: counter(step);
+  position: absolute;
+  left: 0;
+  top: 0.05rem;
+  width: 2rem;
+  height: 2rem;
+  display: grid;
+  place-items: center;
+  border-radius: 999px;
+  background: var(--dept-accent);
+  color: var(--white);
+  font-size: 0.85rem;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+}
+.doc .blk-steps > ol > li:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  left: calc(1rem - 1px);
+  top: 2.35rem;
+  bottom: 0.25rem;
+  width: 2px;
+  background: color-mix(in srgb, var(--dept-accent) 22%, transparent);
+}
+.doc .blk-steps > ol > li > p + * {
+  margin-top: 0.5em;
+}
+
+/* ---- Stages: a sequence of phases as tiles -------------------------------- */
+.doc .blk-stages > ol {
+  list-style: none;
+  padding: 0;
+  max-width: none;
+  display: grid;
+  gap: 0.75rem;
+  counter-reset: stage;
+}
+@media (min-width: 900px) {
+  .doc .blk-stages > ol {
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  }
+}
+.doc .blk-stages > ol > li {
+  counter-increment: stage;
+  margin: 0;
+  padding: 1rem 1.1rem 1.15rem;
+  border-radius: 1rem;
+  background: var(--dept-tint);
+  font-size: 0.93em;
+  line-height: 1.55;
+}
+.doc .blk-stages > ol > li::before {
+  content: "Stage " counter(stage);
+  display: block;
+  margin-bottom: 0.35rem;
+  font-size: 0.68rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--dept-ink);
+}
+.doc .blk-stages li ul {
+  margin-top: 0.6rem;
+  padding-left: 1.1rem;
+}
+.doc .blk-stages li li + li {
+  margin-top: 0.2em;
+}
+
+/* ---- Link cards ------------------------------------------------------- */
+.doc .blk-links > ul {
+  list-style: none;
+  padding: 0;
+  max-width: none;
+  display: grid;
+  gap: 0.6rem;
+}
+@media (min-width: 640px) {
+  .doc .blk-links > ul {
+    grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+  }
+}
+.doc .blk-links > ul > li {
+  margin: 0;
+  position: relative;
+  padding: 0.85rem 1rem 0.9rem;
+  border: 1px solid var(--border);
+  border-radius: 0.9rem;
+  background: var(--white);
+  font-size: 0.88em;
+  line-height: 1.5;
+  color: var(--muted-foreground);
+  transition:
+    border-color 200ms var(--ease-out),
+    box-shadow 200ms var(--ease-out);
+}
+.doc .blk-links > ul > li:has(a:hover) {
+  border-color: var(--dept-accent);
+  box-shadow: var(--shadow-md);
+}
+.doc .blk-links > ul > li > a:first-of-type {
+  display: block;
+  font-size: 1.04em;
+  font-weight: 700;
+  color: var(--navy);
+  text-decoration: none;
+  margin-bottom: 0.15rem;
+}
+/* The whole card is the hit area for its first link. */
+.doc .blk-links > ul > li > a:first-of-type::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+}
+.doc .blk-links > ul > li > a:first-of-type::after {
+  content: none;
+}
+.doc .kind {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-size: 0.64rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--dept-ink);
+}
+
+/* ---- Columns and comparisons ----------------------------------------------- */
+.doc .blk-columns,
+.doc .blk-compare {
+  display: grid;
+  gap: 0.75rem;
+  max-width: none;
+}
+@media (min-width: 720px) {
+  .doc .blk-columns {
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  }
+  .doc .blk-compare {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+.doc .col {
+  min-width: 0;
+  padding: 1rem 1.1rem;
+  border-radius: 1rem;
+  background: var(--muted);
+  font-size: 0.93em;
+}
+.doc .col > * + * {
+  margin-top: 0.6em;
+}
+.doc .col > p:first-child strong {
+  color: var(--navy);
+}
+.doc .blk-flatcols > ul {
+  max-width: none;
+  columns: 2 16rem;
+  column-gap: 2rem;
+}
+.doc .blk-flatcols li {
+  break-inside: avoid;
+}
+
+/* ---- Contacts ------------------------------------------------------------ */
+.doc .blk-contacts > ul {
+  list-style: none;
+  padding: 0;
+  max-width: none;
+  display: grid;
+  gap: 0.5rem;
+}
+@media (min-width: 640px) {
+  .doc .blk-contacts > ul {
+    grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr));
+  }
+}
+.doc .blk-contacts > ul > li {
+  margin: 0;
+  padding: 0.75rem 1rem;
+  border-radius: 0.9rem;
+  background: var(--dept-tint);
+  font-weight: 700;
+  font-size: 0.92em;
+  line-height: 1.45;
+}
+.doc .blk-contacts a {
+  display: block;
+  font-weight: 500;
+  font-size: 0.92em;
+}
+
+/* ---- Approval flow --------------------------------------------------------- */
+.doc .blk-flow > ul {
+  list-style: none;
+  padding: 0;
+  max-width: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 0.4rem;
+}
+.doc .blk-flow > ul > li {
+  margin: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.85em;
+  font-weight: 700;
+}
+.doc .blk-flow > ul > li::before {
+  content: none;
+}
+.doc .blk-flow > ul > li {
+  padding: 0.5rem 0.85rem;
+  border-radius: 999px;
+  background: var(--dept-tint);
+  color: var(--dept-ink);
+}
+.doc .blk-flow > ul > li:last-child {
+  background: var(--navy);
+  color: var(--white);
+}
+.doc .blk-flow > ul > li:not(:last-child)::after {
+  content: "→";
+  margin-left: 0.5rem;
+  margin-right: -0.4rem;
+  color: var(--muted-foreground);
+}
+
+/* ---- Blast times ----------------------------------------------------------- */
+.doc .blk-times > ul {
+  list-style: none;
+  padding: 0;
+  max-width: none;
+  display: grid;
+  gap: 0.5rem;
+}
+.doc .blk-times > ul > li {
+  margin: 0;
+  padding: 0.7rem 1rem;
+  border-radius: 0.9rem;
+  background: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---- Quotes ---------------------------------------------------------------- */
+.doc .quote {
+  max-width: var(--measure);
+  margin-inline: 0;
+  padding: 1.1rem 1.25rem;
+  border-radius: 1rem;
+  background: var(--navy-tint);
+}
+.doc .quote blockquote > * + * {
+  margin-top: 0.6em;
+}
+.doc .quote ul {
+  list-style: none;
+  padding: 0;
+}
+.doc .quote figcaption {
+  margin-top: 0.8rem;
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--muted-foreground);
+}
+.doc .blk-quotes > ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.doc .blk-quotes > ul > li {
+  margin: 0;
+  padding: 0.55rem 0.95rem;
+  border-radius: 999px 999px 999px 0.35rem;
+  background: var(--navy);
+  color: var(--white);
+  font-weight: 600;
+  font-size: 0.92em;
+}
+.doc .pull {
+  max-width: var(--measure);
+  margin-inline: 0;
+  font-size: clamp(1.4rem, 1.1rem + 1.2vw, 2rem);
+  font-weight: 900;
+  line-height: 1.15;
+  text-transform: uppercase;
+  color: var(--navy);
+  text-wrap: balance;
+}
+
+/* ---- Office cards ------------------------------------------------------- */
+.doc .blk-offices {
+  display: grid;
+  gap: 0.75rem;
+  max-width: none;
+}
+@media (min-width: 720px) {
+  .doc .blk-offices {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+.doc .office {
+  min-width: 0;
+  padding: 1.1rem 1.2rem 1.2rem;
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  font-size: 0.9em;
+}
+.doc .office h3 {
+  margin: 0 0 0.6rem;
+  font-size: 1rem;
+  color: var(--navy);
+}
+.doc .office ul {
+  list-style: none;
+  padding: 0;
+}
+.doc .office li + li {
+  margin-top: 0.3em;
+}
+.doc .office em {
+  color: var(--muted-foreground);
+  font-size: 0.92em;
+}
+
+/* ---- Meeting cards ------------------------------------------------------ */
+.doc .blk-meetings {
+  display: grid;
+  gap: 0.75rem;
+  max-width: none;
+}
+@media (min-width: 900px) {
+  .doc .blk-meetings {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+.doc .meeting {
+  min-width: 0;
+  padding: 1.15rem 1.25rem 1.25rem;
+  border-radius: 1rem;
+  border: 1px solid var(--border);
+  font-size: 0.92em;
+}
+.doc .meeting > * + * {
+  margin-top: 0.6em;
+}
+.doc .meeting-title {
+  margin: 0;
+  font-size: 1.05rem;
+  color: var(--navy);
+}
+.doc .meeting-who {
+  margin-top: 0.2rem;
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--dept-ink);
+}
+
+/* ---- Accordions -------------------------------------------------------------- */
+.doc .acc {
+  max-width: var(--measure);
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  background: var(--white);
+  transition: border-color 200ms var(--ease-out);
+}
+.doc .acc + .acc {
+  margin-top: 0.6rem;
+}
+.doc .acc[open] {
+  border-color: color-mix(in srgb, var(--dept-accent) 45%, var(--border));
+}
+.doc .acc > summary {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 1.15rem;
+  font-weight: 800;
+  color: var(--navy);
+  border-radius: 1rem;
+}
+.doc .acc > summary::-webkit-details-marker {
+  display: none;
+}
+.doc .acc > summary::after {
+  content: "";
+  flex: none;
+  width: 0.6rem;
+  height: 0.6rem;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: translateY(-25%) rotate(45deg);
+  transition: transform 220ms var(--ease-out);
+}
+.doc .acc[open] > summary::after {
+  transform: translateY(15%) rotate(-135deg);
+}
+.doc .acc > summary:hover {
+  background: var(--muted);
+}
+.doc .acc > summary:focus-visible {
+  outline: 2px solid var(--navy);
+  outline-offset: 2px;
+}
+.doc .acc-body {
+  padding: 0 1.15rem 1.2rem;
+}
+.doc .acc-body > * + * {
+  margin-top: 0.9em;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .doc .acc[open] > .acc-body {
+    animation: acc-in 260ms var(--ease-out) both;
+  }
+}
+@keyframes acc-in {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Search highlight from Pagefind results. */
+mark {
+  background: color-mix(in srgb, var(--accent) 35%, transparent);
+  color: inherit;
+  border-radius: 0.2em;
+  padding: 0 0.1em;
+}

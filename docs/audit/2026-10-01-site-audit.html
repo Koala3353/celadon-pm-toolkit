@@ -1,0 +1,216 @@
+<title>CLDN PM Toolkit Audit</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: single reading column; findings as ruled rows with a severity stripe, grouped by priority */
+:root{
+  --bg:#f3f6f4; --surface:#ffffff; --fg:#1d2a25; --muted:#5b6b64; --rule:#d5e0da;
+  --accent:#3f7a66; --accent-soft:#e1eee8;
+  --p1:#b3412f; --p1-soft:#f7e3df; --p2:#a8671a; --p2-soft:#f6ead9; --p3:#4b6fa0; --p3-soft:#e2eaf5; --p4:#6b7570; --p4-soft:#e9ecea;
+  --display:"Newsreader", Georgia, "Times New Roman", serif;
+  --body:"IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono:"IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#121815; --surface:#1a221e; --fg:#e3ebe7; --muted:#9aaba3; --rule:#2c3832;
+  --accent:#7fc0a8; --accent-soft:#1f3029;
+  --p1:#f08a77; --p1-soft:#3a1f1a; --p2:#e5ad62; --p2-soft:#352816; --p3:#8fb2e3; --p3-soft:#1c2738; --p4:#a9b3ae; --p4-soft:#252c29;
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#121815; --surface:#1a221e; --fg:#e3ebe7; --muted:#9aaba3; --rule:#2c3832;
+  --accent:#7fc0a8; --accent-soft:#1f3029;
+  --p1:#f08a77; --p1-soft:#3a1f1a; --p2:#e5ad62; --p2-soft:#352816; --p3:#8fb2e3; --p3-soft:#1c2738; --p4:#a9b3ae; --p4-soft:#252c29;
+  color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font:15px/1.6 var(--body);margin:0;padding:0 16px}
+.wrap{max-width:860px;margin:0 auto;padding-block:48px 72px;display:flex;flex-direction:column;gap:44px}
+h1,h2,h3{font-family:var(--display);font-weight:600;text-wrap:balance;margin:0;line-height:1.2}
+h1{font-size:2.3rem}
+h2{font-size:1.5rem}
+h3{font-size:1.05rem;font-family:var(--body);font-weight:600}
+p{margin:0;max-width:68ch}
+a{color:var(--accent)}
+code,.mono{font-family:var(--mono);font-size:.86em}
+.eyebrow{font:500 .74rem/1 var(--body);letter-spacing:.09em;text-transform:uppercase;color:var(--accent)}
+header{display:flex;flex-direction:column;gap:14px;border-bottom:1px solid var(--rule);padding-bottom:28px}
+.meta{display:flex;flex-wrap:wrap;gap:6px 22px;color:var(--muted);font-size:.9rem}
+.meta b{color:var(--fg);font-weight:600;font-variant-numeric:tabular-nums}
+.tally{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+.tally div{background:var(--surface);border:1px solid var(--rule);border-radius:6px;padding:12px 14px;display:flex;flex-direction:column;gap:2px}
+.tally strong{font:600 1.6rem/1 var(--display);font-variant-numeric:tabular-nums}
+.tally span{font-size:.82rem;color:var(--muted)}
+.tally .t1 strong{color:var(--p1)} .tally .t2 strong{color:var(--p2)} .tally .t3 strong{color:var(--p3)} .tally .t4 strong{color:var(--p4)}
+@media (max-width:560px){.tally{grid-template-columns:repeat(2,minmax(0,1fr))}}
+section{display:flex;flex-direction:column;gap:16px}
+.lede{color:var(--muted)}
+ol.fixfirst{margin:0;padding:0;list-style:none;counter-reset:f;display:flex;flex-direction:column;gap:0;background:var(--surface);border:1px solid var(--rule);border-radius:6px}
+ol.fixfirst li{counter-increment:f;display:grid;grid-template-columns:2.2rem 1fr;gap:4px 10px;padding:12px 16px;border-top:1px solid var(--rule)}
+ol.fixfirst li:first-child{border-top:0}
+ol.fixfirst li::before{content:counter(f);font:600 1.05rem/1.5 var(--display);color:var(--accent);font-variant-numeric:tabular-nums}
+ol.fixfirst li > div{min-width:0}
+.filters{display:flex;flex-wrap:wrap;gap:6px}
+.filters button{font:500 .8rem/1 var(--body);padding:7px 11px;border-radius:999px;border:1px solid var(--rule);background:var(--surface);color:var(--fg);cursor:pointer}
+.filters button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--bg)}
+.filters button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.group{display:flex;flex-direction:column;gap:10px}
+.group > h3{display:flex;align-items:center;gap:10px}
+.sev{font:600 .7rem/1 var(--body);letter-spacing:.06em;text-transform:uppercase;padding:5px 8px;border-radius:4px}
+.s1{color:var(--p1);background:var(--p1-soft)} .s2{color:var(--p2);background:var(--p2-soft)} .s3{color:var(--p3);background:var(--p3-soft)} .s4{color:var(--p4);background:var(--p4-soft)}
+.items{display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--rule);border-radius:6px;overflow:hidden}
+.item{display:flex;flex-direction:column;gap:6px;padding:14px 16px 14px 18px;border-top:1px solid var(--rule);border-left:3px solid transparent;min-width:0}
+.item:first-child{border-top:0}
+.g1 .item{border-left-color:var(--p1)} .g2 .item{border-left-color:var(--p2)} .g3 .item{border-left-color:var(--p3)} .g4 .item{border-left-color:var(--p4)}
+.item h4{margin:0;font:600 .98rem/1.4 var(--body)}
+.item p{color:var(--fg)}
+.item .fix{color:var(--muted)}
+.item .fix b{color:var(--fg);font-weight:600}
+.tags{display:flex;flex-wrap:wrap;gap:6px}
+.tag{font:500 .72rem/1 var(--mono);padding:4px 7px;border-radius:4px;background:var(--accent-soft);color:var(--accent)}
+.empty{padding:14px 16px;color:var(--muted)}
+.tablewrap{overflow-x:auto;background:var(--surface);border:1px solid var(--rule);border-radius:6px}
+table{border-collapse:collapse;width:100%;font-size:.88rem}
+th,td{text-align:left;padding:9px 14px;border-top:1px solid var(--rule);vertical-align:top}
+thead th{border-top:0;font-weight:600;color:var(--muted);font-size:.76rem;letter-spacing:.06em;text-transform:uppercase}
+td.st{white-space:nowrap;font-weight:600}
+.ok{color:var(--accent)} .bad{color:var(--p1)} .warn{color:var(--p2)}
+ul.plain{margin:0;padding-left:1.1rem;display:flex;flex-direction:column;gap:6px;max-width:68ch}
+footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--rule);padding-top:20px}
+@media (prefers-reduced-motion:no-preference){.filters button{transition:background .15s,color .15s}}
+</style>
+
+<div class="wrap">
+<header>
+  <span class="eyebrow">Site audit · Ateneo Celadon</span>
+  <h1>CLDN Project Manager Toolkit 2026–2027</h1>
+  <p class="lede">A full read of the Google Site that PMs use for procedures, department guides and contacts. Every page was read, the linked Google files and forms were opened with a member's Ateneo account, and the guides were checked against each other for rules that conflict.</p>
+  <div class="meta">
+    <span>Audited <b>1 Oct 2026</b></span>
+    <span><b>16</b> pages (12 in nav + 4 unlisted)</span>
+    <span><b>34</b> linked files and forms opened</span>
+    <span><b>4</b> links broken or blocked</span>
+  </div>
+  <div class="tally" aria-label="Findings by priority">
+    <div class="t1"><strong id="c1">0</strong><span>P1 · broken or wrong</span></div>
+    <div class="t2"><strong id="c2">0</strong><span>P2 · rules that conflict</span></div>
+    <div class="t3"><strong id="c3">0</strong><span>P3 · stale or incomplete</span></div>
+    <div class="t4"><strong id="c4">0</strong><span>P4 · polish and access</span></div>
+  </div>
+</header>
+
+<section>
+  <h2>Fix these first</h2>
+  <p class="lede">Each one is under 15 minutes in the Sites editor and stops a PM from being sent the wrong way.</p>
+  <ol class="fixfirst">
+    <li><div><b>Swap the content of Reward Practices and Conflict Resolution.</b> Each page shows the other's text.</div></li>
+    <li><div><b>Fix the PPF template link on the FIN guide.</b> It returns "You need access" for a student account, and the page calls it the most important document.</div></li>
+    <li><div><b>Repoint the five COMMPUB EBCB email links.</b> Four of them open an email to Jillian Yu, and the domain on that page doesn't match the EBCB Directory.</div></li>
+    <li><div><b>Unlink about 30 paragraphs on the COMMPUB page.</b> Whole sentences open an email, the logo folder or the DRF when clicked.</div></li>
+    <li><div><b>Swap the "Pre-Project" and "Post-Project" headings in the OSR checklist.</b> Each heading currently sits on the other's list.</div></li>
+    <li><div><b>Replace the closed CFMO form links</b> with a link to the CFMO Forms page, so the toolkit stops sending PMs to closed forms.</div></li>
+    <li><div><b>Pick one rule each</b> for receipts (invoice or OR), reimbursement time (3 weeks or 2 months) and when to reserve CFMO venues.</div></li>
+    <li><div><b>Settle when an LOA or resignation takes effect</b> and whether it gets announced. The HR page gives two or three answers for each.</div></li>
+  </ol>
+</section>
+
+<section>
+  <h2>All findings</h2>
+  <div class="filters" role="group" aria-label="Filter by page" id="filters"></div>
+  <div id="groups" style="display:flex;flex-direction:column;gap:28px"></div>
+</section>
+
+<section>
+  <h2>Link check results</h2>
+  <p class="lede">Opened while signed in as a <span class="mono">student.ateneo.edu</span> member. Everything not listed as broken opened to the correct, current-year file.</p>
+  <div class="tablewrap">
+  <table>
+    <thead><tr><th>Link</th><th>Where</th><th>Result</th></tr></thead>
+    <tbody>
+      <tr><td>[FIN Projects] PPF Template (.docx)</td><td>FIN</td><td class="st bad">No access</td></tr>
+      <tr><td>CFMO Reservation Form 1</td><td>Project Procedures, FIN</td><td class="st bad">Form closed</td></tr>
+      <tr><td>CFMO Job Order Form</td><td>Project Procedures</td><td class="st bad">Form closed</td></tr>
+      <tr><td>DSWS Facility Request Form (bit.ly/…2425…)</td><td>FIN</td><td class="st warn">Bitly security hold</td></tr>
+      <tr><td>HR Services Form (forms.gle)</td><td>HR</td><td class="st warn">Sign-in wall on wrong account</td></tr>
+      <tr><td>DRF, Spiel Masterfile, Cheat Sheets, DP Shoot template, Roles Guide, Assets &amp; Logos, Dreagle video</td><td>COMMPUB</td><td class="st ok">OK</td></tr>
+      <tr><td>Sponsors DB, Concessionaires DB, Centralized Sponsorship Repository</td><td>EXREL</td><td class="st ok">OK</td></tr>
+      <tr><td>FIN Tracker template, Project Budgets 25'–26', Past LOG Masterfiles</td><td>FIN</td><td class="st ok">OK</td></tr>
+      <tr><td>CFMO Form 2, ELAS Form, accredited caterers 2026, food entities 2026, DSWS manual, DSWS form (direct), COAla Kit</td><td>Project Procedures</td><td class="st ok">OK</td></tr>
+      <tr><td>OSR Centralized Request Form, email blast samples</td><td>OSR</td><td class="st ok">OK</td></tr>
+      <tr><td>EBCB &amp; Managers Directory, Deployment Tracker, Presentation Guidelines, FormSem folder, Internal Portal, URL Generator</td><td>Others</td><td class="st ok">OK</td></tr>
+    </tbody>
+  </table>
+  </div>
+</section>
+
+<section>
+  <h2>What's working</h2>
+  <ul class="plain">
+    <li>The site's structure is clear: one guide per department, a consistent card grid on Home and Guides, and a directory with every EBCB member's email and Facebook.</li>
+    <li>Nearly all linked files are current-year (<span class="mono">2627</span> / <span class="mono">'26–'27</span>) and open for members.</li>
+    <li>COMMPUB's approval flow is specific and checkable: 3-day IDL, 12-hour comment window, 10-day assignment lead time.</li>
+    <li>The 2026 caterer and food-entity lists are already in place.</li>
+    <li>OSR's request processes (data, email blasts, FUSION) have lead times and named contact people.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Not covered</h2>
+  <ul class="plain">
+    <li>Canva links, Google Calendar embed and booking page, CFMO Zoom room, OSA portal short links and social links were not opened.</li>
+    <li>No visual pass for colour contrast or mobile layout. The findings come from page content and structure.</li>
+    <li>Site sharing settings could not be viewed, so it's unconfirmed whether the site is open to all of <span class="mono">student.ateneo.edu</span> or only Celadon.</li>
+    <li>Text that exists only inside images (for example the receipt-type table on FIN and the CTA timeline on OSR) was not checked.</li>
+  </ul>
+</section>
+
+<footer>Prepared for the CLDN EBCB 2026–2027. Page names match the site's navigation.</footer>
+</div>
+
+<script>
+const F=[
+ {s:1,p:["Others"],t:"Reward Practices and Conflict Resolution have swapped content",d:"The page titled Reward Practices shows \"Conflict? What is that and where does it come from?\", and the Conflict Resolution page shows \"Appreciating Your Team\".",f:"Move each page's body to the other page, or swap the two cards on Others."},
+ {s:1,p:["FIN"],t:"PPF template link is locked",d:"\"[FIN Projects] PPF-Project Proposal Form Template.docx\" shows \"You need access\" to a student.ateneo.edu account. FIN calls the PPF \"the most important foundational document\".",f:"Share the file with the domain, or link to the PPF in each project drive, as Project Procedures says."},
+ {s:1,p:["COMMPUB","EBCB Directory"],t:"COMMPUB contact links go to the wrong person and domain",d:"In \"Using the DRF during the school year\", the email links for Dia Fernando, Jillian Dy, Abby Tan and Simone Chua all open mailto:jillian.yu. The page also lists @ateneo-celadon.org addresses while the EBCB Directory uses @student.ateneo.edu.",f:"Decide which domain is live, then relink each name to that person's own address."},
+ {s:1,p:["COMMPUB"],t:"Whole paragraphs are hyperlinked by mistake",d:"About 30 sentences are links. Seven in the DRF section open an email to Jillian Yu, about 14 in the Photos and DP Shoot section open the Assets & Logos folder, and about 10 in Cheat Sheets open the DRF. A tap on mobile opens the link, and screen readers read each paragraph as a link.",f:"Select each paragraph in the editor and remove the link, then relink only the file names."},
+ {s:1,p:["OSR"],t:"PM Checklist headings are swapped",d:"\"Pre-Project Requirements\" lists post-project evaluations and the sustainability report. \"Post-Project Requirements\" lists Core Team Applications and the core team drive.",f:"Swap the two headings."},
+ {s:1,p:["Project Procedures","FIN"],t:"CFMO forms are closed",d:"CFMO Reservation Form 1 shows \"no longer accepting responses\" (60-per-day limit) and the Job Order Form is closed. Project Procedures links both to /closedform URLs, and FIN links Form 1 as /formrestricted.",f:"Link to the CFMO site's HE Venues → Forms page, which CFMO keeps current, instead of the forms themselves."},
+ {s:1,p:["FIN","Project Procedures"],t:"Two different DSWS tarp request forms",d:"FIN links bit.ly/DSWSPMD2425FacilityRequestForm, which Bitly holds behind a security-review page. Project Procedures links a working DSWS PMD Facility Request Form directly.",f:"Use the direct form on both pages."},
+
+ {s:2,p:["FIN"],t:"Receipt rules contradict each other",d:"Under DCB Transfer, invoices are \"the primary receipts\". Under Reimbursement, invoices are required only for supplies and \"anything else will require an Official Receipt\". The second version also says \"ISA\" instead of OSA.",f:"Confirm the current OSA rule and use one sentence in both places."},
+ {s:2,p:["FIN"],t:"Reimbursement time is given as both 3 weeks and 2 months",d:"The tracker and reimbursement steps say about 3 weeks. The FAQ says it \"should only take 2 months\".",f:"Give one expected range and say when FIN steps in with revolving funds."},
+ {s:2,p:["Project Procedures","FIN"],t:"CFMO booking window is unclear",d:"Project Procedures says you \"may only reserve as early as one month prior\" (one month is the earliest). FIN says \"always reserve 1 MONTH beforehand\" (one month as a deadline).",f:"State the window once, e.g. \"bookings open 30 days before; book on day one\"."},
+ {s:2,p:["HR"],t:"LOA announcement and start date conflict",d:"The LOA steps say committee-level LOAs \"will NOT be published\", then that they're \"posted internally\". They say the confirmation email \"will signify that their LOA has taken effect\", then that it is \"only effective upon announcement\". The confirmation email \"shall consist of the following steps\", but no steps are listed.",f:"Pick one start date and one announcement rule, and list the steps."},
+ {s:2,p:["HR"],t:"Resignation has three different effective dates",d:"The section gives three dates: the academic day after the exit interview, the official announcement, and the issue of the Certificate of Resignation.",f:"Name one effective date and call the others steps in the process."},
+ {s:2,p:["FIN"],t:"Over-budget penalties leave gaps at exactly Php 1,000 and Php 5,000",d:"The tiers are \"less than Php 1,000\", \"more than Php 1,000 but less than Php 5,000\" and \"more than Php 5,000\".",f:"Use \"up to Php 1,000\", \"Php 1,001–5,000\" and \"over Php 5,000\", matched to the Code of Financial Procedures."},
+
+ {s:3,p:["Project Procedures","FIN","COMMPUB"],t:"Dated information is presented as current",d:"Examples: OADSA contacts \"as of October 2022\", a 2022 CFMO contact memo, Rizal Library steps \"as of SY 2324\", the DSWS manual and form marked 2425, COMMPUB Cheat Sheets \"S.Y. 2025–2026 version; to be updated\". Event Cancellation still refers to Alert Levels, and registration refers to contact tracing.",f:"Re-confirm each one with the office, or label it clearly as last verified on a date."},
+ {s:3,p:["COMMPUB","OSR","OP","FIN"],t:"Placeholders and cut-off text",d:"Equipment Borrowing Form says \"Link will be added soon!\". OSR's \"Timeline\" and OP's \"Core Team Delegation and Responsibilities\" headings have nothing under them. One OSR sentence ends at \"However,\". FIN's CFMO list describes Form 2 without naming or linking it.",f:"Fill in or remove each one."},
+ {s:3,p:["FIN"],t:"Project Proposal Form section appears twice",d:"The full PPF block (template link, description, Formator and Moderator) appears twice in a row under Logistics and Forms.",f:"Delete the second copy."},
+ {s:3,p:["Guides","EBCB Directory"],t:"No Cultural Affairs guide",d:"The directory lists a Cultural Affairs Department (VP Therese Yap), but Guides has no CA page, and CA is the only department with no AVPs listed.",f:"Add a CA guide, or say on Guides where CA processes live."},
+ {s:3,p:["Others"],t:"Four pages are missing from the menu",d:"Meeting Guide, Performance Management, Reward Practices and Conflict Resolution can only be reached from the cards on Others. They don't appear in the site menu.",f:"Nest them under Others in the menu so they appear in the menu and site search."},
+ {s:3,p:["OP"],t:"Calendar guide depends on one person",d:"The guide says \"we will use Bern's calendar setup\", which stops making sense when the EBCB changes.",f:"Describe the setup itself, or refer to the EVP's calendar."},
+
+ {s:4,p:["FIN"],t:"\"Sacrificial lamb\" penalty reads as a joke and isn't clear policy",d:"The text says: \"For every week of tardiness/incomplete FIN trackers = 1 sacrificial lamb from the project core team.\" The Home letter promises a \"safe place\".",f:"State the real consequence plainly, or drop the line."},
+ {s:4,p:["Project Procedures","OP","others"],t:"Typos and naming slips",d:"\"Office of Student Affair (OSA)\" vs \"Office of Student Activities\"; \"Campus Access and Mobility Office (CSMO)\"; \"ISA\"; \"a good well done\"; \"26'-27'\" and \"25'-26'\" apostrophes.",f:"Fix these in one copy-editing pass."},
+ {s:4,p:["All pages"],t:"Most images have no alt text",d:"About 61 of 99 images lack alt text, including 23 of 26 on the EBCB Directory and the CFMO website screenshots on Project Procedures. Some rules, such as FIN's receipt-type table, appear to exist only as images, so they can't be searched or copied.",f:"Add alt text with the person's name or the image's content, and retype key tables as text."},
+ {s:4,p:["OP","Project Procedures"],t:"Personal contact details on a broadly shared site",d:"OP lists the President's and EVP's personal mobile numbers, and Project Procedures shows a CFMO Zoom link with the passcode built in. If the site is open to the whole university domain, anyone at Ateneo can see them.",f:"Confirm the site is shared only with Celadon members, or move phone numbers to the internal directory sheet."},
+ {s:4,p:["HR","OSR","FIN"],t:"Short links open with the wrong Google account",d:"forms.gle and bit.ly links drop the account choice. In testing, the HR Services Form opened a sign-in page for a non-Ateneo account.",f:"Add \"open with your Ateneo account\" next to forms, or use full form URLs."}
+];
+const names={1:"P1 · Broken or wrong",2:"P2 · Rules that conflict",3:"P3 · Stale or incomplete",4:"P4 · Polish and access"};
+[1,2,3,4].forEach(s=>document.getElementById('c'+s).textContent=F.filter(x=>x.s===s).length);
+const pages=["All",...new Set(F.flatMap(x=>x.p).map(p=>p==="others"?"Others":p))].filter((v,i,a)=>a.indexOf(v)===i);
+let cur="All";
+try{const saved=localStorage.getItem('auditFilter'); if(saved&&pages.includes(saved))cur=saved;}catch(e){}
+const fEl=document.getElementById('filters'), gEl=document.getElementById('groups');
+const esc=s=>s.replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+function render(){
+  fEl.innerHTML=pages.map(p=>`<button type="button" aria-pressed="${p===cur}" data-p="${esc(p)}">${esc(p)}</button>`).join('');
+  gEl.innerHTML=[1,2,3,4].map(s=>{
+    const list=F.filter(x=>x.s===s&&(cur==="All"||x.p.some(p=>(p==="others"?"Others":p)===cur||p==="All pages")));
+    const body=list.length?list.map(x=>`<div class="item"><h4>${esc(x.t)}</h4><div class="tags">${x.p.map(p=>`<span class="tag">${esc(p==="others"?"Others":p)}</span>`).join('')}</div><p>${esc(x.d)}</p><p class="fix"><b>Fix:</b> ${esc(x.f)}</p></div>`).join(''):`<div class="empty">Nothing at this level for ${esc(cur)}.</div>`;
+    return `<div class="group g${s}"><h3><span class="sev s${s}">P${s}</span>${names[s].split(' · ')[1]}</h3><div class="items">${body}</div></div>`;
+  }).join('');
+}
+fEl.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;cur=b.dataset.p;try{localStorage.setItem('auditFilter',cur)}catch(_){};render();});
+render();
+</script>
