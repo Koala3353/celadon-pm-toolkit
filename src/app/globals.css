@@ -694,8 +694,7 @@ html {
   margin-inline: 0;
   font-size: clamp(1.4rem, 1.1rem + 1.2vw, 2rem);
   font-weight: 900;
-  line-height: 1.15;
-  text-transform: uppercase;
+  line-height: 1.2;
   color: var(--navy);
   text-wrap: balance;
 }

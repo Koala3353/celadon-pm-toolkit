@@ -8,6 +8,17 @@ import { usePathname } from "next/navigation";
 import { asset } from "@/lib/asset";
 import { cn } from "@/lib/cn";
 import { NAV, SITE_NAME } from "@/lib/site";
+
+/** The Guides dropdown, named as in the Google Site's menu. */
+const GUIDE_LINKS = [
+  { href: "/procedures/", label: "Project Procedures" },
+  { href: "/guides/commpub/", label: "COMMPUB" },
+  { href: "/guides/exrel/", label: "EXREL" },
+  { href: "/guides/fin/", label: "FIN" },
+  { href: "/guides/hr/", label: "HR" },
+  { href: "/guides/osr/", label: "OSR" },
+  { href: "/guides/op/", label: "OP" },
+];
 import { Container } from "@/components/ui/container";
 import { SearchButton } from "@/components/search";
 
@@ -46,9 +57,13 @@ export function SiteHeader() {
           </Link>
 
           <nav aria-label="Main" className="hidden items-center gap-0.5 xl:flex">
-            {NAV.map((item) => (
-              <NavLink key={item.href} item={item} pathname={pathname} />
-            ))}
+            {NAV.map((item) =>
+              item.href === "/guides/" ? (
+                <GuidesDropdown key={item.href} item={item} pathname={pathname} />
+              ) : (
+                <NavLink key={item.href} item={item} pathname={pathname} />
+              )
+            )}
           </nav>
         </div>
 
@@ -120,6 +135,62 @@ function NavLink({
   );
 }
 
+/** Desktop: opens on hover or keyboard focus, like the Google Site menu. */
+function GuidesDropdown({ item, pathname }: { item: { href: string; label: string }; pathname: string }) {
+  const [open, setOpen] = useState(false);
+  return (
+    <div
+      className="relative flex items-center"
+      onMouseEnter={() => setOpen(true)}
+      onMouseLeave={() => setOpen(false)}
+      onFocus={() => setOpen(true)}
+      onBlur={(e) => {
+        if (!e.currentTarget.contains(e.relatedTarget as Node)) setOpen(false);
+      }}
+      onKeyDown={(e) => {
+        if (e.key === "Escape") setOpen(false);
+      }}
+    >
+      <NavLink item={item} pathname={pathname} />
+      <button
+        type="button"
+        aria-label="Show guides"
+        aria-expanded={open}
+        onClick={() => setOpen((o) => !o)}
+        className="-ml-2.5 flex h-8 w-6 items-center justify-center rounded-full text-muted-foreground hover:text-navy focus-visible:outline-2 focus-visible:outline-navy"
+      >
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className={cn("h-3.5 w-3.5 transition-transform duration-200", open && "rotate-180")} aria-hidden>
+          <path d="m6 9 6 6 6-6" />
+        </svg>
+      </button>
+      {open && (
+        <div className="absolute left-0 top-full pt-2">
+          <ul className="min-w-[13rem] rounded-2xl border border-border bg-white p-1.5 shadow-[var(--shadow-md)]">
+            {GUIDE_LINKS.map((g) => {
+              const active = pathname === g.href || pathname === g.href.replace(/\/$/, "");
+              return (
+                <li key={g.href}>
+                  <Link
+                    href={g.href}
+                    onClick={() => setOpen(false)}
+                    aria-current={active ? "page" : undefined}
+                    className={cn(
+                      "block rounded-xl px-3.5 py-2 text-sm font-bold transition-colors",
+                      active ? "bg-navy-tint text-navy" : "text-muted-foreground hover:bg-navy-tint hover:text-navy"
+                    )}
+                  >
+                    {g.label}
+                  </Link>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      )}
+    </div>
+  );
+}
+
 const MENU_TRANSITION_MS = 300;
 
 function MobileMenu({ pathname, onClose }: { pathname: string; onClose: () => void }) {
@@ -180,7 +251,20 @@ function MobileMenu({ pathname, onClose }: { pathname: string; onClose: () => vo
 
         <nav aria-label="Main" className="mt-8 flex flex-col gap-1">
           {NAV.map((item) => (
-            <NavLink key={item.href} item={item} pathname={pathname} onClick={handleClose} variant="block" />
+            <div key={item.href} className="flex flex-col">
+              <NavLink item={item} pathname={pathname} onClick={handleClose} variant="block" />
+              {item.href === "/guides/" &&
+                GUIDE_LINKS.map((g) => (
+                  <Link
+                    key={g.href}
+                    href={g.href}
+                    onClick={handleClose}
+                    className="rounded-xl py-2 pl-8 pr-4 text-sm font-bold text-muted-foreground hover:bg-navy-tint hover:text-navy"
+                  >
+                    {g.label}
+                  </Link>
+                ))}
+            </div>
           ))}
         </nav>
 

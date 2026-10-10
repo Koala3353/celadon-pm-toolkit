@@ -33,17 +33,13 @@ export function DocPage({ page }: { page: Page }) {
 
           <footer className="mt-16 flex flex-col gap-1.5 border-t border-border pt-6 text-sm text-muted-foreground" data-pagefind-ignore>
             <p>
-              Website issues: message the{" "}
+              For any website issues, please contact the{" "}
               <Link href={WEBSITE_CONTACT.href} className="font-semibold text-link underline underline-offset-2">
                 {WEBSITE_CONTACT.label}
               </Link>
               .
             </p>
-            <p>
-              <a href={page.editUrl} className="font-semibold text-link underline underline-offset-2">
-                Edit this page on GitHub
-              </a>
-            </p>
+
           </footer>
         </article>
       </Container>
