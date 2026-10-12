@@ -123,8 +123,8 @@ export const HOME_CARDS: NavCard[] = [
 ];
 
 /** Others page cards, as on the Google Site. */
-export const OTHERS_CARDS: NavCard[] = [
-  { label: "🌐Ateneo Celadon Website", href: "https://ateneoceladon.com/", external: true, description: "External link · Website" },
+const OTHERS_CARDS: NavCard[] = [
+  { label: "🌐 Ateneo Celadon Website", href: "https://ateneoceladon.com/", external: true, description: "External link · Website" },
   { label: "📢 A-yi's Corner (Recruitment Portal)", href: "https://ateneoceladon.com/internal/", external: true, description: "External link · Website" },
   { label: "📍 CFMO Venue Reservation Helper", href: "https://ateneoceladon.com/venue-helper", external: true, description: "External link · Website" },
   { label: "🔗 CLDN URL Shortener", href: "https://url.ateneoceladon.com/", external: true, description: "External link · Website" },
@@ -162,4 +162,12 @@ export const OTHERS_CARDS: NavCard[] = [
   { label: "💼 Performance Management", href: "/resources/performance/", description: "Toolkit page" },
   { label: "⭐ Reward Practices", href: "/resources/rewards/", description: "Toolkit page" },
   { label: "🫂 Conflict Resolution", href: "/resources/conflict/", description: "Toolkit page" },
+];
+
+/** The Others page, grouped by type. Indices refer to OTHERS_CARDS order. */
+export const OTHERS_GROUPS: { title: string; cards: NavCard[] }[] = [
+  { title: "Websites & Tools", cards: OTHERS_CARDS.slice(0, 4) },
+  { title: "Trackers & Directories", cards: OTHERS_CARDS.slice(4, 6) },
+  { title: "Guides & Presentations", cards: OTHERS_CARDS.slice(6, 9) },
+  { title: "Manager Resources", cards: OTHERS_CARDS.slice(9) },
 ];
