@@ -4,7 +4,7 @@ dept: hr
 order: 5
 ---
 
-**HR Services Form:** [**https://forms.gle/fgB5DHB4thh3yX1i6**](https://forms.gle/fgB5DHB4thh3yX1i6)
+**HR Services Form:** [**ateneoceladon.com/hr-services-form**](https://ateneoceladon.com/hr-services-form)
 
 ## Leave of Absences
 
