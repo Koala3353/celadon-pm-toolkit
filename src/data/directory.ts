@@ -22,7 +22,7 @@ export interface DirectoryGroup {
 export const DIRECTORY: DirectoryGroup[] = [
   {
     dept: "op",
-    title: "👑 Office of the President",
+    title: "💙 Office of the President",
     officers: [
       { name: "Josh Lee", role: "President", email: "josh.anthony.lee@student.ateneo.edu", facebook: "https://fb.com/joshanthony.lee.9" },
       { name: "Bernstein Chua", role: "Executive Vice President", email: "bernstein.joachim.chua@student.ateneo.edu", facebook: "https://fb.com/bernsteinjoachim.chua" },
