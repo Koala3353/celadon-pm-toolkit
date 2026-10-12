@@ -99,6 +99,8 @@ export interface NavCard {
   /** Department whose Ayi and colour the card wears. */
   dept?: DeptSlug;
   external?: boolean;
+  /** Short line under the label. */
+  description?: string;
 }
 
 /** Guides page cards, as on the Google Site. */
@@ -125,6 +127,20 @@ export const OTHERS_CARDS: NavCard[] = [
   { label: "🌐Ateneo Celadon Website", href: "https://ateneoceladon.com/", external: true },
   { label: "📢 A-yi's Corner (Recruitment Portal)", href: "https://ateneoceladon.com/internal/", external: true },
   { label: "🔗 CLDN Custom URL Generator", href: "https://url.ateneoceladon.com/", external: true },
+  {
+    label: "🏫 CFMO Venue Reservation Helper",
+    href: "https://ateneoceladon.com/venue-helper",
+    external: true,
+    description:
+      "Input your date and time range and it'll give you the list of rooms in HE available to book. It checks all the gcals CFMO have per class.",
+  },
+  {
+    label: "✂️ CLDN URL Shortener",
+    href: "https://url.ateneoceladon.com/",
+    external: true,
+    description:
+      "Shortens links and tracks analytics (clicks, views, timestamps). Kindly assign a category to every new link; feel free to create your own categories.",
+  },
   {
     label: "✉︎ EBCB & Managers Directory",
     href: "https://docs.google.com/spreadsheets/d/1ZLK8s4bg4D9TIuSifEbTQPBQsR8AA-ZZuCMkuFVIXhc/edit",

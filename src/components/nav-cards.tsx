@@ -24,7 +24,10 @@ export function NavCards({ cards }: { cards: NavCard[] }) {
             )}
             {dept && <div aria-hidden className="h-1" style={{ background: dept.accent.base }} />}
             <div className="flex flex-1 flex-col justify-between gap-4 p-5">
-              <span className="text-lg font-extrabold text-navy">{card.label}</span>
+              <span className="flex flex-col gap-2">
+                <span className="text-lg font-extrabold text-navy">{card.label}</span>
+                {card.description && <span className="text-sm leading-snug text-muted-foreground">{card.description}</span>}
+              </span>
               <span className="text-sm font-bold text-link">Explore Here &gt;</span>
             </div>
           </>

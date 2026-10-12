@@ -37,15 +37,14 @@ export default function DirectoryPage() {
                       <Image
                         src={asset(o.photo)}
                         alt=""
-                        width={256}
-                        height={256}
-                        className="h-14 w-14 shrink-0 rounded-full object-cover"
-                        style={{ background: dept.accent.tint }}
+                        width={320}
+                        height={320}
+                        className="h-16 w-16 shrink-0 object-contain"
                       />
                     ) : (
                       <span
                         aria-hidden
-                        className="grid h-14 w-14 shrink-0 place-items-center rounded-full text-sm font-black"
+                        className="grid h-16 w-16 shrink-0 place-items-center rounded-full text-sm font-black"
                         style={{ background: dept.accent.tint, color: dept.accent.ink }}
                       >
                         {initials(o.name)}
