@@ -124,50 +124,42 @@ export const HOME_CARDS: NavCard[] = [
 
 /** Others page cards, as on the Google Site. */
 export const OTHERS_CARDS: NavCard[] = [
-  { label: "🌐Ateneo Celadon Website", href: "https://ateneoceladon.com/", external: true },
-  { label: "📢 A-yi's Corner (Recruitment Portal)", href: "https://ateneoceladon.com/internal/", external: true },
-  { label: "🔗 CLDN Custom URL Generator", href: "https://url.ateneoceladon.com/", external: true },
-  {
-    label: "🏫 CFMO Venue Reservation Helper",
-    href: "https://ateneoceladon.com/venue-helper",
-    external: true,
-    description:
-      "Input your date and time range and it'll give you the list of rooms in HE available to book. It checks all the gcals CFMO have per class.",
-  },
-  {
-    label: "✂️ CLDN URL Shortener",
-    href: "https://url.ateneoceladon.com/",
-    external: true,
-    description:
-      "Shortens links and tracks analytics (clicks, views, timestamps). Kindly assign a category to every new link; feel free to create your own categories.",
-  },
+  { label: "🌐Ateneo Celadon Website", href: "https://ateneoceladon.com/", external: true, description: "External link · Website" },
+  { label: "📢 A-yi's Corner (Recruitment Portal)", href: "https://ateneoceladon.com/internal/", external: true, description: "External link · Website" },
+  { label: "📍 CFMO Venue Reservation Helper", href: "https://ateneoceladon.com/venue-helper", external: true, description: "External link · Website" },
+  { label: "🔗 CLDN URL Shortener", href: "https://url.ateneoceladon.com/", external: true, description: "External link · Website" },
   {
     label: "✉︎ EBCB & Managers Directory",
     href: "https://docs.google.com/spreadsheets/d/1ZLK8s4bg4D9TIuSifEbTQPBQsR8AA-ZZuCMkuFVIXhc/edit",
     external: true,
+    description: "External link · Google Sheets",
   },
   {
     label: "🚀 Department Deployment Tracker",
     href: "https://docs.google.com/spreadsheets/d/1mGyQSVGlQlsjd3pYNvjW7AVTIenH6OErSBXN1A3nauM/edit",
     external: true,
+    description: "External link · Google Sheets",
   },
   {
     label: "👥 Core Team Committee Roles & Guide",
     href: "https://docs.google.com/document/d/1R8kzMhiiAjBp3W9wqUsi_l1z87PcpjkObgdiD_49LkM/edit",
     external: true,
+    description: "External link · Google Docs",
   },
   {
     label: "💻 Project Presentation Guidelines",
     href: "https://docs.google.com/document/d/1dwh915AQJgqkzhG6XT0_kihYr2LOtP9JKBa3UdPvVGw/edit",
     external: true,
+    description: "External link · Google Docs",
   },
   {
     label: "👨🏻‍🏫 Manager FormSem Presentations",
     href: "https://drive.google.com/drive/folders/1GRnECuN1XS4P6M9yxz3dGAnuhgxDilUN",
     external: true,
+    description: "External link · Google Drive",
   },
-  { label: "📑 Meeting Guide", href: "/resources/meeting-guide/" },
-  { label: "💼 Performance Management", href: "/resources/performance/" },
-  { label: "⭐ Reward Practices", href: "/resources/rewards/" },
-  { label: "🫂 Conflict Resolution", href: "/resources/conflict/" },
+  { label: "📑 Meeting Guide", href: "/resources/meeting-guide/", description: "Toolkit page" },
+  { label: "💼 Performance Management", href: "/resources/performance/", description: "Toolkit page" },
+  { label: "⭐ Reward Practices", href: "/resources/rewards/", description: "Toolkit page" },
+  { label: "🫂 Conflict Resolution", href: "/resources/conflict/", description: "Toolkit page" },
 ];
