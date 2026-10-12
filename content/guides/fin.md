@@ -15,7 +15,7 @@ One of the major tasks Projects have with Finance is to craft the budget proposa
 - During CTA waves, YOU MAY APPEAL to the FIN department if you wish to change your budget allocation made previously, just message in our respective GCs or pm.
 - OSA will ask for the budget proposal every semester as well. Work with FIN to make adjustments by then!
 
-### Budget Proposal Process
+::::details{title="Budget Proposal Process"}
 
 :::steps
 1. **INITIAL BUDGET PROPOSAL**
@@ -30,6 +30,8 @@ One of the major tasks Projects have with Finance is to craft the budget proposa
    - It is up to you to allocate your budget within your core team but IF YOU GO OVER YOUR BUDGET, your core team has to fundraise the loss.
    - If the project is unable to fundraise to cover the loss, the overbudget amount will be covered by the project managers as per Article VII Section 2 of Ateneo Celadon's official code of financial procedures
 :::
+
+::::
 
 ### Over-Budget
 
@@ -47,7 +49,7 @@ One of the major tasks Projects have with Finance is to craft the budget proposa
 
 2.1.3. Exceed by more than Php 5,000. The project manager is subject to reimbursement disapproval and must shoulder all costs above the budget.
 
-### Budget Proposal Tracker
+::::details{title="Budget Proposal Tracker"}
 
 This is how FIN will track your finances throughout the semester, along with checking your plans for the year for them to craft a budget proposal to submit to OSA. Find the template here: [[FIN 26'-27] (TEMPLATE) FIN TRACKER](https://docs.google.com/spreadsheets/d/1pd1zq5OcPRxUN3EQbeoeo9lZdsE66ApQ446w6l5RVfI/edit)
 
@@ -72,9 +74,11 @@ This is how FIN will track your finances throughout the semester, along with che
 - You may check this drive to have a reference to your project's budget last year: [Project Budgets 25'-26'](https://drive.google.com/drive/folders/1y7q-S3na22_-p-qj41OObYEjZplAOsE6)
 - You may also check this drive for the logistics and expense tracker of your project last year: [PAST LOG MASTERFILES](https://drive.google.com/drive/folders/1tpZEsnKXogk_2i87M7hu8Fcel0mY5De8)
 
+::::
+
 ## Deposits and Disbursements
 
-### Deposit and Credit Balance (DCB)
+::::details{title="Deposit and Credit Balance (DCB)"}
 
 The DCB is Ateneo Celadon's allocation in Ateneo's bank account for organizations.
 
@@ -89,7 +93,9 @@ The DCB is Ateneo Celadon's allocation in Ateneo's bank account for organization
   - When needing supplies immediately, the DCB may take longer than just paying for it ourselves first
 - As such: Use DCB for paying stuff that generally can be done as early as a month from the project just so that it is easier, and if the amount needed is higher than at least 20k.
 
-### Deposits
+::::
+
+::::details{title="Deposits"}
 
 The Office of Student Activities (OSA) and Central Accounting Office (CAO) have stringent rules on methods of sending out money, FIN has listed here everything you would need to know about paying for items/services.
 
@@ -103,7 +109,9 @@ These are anything that are put into the DCB of Celadon! These include:
 - Cash Sponsorships
 - Return of Deposit Fees
 
-### How to make a deposit?
+::::
+
+:::::details{title="How to make a deposit?"}
 
 ::::details{title="CASH SPONSORSHIPS AND DONATIONS"}
 1. Inform your FIN VP or any FIN EBCB immediately about the sponsorship deal.
@@ -142,7 +150,9 @@ This is because the use of these methods of deposits are much more convenient an
 4. Let the FIN representative handle the rest. The offices will record the payment within 2-3 days from when they receive the request.
 ::::
 
-### Disbursements
+:::::
+
+::::details{title="Disbursements"}
 
 The Office of Student Activities (OSA) and Central Accounting Office (CAO) have stringent rules on methods of sending out money, FIN has listed here everything you would need to know about paying for items/services
 
@@ -159,7 +169,9 @@ It is worth noting that there are TWO approaches towards disbursements:
 1. DCB Transfer
 2. Via Reimbursement
 
-### Disbursements: DCB Transfer
+::::
+
+::::details{title="Disbursements: DCB Transfer"}
 
 The DCB transfer is when we use the amount located in Ateneo's Bank Account that is reserved for Celadon to pay for transactions.
 
@@ -181,7 +193,9 @@ OSA has changed their rules and regulations on the type of receipts needed. From
 
 The sellers do technically have the right to still use the Official Receipt (OR) provided that they convert it to Invoice by striking through the term "Official Receipt" and stamping the word "INVOICE" on the document!
 
-### Disbursements: Via Reimbursement
+::::
+
+::::details{title="Disbursements: Via Reimbursement"}
 
 The reimbursement method is option 2, which we recommend should be used for small-scale purchases or immediate down payments.
 
@@ -215,9 +229,11 @@ The most important detail is to ALWAYS ENSURE receipts are addressed to: "Ateneo
 
 OSA has changed their rules and regulations on the type of receipts needed. From JULY 10, 2024 onwards. INVOICES will be the requirement for reimbursement if they are supplies, anything else will require an Official Receipt. Below are the specific types of expenses linked to the accepted receipts:
 
+::::
+
 ## Fundraising
 
-### Finance Deputies (FIN MITs)
+::::details{title="Finance Deputies (FIN MITs)"}
 
 As a part of the Financial Affairs initiative, a Finance Deputy (Manager-In-Training/MIT) will be deployed to your fundraising committee as a head or core; dependent on whether you decide to have a fundraising committee or not.
 
@@ -229,7 +245,9 @@ As a part of the Financial Affairs initiative, a Finance Deputy (Manager-In-Trai
   - Deployment as a core team head to your project (Log, Ops or FR if applicable)
   - Assigned to be the main spokesperson in the FIN x PM group chat
 
-### Receipt Collection
+::::
+
+::::details{title="Receipt Collection"}
 
 - Reimbursement processes can be lengthy, MITs will act as your point person for concerns regarding these processes.
 - They will be tasked with collecting receipts from you and your core members who make purchases using your own money. They will then ensure that these are properly submitted to OSA and FIN so that you can get your money back.
@@ -241,6 +259,8 @@ Note: As MITs are tasked to handle very systems heavy documents and processes, p
 - Your deployed MIT will be in charge of two main tasks, on top of the aforementioned:
   - Assist in ideation and execution of initiatives with the fundraising committee
   - Oversee your fundraising efforts
+
+::::
 
 ### Fundraising Support
 
@@ -259,7 +279,7 @@ As one of the largest organizations, handling more projects than most, the resou
 
 Just inform the Finance EBCB before the core team applications each wave. This is so we will also know how many deputies we can deploy throughout the school year.
 
-### Steps in conducting a successful fundraising:
+::::details{title="Steps in conducting a successful fundraising:"}
 
 :::steps
 1. Secure core members who are willing to work hard, but also have connections
@@ -280,6 +300,8 @@ Just inform the Finance EBCB before the core team applications each wave. This i
 
 You may check this drive to have a reference to some projects fundraising tracker last year: [Project Budgets 25'-26'](https://drive.google.com/drive/folders/1y7q-S3na22_-p-qj41OObYEjZplAOsE6) (MAF, BAR, Celaball, CNY, etc.)
 
+::::
+
 ### Should we still collect receipts for fundraising initiatives?
 
 - Technically no, as you are not putting any money in and out of the organization's DCB, receipts won't be necessary on our end. Note that this is with the assumption that your fundraiser will guarantee a profit.
@@ -288,7 +310,7 @@ You may check this drive to have a reference to some projects fundraising tracke
 
 ## General Reminders
 
-### Requesting for a Check
+::::details{title="Requesting for a Check"}
 
 1. Prepare the following documents:
    1. Sales Invoice or Statement of Account or Billing Statement (%supplier)
@@ -302,7 +324,9 @@ You may check this drive to have a reference to some projects fundraising tracke
    1. Once completed, FIN VP will send these to OSA
    2. *If the supplier is accredited, it's alright to receive the items even if the OC is not yet fully approved. For a list of accredited suppliers, inquire with OSA.
 
-### Key Reminders
+::::
+
+::::details{title="Key Reminders"}
 
 - No receipts = no reimbursements
 - Receipts should be addressed to "Ateneo de Manila University"
@@ -316,11 +340,12 @@ Note: For those getting shopee as a supplier, if so, be sure to avail of their E
 - **Address to Ateneo de Manila University**
 - **Input TIN Number: 000-707-229-00000**
 
+::::
+
 ## Logistics and Forms
 
-### Project Proposal Form
+::::details{title="Project Proposal Form"}
 
-- [[FIN Projects] PPF-Project Proposal Form Template.docx](https://docs.google.com/document/d/1k-2PLl6WTvJE0KgN2v9NBrsW_A9jCL-4/edit)
 - The most important foundational document. In it includes general information about the project in its entirety:
   - Dates, timeline, expenses, location, point person, post-event evaluations, etc.
   - Recommendation: Fill it up as early as possible, even if you use rough ballpark estimates, so long as you BE CONSERVATIVE! This is a declaration to OSA of our monetary expectations too.
@@ -330,6 +355,8 @@ Note: For those getting shopee as a supplier, if so, be sure to avail of their E
   - Moderator: Sir Erwin Guile Dizon
 - The PPF may be submitted way before 1 month of the project, as such, **filling it up early is highly recommended**, as majority of the other forms and procedures to conduct an event require this PPF to be approved.
 
+::::
+
 ### Memorandum of Agreement (MOA)
 
 - The MOA is generally made on a case-to-case basis.
@@ -337,7 +364,7 @@ Note: For those getting shopee as a supplier, if so, be sure to avail of their E
 - Probably the most careful you have to be with, given that you will be needing to adjust and write the information that binds both parties together, and must stick to it.
 - Timeline for this is on a case-to-case basis too, just be aware of when you will need it
 
-### Central Facilities Management Office (CFMO)
+::::details{title="Central Facilities Management Office (CFMO)"}
 
 - CFMO is the main logistic office to talk to when reserving venues and also some equipment.
 - [CFMO Website](https://sites.google.com/ateneo.edu/lsreservations/home)
@@ -351,7 +378,9 @@ Note: For those getting shopee as a supplier, if so, be sure to avail of their E
     - Typically for events or initiatives
     - When submitting this, it is accompanied by the PPF, so finish that before the CFMO reservation form.
 
-### DSWS (For Reservation of Lamp Post Tarps)
+::::
+
+::::details{title="DSWS (For Reservation of Lamp Post Tarps)"}
 
 - DSWS PMD Client's Manual: [[DSWS 2425] PMD Client's Manual.pdf](https://drive.google.com/file/d/10U3E52t_I7AbChA6nWsEnGRIo0a_W4Nj/view)
 - DSWS PMD Facility Request Form: [https://bit.ly/DSWSPMD2425FacilityRequestForm](https://docs.google.com/forms/d/e/1FAIpQLSc23Fs9WZ5bZgxB4Xihq8ObMgMp5l__4S8evhqvP0bfYq1TEw/viewform)
@@ -365,7 +394,9 @@ Note: For those getting shopee as a supplier, if so, be sure to avail of their E
 - Use cable ties to hang the tarps.
 - Please remember to remove the tarps on the morning of the last reservation day to avoid incurring fines.
 
-### Rizal Library (For Reservation of Matteo Tarp or Computer Wallpapers)
+::::
+
+::::details{title="Rizal Library (For Reservation of Matteo Tarp or Computer Wallpapers)"}
 
 - Guidelines for reservation of Matteo Steps
   - Email the ff. In paragraph form:
@@ -388,6 +419,8 @@ Note: For those getting shopee as a supplier, if so, be sure to avail of their E
     - Dimension requirement of the poster/image: 15x10 (in inches)
     - Resolution requirement of the poster/image: 100
 - NOTE: These are the requirements and procedures as of SY 2324. Hence, make sure to also consult with the front desks in Matteo Ricci Hall and the Director's Office located at Rizal Library Room 209 for the updated process and contact person.
+
+::::
 
 ## FAQs
 

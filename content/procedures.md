@@ -104,7 +104,7 @@ The Project Proposal Form (PPF) is a document that is submitted to the Office of
 5. [**CFMO Job Order Form**](https://sites.google.com/ateneo.edu/lsreservations/he-venues/forms)
    1. The CFMO Job Order Form is used to request specific facilities-related services, such as electricity, construction, maintenance, repairs, setups, or logistical assistance.
 6. [**CFMO Zoom Room**](https://ateneo-edu.zoom.us/j/89263831447)
-   1. A consultation room for questions, clarifications, and coordination with CFMO, open every weekday, on regular school days, from ***9:00 AM to 11:00 AM***.
+   1. A consultation room for questions, clarifications, and coordination with CFMO, open every weekday, on regular school days, from ***9\:00 AM to 11\:00 AM***.
 7. **CFMO Website Navigation**
    1. Click the link attached to this document to lead you to the homepage as shown with the image below.
    2. On the top right corner of the tab, hover over '**HE Venues**' to be presented a list of forms for Higher Education organizations.
@@ -264,8 +264,8 @@ For any questions or concerns regarding campus access, please contact Ms Ma Lene
 
 Monday to Friday:
 
-- 9 am-11:00 am: ONLINE consultations via ZOOM
-- 2 pm-4:00 pm: WINDOW transactions at Room 2, CFMO HQ (formerly known as the JHS Prefab Building), Fr. Masterson Drive
+- 9 am-11\:00 am: ONLINE consultations via ZOOM
+- 2 pm-4\:00 pm: WINDOW transactions at Room 2, CFMO HQ (formerly known as the JHS Prefab Building), Fr. Masterson Drive
 
 [Emails for venue reservation and logistical requirements for special events](https://www.ateneo.edu/document/2022/09/12/central-facilities-management-office-contact-details-cfmo-memo-2022-0001)
 

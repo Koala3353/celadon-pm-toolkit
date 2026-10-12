@@ -116,14 +116,3 @@ Part of your responsibility as a manager is to make every member of your core te
    1. Anticipate issues before they become problems
    2. Have contingency plans for critical tasks
    3. Take initiative instead of waiting to be instructed
-
-## Contact Information
-
-:::contacts
-- **Josh Anthony Lee**  
-  **President**  
-  josh.anthony.lee@student.ateneo.edu
-- **Bernstein Joachim Chua**  
-  **Executive Vice President**  
-  bernstein.joachim.chua@student.ateneo.edu
-:::

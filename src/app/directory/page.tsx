@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import Image from "next/image";
+import { asset } from "@/lib/asset";
 import { DEPTS } from "@/lib/site";
 import { DIRECTORY } from "@/data/directory";
 import { Container } from "@/components/ui/container";
@@ -31,13 +33,24 @@ export default function DirectoryPage() {
               <ul className="mt-6 grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
                 {g.officers.map((o) => (
                   <li key={o.email} className="flex min-w-0 gap-4 rounded-[1.25rem] border border-border bg-white p-4">
-                    <span
-                      aria-hidden
-                      className="grid h-12 w-12 shrink-0 place-items-center rounded-full text-sm font-black"
-                      style={{ background: dept.accent.tint, color: dept.accent.ink }}
-                    >
-                      {initials(o.name)}
-                    </span>
+                    {o.photo ? (
+                      <Image
+                        src={asset(o.photo)}
+                        alt=""
+                        width={256}
+                        height={256}
+                        className="h-14 w-14 shrink-0 rounded-full object-cover"
+                        style={{ background: dept.accent.tint }}
+                      />
+                    ) : (
+                      <span
+                        aria-hidden
+                        className="grid h-14 w-14 shrink-0 place-items-center rounded-full text-sm font-black"
+                        style={{ background: dept.accent.tint, color: dept.accent.ink }}
+                      >
+                        {initials(o.name)}
+                      </span>
+                    )}
                     <div className="flex min-w-0 flex-1 flex-col gap-1">
                       <h3 className="font-extrabold text-ink">{o.name}</h3>
                       <p className="text-xs leading-snug text-muted-foreground">{o.role}</p>

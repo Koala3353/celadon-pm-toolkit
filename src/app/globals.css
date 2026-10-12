@@ -463,6 +463,8 @@ html {
 .doc .blk-stages > ol > li {
   counter-increment: stage;
   margin: 0;
+  min-width: 0;
+  overflow-wrap: anywhere;
   padding: 1rem 1.1rem 1.15rem;
   border-radius: 1rem;
   background: var(--dept-tint);

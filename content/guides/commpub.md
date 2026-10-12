@@ -24,7 +24,7 @@ order: 2
 - [COMMPUB Deliverables Cheat Sheet](https://drive.google.com/file/d/1ypYq9ueu3jbVKflm4B6-NnqROVdhQDcT/view)
 - [DP Shoot Sign-ups Template](https://docs.google.com/spreadsheets/d/1IPRcRJ9loKfcmyxvLPqgQv6l5LJ2X2PvMVHl5zoYjGk/edit)
 - [Canva Brandbook Template](https://canva.link/lrz696trm3lkker)
-- [Celadon Posting Calendar](https://calendar.google.com/calendar/embed)
+- [Celadon Posting Calendar](https://calendar.google.com/calendar/u/0/embed?src=c_30d1407d082c512621dde11b6b2d7f3aa5a08438ac9e82cb305d33a36386a2e3@group.calendar.google.com&ctz=Asia/Manila)
 :::
 
 ## Core Team Management
@@ -257,7 +257,7 @@ Link: [CLDN Core Team Committee Roles Guide 2627](https://docs.google.com/docume
 
 ### Celadon Posting Calendar
 
-- *Link:* [***Celadon Posting Calendar***](https://calendar.google.com/calendar/embed)
+- *Link:* [***Celadon Posting Calendar***](https://calendar.google.com/calendar/u/0/embed?src=c_30d1407d082c512621dde11b6b2d7f3aa5a08438ac9e82cb305d33a36386a2e3@group.calendar.google.com&ctz=Asia/Manila)
 - The Celadon Posting Calendar linked above and in the DRF is used to track all upcoming posts for all of Celadon's projects and social media channels.
 - It can be viewed by everyone. Project teams can use it to see target posting dates for their own project and for other Celadon projects.
 - If a posting date needs to be rescheduled, Project Managers should first reference the Posting Calendar, then ask COMMPUB EBCB for permission **with a proposed new posting date** already in mind.
@@ -267,16 +267,16 @@ Link: [CLDN Core Team Committee Roles Guide 2627](https://docs.google.com/docume
 
 - The usual time slots are as follows, but you may still propose time slots outside the ones listed below, provided that they follow the set posting limitations.
   - Morning
-    - 10:00 am
+    - 10\:00 am
   - Afternoon
-    - 12:00 nn
-    - 2:00 pm
-    - 3:00 pm
-    - 5:00 pm
+    - 12\:00 nn
+    - 2\:00 pm
+    - 3\:00 pm
+    - 5\:00 pm
   - Evening
-    - 6:00 pm
-    - 7:00 pm
-    - 8:00 pm
+    - 6\:00 pm
+    - 7\:00 pm
+    - 8\:00 pm
 - Project Managers must indicate their desired posting dates and times in the DRF. COMMPUB will decide what time each blast will be scheduled in the event that it is not scheduled by the Project Manager in advance.
   - Note: Date may be switched/rescheduled in case of conflicting blast schedules between projects
 
